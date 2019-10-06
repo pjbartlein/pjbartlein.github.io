@@ -1,0 +1,25 @@
+name: Bartlein Web Page
+navbar:
+  title: Patrick J. Bartlein
+  left:
+  - text: Publications
+    href: publications.html
+  - text: .pdfs
+    href: pdfs.html
+  - text: CVs
+    href: cv.html
+  - text: Web Sites
+    href: websites.html
+  right:
+  - text: Contact
+    href: contact.html
+output:
+  html_document:
+    theme: cosmo
+    highlight: haddock
+    css: md-08.css
+    lib_dir: site_libs
+    self_contained: no
+    output_dir: "./docs/"
+output_dir: docs
+
