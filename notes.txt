@@ -1,0 +1,38 @@
+To build pjbartlein.github.io webpage
+
+1. Edit source files:
+
+/Users/bartlein/Dropbox/WebPages/source_pjbartlein.github.io/source/bartlein-201910-acadbio.docx
+/Users/bartlein/Dropbox/WebPages/source_pjbartlein.github.io/source/BartleinCV-Oct2019.docx
+/Users/bartlein/Dropbox/WebPages/source_pjbartlein.github.io/source/BartleinPublications-201910.docx
+
+2. run /Users/bartlein/Dropbox/WebPages/source_pjbartlein.github.io/source/docx-to-md.txt
+
+3. use MacDown to create .html files
+
+/Users/bartlein/Dropbox/WebPages/source_pjbartlein.github.io/source/BartleinAcadBio.html
+/Users/bartlein/Dropbox/WebPages/source_pjbartlein.github.io/source/BartleinCV.html
+/Users/bartlein/Dropbox/WebPages/source_pjbartlein.github.io/source/BartleinPublications.html
+
+4. Build R Markdown .html web site in the folder /source_pjbartlein.github.io
+
+(/Users/bartlein/Dropbox/WebPages/source_pjbartlein.github.io/Bartlein.Rproj)
+
+5. Copy .html files to /pjbartlein.github.io
+
+/Users/bartlein/Dropbox/WebPages/source_pjbartlein.github.io/source/BartleinAcadBio.html
+/Users/bartlein/Dropbox/WebPages/source_pjbartlein.github.io/source/BartleinCV.html
+/Users/bartlein/Dropbox/WebPages/source_pjbartlein.github.io/source/BartleinPublications.html
+
+and 
+
+/Users/bartlein/Dropbox/WebPages/source_pjbartlein.github.io/docs/contact.html
+/Users/bartlein/Dropbox/WebPages/source_pjbartlein.github.io/docs/cv.html
+/Users/bartlein/Dropbox/WebPages/source_pjbartlein.github.io/docs/index.html
+/Users/bartlein/Dropbox/WebPages/source_pjbartlein.github.io/docs/pdfs.html
+/Users/bartlein/Dropbox/WebPages/source_pjbartlein.github.io/docs/publications.html
+/Users/bartlein/Dropbox/WebPages/source_pjbartlein.github.io/docs/websites.html
+
+(note /source/ vs. /doc/ folder distinction)
+
+6. Use Sourcetree (not RStudio) to upload files to GitHub
