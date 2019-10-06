@@ -1,8 +1,0 @@
-pandoc -s BartleinCV-Nov2018.docx -t markdown -o BartleinCV.md --wrap=none
-pandoc -s bartlein-201811-acadbio.docx -t markdown -o BartleinAcadBio.md --wrap=none
-pandoc -s BartleinPublications-201811.docx -t markdown -o BartleinPublications.md --wrap=none
-
-use pdf-wide.css in Markdown Pad
-
-
-bartlein-201708-acadbio.docx
