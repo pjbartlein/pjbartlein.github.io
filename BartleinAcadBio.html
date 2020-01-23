@@ -9,125 +9,68 @@
 
 
 <style type="text/css">
-/* html-md-01.css */
-
-div#TOC li {
-  list-style-type: none;
-  list-style-position: outside;
-  list-style-image: none;
-  background-image: none;
-  background-position: 0px center;
-}
-
-.navbar-brand, .navbar-fixed-bottom .navbar-collapse, .navbar-fixed-top .navbar-collapse, .pre-scrollable {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 18px;
-  font-weight: normal;
-}
-
-/*exercise*/
 body, td {
    font-family: Times, TimesNewRoman, serif;
    background-color: white;
-   font-size: 16px;
+   font-size: 1.0em;
+   margin: 40px;
    width:  940px;
-   margin: 30px;
-   right:  860px;
    text-align:justify;
 }
 
-/*/*web page*/
-body, td {
-  font-family: Times, TimesNewRoman, serif;
-  background-color: white;
-  font-size: 16px;
-  font-weight: normal;
-}*/
-
-/*exercise*/
 tt, code, pre {
-   font-family: Consolas, "Courier New", Monaco, monospace;
-   font-size: 13px;
-   font-weight: bolder;
-}
-
-/*web page*/
-tt, code, pre {
-  font-family: "Consolas", "Courier New", Monaco, monospace;
-  font-size: 13px;
-  font-weight: bold;
+   font-family: Arial, Helvetica, Geneva, sans-serif;
+   font-size: 0.88em;
 }
 
 h1 {
-  font-family: "Times New Roman", Times, serif;
-  font-size: 24px;
-  font-weight: normal;
-}
-
-h1.title {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 26px;
-  font-weight: normal;
+   font-size:1.8em;
+   font-weight: normal;
 }
 
 h2 {
-  font-family: "Times New Roman", Times, serif;
-  font-size: 20px;
-  font-weight: normal;
+   font-size:1.6em;
+   font-weight: normal;
 }
 
 h3 {
-  font-family: "Times New Roman", Times, serif;
-  font-size: 20px;
-  font-weight: normal;
-  font-style: italic;
+   font-size:1.4em;
+   font-weight: normal;
+   font-style: italic;
 }
 
 h4 {
-  font-family: "Times New Roman", Times, serif;
-  font-size: 18px;
-  font-weight: bold;
+   font-size:1.2em;
+   font-weight: normal;
 }
 
 h5 {
-  font-family: "Times New Roman", Times, serif;
-  font-size: 18px;
-  font-weight: bold;
-  font-style: italic;
+   font-size:0.9em;
 }
 
 h6 {
-  font-family: "Times New Roman", Times, serif;
-  font-size: 16px;
-  font-weight: bolder;
+   font-size:0.8em;
 }
 
 a:visited {
    color: rgb(50%, 0%, 50%);
 }
 
-tt, code, pre {
-  font-family: "Consolas", "Courier New", Monaco, monospace;
-  font-size: 13px;
-  font-weight: bold;
-}
-
-/*pre { 
+pre { 
    margin-top: 0;
    max-width: 100%;
-   border: 1px solid #999999;
+   border: 1px solid #ccc;
    white-space: pre-wrap;
 }
 
 pre code {
-   display: block; 
-/*   padding: 0.2em;*/
-/*   background-color:  #E0E0E0;*/
+   display: block; padding: 0.5em;
+   background-color:  #E0E0E0;
 }
 
 code.r, code.noeval, code.cpp {
    background-color: #eeeeee;
-}*/
+}
 
 table, td, th {
   border: none;
@@ -151,67 +94,40 @@ hr {
 }
 
 @media print {
-  * {
-    background-color: transparent !important;
-    background-image: none !important;
-    background-repeat: repeat !important;
-    background-attachment: scroll !important;
-    background-position: 0% 0% !important;
-    color: black !important;
-    filter: none !important;
-  }
-  body, td {
-    font-family: Times, TimesNewRoman, serif;
-    background-color: white;
-    font-size: 12px;
-    font-weight: normal;
-    width:  940px;
-    margin: 30px;
-    right:  860px;
-    text-align:justify;
-  }
-  h1 {
-    font-family: "Times New Roman", Times, serif;
-    font-size: 18px;
-    font-weight: normal;
-  }
-  h1.title {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 18px;
-    font-weight: normal;
-  }
-  h2 {
-    font-family: "Times New Roman", Times, serif;
-    font-size: 16px;
-    font-weight: normal;
-  }
-  h3 {
-    font-family: "Times New Roman", Times, serif;
-    font-size: 16px;
-    font-weight: normal;
-    font-style: italic;
-  }
-  h4 {
-    font-family: "Times New Roman", Times, serif;
-    font-size: 14px;
-    font-weight: bold;
-  }
-  h5 {
-    font-family: "Times New Roman", Times, serif;
-    font-size: 14px;
-    font-weight: bold;
-    font-style: italic;
-  }
-  h6 {
-    font-family: "Times New Roman", Times, serif;
-    font-size: 12px;
-    font-weight: bolder;
-  }
-  tt, code, pre {
-    font-family: "Consolas", "Courier New", Monaco, monospace;
-    font-size: 12px;
-    font-weight: bold;
-  }
+   * {
+      background: transparent !important;
+      color: black !important;
+      filter:none !important;
+      -ms-filter: none !important;
+   }
+
+   body {
+      font-size:10pt;
+      max-width:90%;
+   }
+
+   pre, tt, code {
+      font-size: 10pt;
+      max-width: 100%
+      font-weight: normal;
+   }
+
+   a, a:visited {
+      text-decoration: underline;
+   }
+
+   hr {
+      visibility: hidden;
+      page-break-before: always;
+   }
+
+   pre, blockquote {
+      page-break-inside: auto;
+   }
+
+   tr, img {
+      page-break-inside: auto;
+   }
 
    img {
       max-width: 100% !important;
@@ -396,7 +312,7 @@ pre[class*="language-"] {
 
 <p>DEPARTMENTAL AND UNIVERSITY SERVICE</p>
 
-<p>Graduate Council (1991-1993); UO Educational Technology Committee (2007); College of Arts and Science Curriculum Committee (2005-2007); University Undergraduate Council (2006-2007); outside member, Mikesell Chair (Economics) search committee (2001); multiple departmental search committees. Personnel and Promotion-and-Tenure Committees: Department of Geography Personnel Committee (1997-2002, 2006-present); College of Arts and Sciences Dean&#39;s Advisory Committee (2011-2013, Chair 2012-2013) University Faculty Personnel Committee (1998-2000; 2014-2015)</p>
+<p>Graduate Council (1991-1993); UO Educational Technology Committee (2007); College of Arts and Science Curriculum Committee (2005-2007); University Undergraduate Council (2006-2007); outside member, Mikesell Chair (Economics) search committee (2001); multiple departmental search committees. Personnel and Promotion-and-Tenure Committees: Department of Geography Personnel Committee (1997-2002, 2006-present); College of Arts and Sciences Dean&#39;s Advisory Committee (2011-2013, Chair 2012-2013); University Faculty Personnel Committee (1998-2000; 2014-2015).</p>
 
 <p>PROFESSIONAL MEMBERSHIPS</p>
 
@@ -420,9 +336,9 @@ pre[class*="language-"] {
 
 <p>HONORS</p>
 
-<p>Fellow, American Association for the Advancement of Science, 2008; American Quaternary Association (AMQUA) Distinguished Career Award, 2016; American Association of Geographers (AAG) Distinguished Scholarship Honors, 2017.</p>
+<p>Fellow, American Association for the Advancement of Science (AAAS), 2008; American Quaternary Association (AMQUA) Distinguished Career Award, 2016; American Association of Geographers (AAG) Distinguished Scholarship Honors, 2017.</p>
 
-<p>RECENT PUBLICATIONS (202 total; WOS: 163 indexed, 15,933 citations, 12 highly cited; h-index: 71)</p>
+<p>RECENT PUBLICATIONS (202 total; WOS: 162 indexed, 16,331 citations, 12 highly cited; h-index: 71)</p>
 
 <p>Bartlein, P.J., and S.L. Shafer, 2019, Paleo calendar-effect adjustments in time-slice and transient climate-model simulations (PaleoCalAdjust v1.0): impact and strategies for data analysis. <em>Geosci. Model Dev.</em> 12:3889-3913.</p>
 
@@ -460,7 +376,7 @@ pre[class*="language-"] {
 
 <p>Braconnot, P., S.P. Harrison, M. Kageyama, P.J. Bartlein, V. Masson-Delmotte, A. Abe-Ouchi, B. Otto-Bliesner &amp; Y. Zhao, 2012, Evaluation of climate models using palaeoclimatic data. <em>Nature Climate Change</em> 2:417-424, doi:10.1038/nclimate1456.</p>
 
-<p>Clark, P.U., J.D. Shakun, P.A. Baker, P.J. Bartlein, S. Brewer, E. Brook, A.E. Carlson, H. Cheng, D.S. Kaufman, Z. Liu, T.M. Marchitto, A.C. Mix, C. Morrill, B.L. Otto-Bliesner, K. Pahnke, J.M. Russell, C. Whitlock, J.F. Adkins, J.L. Blois, J. Clark, S.M. Colman, W.B. Curry, B.P. Flower, F. He, T.C. Johnson, J. Lynch-Stieglitz, V. Markgraf, J. McManus, J.X. Mitrovica, P.I. Moreno &amp; J.W. Williams, 2012, Global climate evolution during the last deglaciation. <em>Proceedings of the National Academy of Sciences</em>doi:10.1073/pnas.1116619109</p>
+<p>Clark, P.U., J.D. Shakun, P.A. Baker, P.J. Bartlein, S. Brewer, E. Brook, A.E. Carlson, H. Cheng, D.S. Kaufman, Z. Liu, T.M. Marchitto, A.C. Mix, C. Morrill, B.L. Otto-Bliesner, K. Pahnke, J.M. Russell, C. Whitlock, J.F. Adkins, J.L. Blois, J. Clark, S.M. Colman, W.B. Curry, B.P. Flower, F. He, T.C. Johnson, J. Lynch-Stieglitz, V. Markgraf, J. McManus, J.X. Mitrovica, P.I. Moreno &amp; J.W. Williams, 2012, Global climate evolution during the last deglaciation. <em>Proceedings of the National Academy of Sciencesdoi:10.1073/pnas.1116619109</em></p>
 
 <p>Marlon, J.R., P.J. Bartlein, D.G. Gavin, C.J. Long, R.S. Anderson, C.E. Briles, K.J. Brown, D. Colombaroli, D.J. Hallett, M.J. Power, E.A. Scharf &amp; M.K. Walsh, 2012, Long-term perspective on wildfires in the western USA. <em>Proceedings of the National Academy of Sciences</em> 109:E535-E543.</p>
 
