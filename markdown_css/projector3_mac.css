@@ -1,0 +1,137 @@
+body, td {
+   font-family: Times, TimesNewRoman, serif;
+   background-color: white;
+   font-size: 1.0em;
+   margin: 30px;
+   width:  940px;
+   right:  860px;
+   text-align:justify;
+}
+
+tt, code, pre {
+   font-family: 'Courier New', Monaco, monospace;
+   font-size: 0.95em;
+   font-weight: bold;
+}
+
+h1 {
+   font-size:1.8em;
+   font-weight: normal;
+}
+
+h2 {
+   font-size:1.6em;
+   font-weight: normal;
+}
+
+h3 {
+   font-size:1.4em;
+   font-weight: normal;
+   font-style: italic;
+}
+
+h4 {
+   font-size:1.2em;
+   font-weight: normal;
+}
+
+h5 {
+   font-size:0.9em;
+}
+
+h6 {
+   font-size:0.8em;
+}
+
+a:visited {
+   color: rgb(50%, 0%, 50%);
+}
+
+pre {
+   margin-top: 0;
+   max-width: 100%;
+   border: 1px solid #ccc;
+   white-space: pre-wrap;
+   word-wrap: break-word;
+}
+
+pre code {
+   display: block; padding: 0.5em;
+   background-color:  #E6FFE6;
+   word-wrap: break-word;
+}
+
+code.r, code.noeval, code.cpp {
+   background-color: #eeeeee;
+   word-wrap: break-word;
+}
+
+table, td, th {
+  border: none;
+}
+
+blockquote {
+   color:#000000;
+   margin:0;
+   padding-left: 1em;
+   padding-right: 1em;
+   border-left: 0.5em #E0E0E0 solid;
+   border-right: 0.5em #E0E0E0 solid
+}
+
+hr {
+   height: 0px;
+   border-bottom: none;
+   border-top-width: thin;
+   border-top-style: dotted;
+   border-top-color: #999999;
+}
+
+@media print {
+   * {
+      background: transparent !important;
+      color: black !important;
+      filter:none !important;
+      -ms-filter: none !important;
+   }
+
+   body {
+      font-size:9.0pt;
+      max-width:90%;
+   }
+
+   pre, tt, code {
+      font-size: 8.5pt;
+      max-width: 100%
+      font-weight: normal;
+   }
+
+   a, a:visited {
+      text-decoration: underline;
+   }
+
+   hr {
+      visibility: hidden;
+      page-break-before: always;
+   }
+
+   pre, blockquote {
+      page-break-inside: auto;
+   }
+
+   tr, img {
+      page-break-inside: auto;
+   }
+
+   img {
+      max-width: 100% !important;
+   }
+
+   p, h2, h3 {
+      orphans: 3; widows: 3;
+   }
+
+   h2, h3 {
+      page-break-after: avoid;
+   }
+}
