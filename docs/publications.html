@@ -13,13 +13,22 @@
 
 <title>Publications</title>
 
-<script src="site_libs/header-attrs-2.6/header-attrs.js"></script>
-<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<script src="site_libs/header-attrs-2.11/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 
 <style type="text/css">
@@ -34,32 +43,6 @@
 
 
 
-<style type="text/css">
-h1 {
-  font-size: 34px;
-}
-h1.title {
-  font-size: 38px;
-}
-h2 {
-  font-size: 30px;
-}
-h3 {
-  font-size: 24px;
-}
-h4 {
-  font-size: 18px;
-}
-h5 {
-  font-size: 16px;
-}
-h6 {
-  font-size: 12px;
-}
-.table th:not([align]) {
-  text-align: left;
-}
-</style>
 
 
 <link rel="stylesheet" href="md-08.css" type="text/css" />
@@ -71,10 +54,6 @@ h6 {
   max-width: 940px;
   margin-left: auto;
   margin-right: auto;
-}
-code {
-  color: inherit;
-  background-color: rgba(0, 0, 0, 0.04);
 }
 img {
   max-width:100%;
@@ -91,40 +70,13 @@ button.code-folding-btn:focus {
 summary {
   display: list-item;
 }
+pre code {
+  padding: 0;
+}
 </style>
 
 
 <style type="text/css">
-/* padding for bootstrap navbar */
-body {
-  padding-top: 51px;
-  padding-bottom: 40px;
-}
-/* offset scroll position for anchor links (for fixed navbar)  */
-.section h1 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h2 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h3 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h4 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h5 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h6 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
 .dropdown-submenu {
   position: relative;
 }
@@ -152,7 +104,7 @@ body {
   margin-right: -10px;
 }
 .dropdown-submenu:hover>a:after {
-  border-left-color: #ffffff;
+  border-left-color: #adb5bd;
 }
 .dropdown-submenu.pull-left {
   float: none;
@@ -164,7 +116,7 @@ body {
 }
 </style>
 
-<script>
+<script type="text/javascript">
 // manage active state of menu based on current page
 $(document).ready(function () {
   // active menu anchor
@@ -175,10 +127,23 @@ $(document).ready(function () {
   var menuAnchor = $('a[href="' + href + '"]');
 
   // mark it active
-  menuAnchor.parent().addClass('active');
+  menuAnchor.tab('show');
 
   // if it's got a parent navbar menu mark it active as well
   menuAnchor.closest('li.dropdown').addClass('active');
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
 });
 </script>
 
@@ -190,7 +155,6 @@ $(document).ready(function () {
   max-height: 500px;
   min-height: 44px;
   overflow-y: auto;
-  background: white;
   border: 1px solid #ddd;
   border-radius: 4px;
 }
@@ -288,7 +252,7 @@ $(document).ready(function () {
   </div><!--/.container -->
 </div><!--/.navbar -->
 
-<div class="fluid-row" id="header">
+<div id="header">
 
 
 
@@ -300,23 +264,25 @@ $(document).ready(function () {
 <div id="publications" class="section level4">
 <h4>Publications</h4>
 <p>(See the .pdf tab for reprints of some of these.)</p>
+<p>Sommers, A.N., B.L. Otto-Bliesner, W.H. Lipscomb, M. Lofverstrom, S.L. Shafer, P.J. Bartlein, et al., 2021, Retreat and regrowth of the Greenland Ice Sheet ruring the Last Interglacial as simulated by the CESM2-CISM2 Coupled Climate-Ice Sheet Model, <em>Paleoceanography and Paleoclimatology</em> 36. <a href="https://doi.org/10.1029/2021pa004272" class="uri">https://doi.org/10.1029/2021pa004272</a></p>
+<p>Bartlein, P.J. and T. Webb III, 2021, Paleoclimatic data syntheses from the terrestrial realm: history and prospects. PAGES Magazine 29:70-71 <a href="https://doi.org/10.22498/pages.29.2.70" class="uri">https://doi.org/10.22498/pages.29.2.70</a></p>
 <p>Thompson, R. S., Anderson, K.H., Peltier, R.T., Strickland, L.E., Shafer, S.L. and Bartlein, P.J., 2021, Assessing the uncertainties in climatic estimates based on vegetation assemblages: Examples from modern vegetation assemblages in the American Southwest, Quat. Sci. Rev. 262:106880, 27 p. <a href="https://doi.org/10.1016/j.quascirev.2021.106880" class="uri">https://doi.org/10.1016/j.quascirev.2021.106880</a></p>
 <p>Marshall, J.A., J.J. Roering, A.W. Remple, S.L. Shafer and P.J. Bartlein, 2021, Extensive frost weathering across unglaciated North America during the Last Glacial Maximum. Geophysical Research Letters 48, e2020GL090305 <a href="https://doi.org/10.1029/2020GL090305" class="uri">https://doi.org/10.1029/2020GL090305</a></p>
-<p>Otto-Bliesner, B.L. Brady, E.C., Tomas, RA, Albani, S., Bartlein, P.J., Mahowald, N.M.Shafer, S.L., Kluzek, E., Lawrence, P.J., Leguy, G., Rothstein, M., Sommers, A.N. 2020, A Comparison of the CMIP6 midHolocene and lig127k Simulations in CESM, Paleoceanography and Paleoclimatology 11 e2020PA003957, &lt;<a href="http://doi.org/10.1029/2020PA003957" class="uri">http://doi.org/10.1029/2020PA003957</a> &gt;</p>
-<p>Brierley, C. M., Zhao, A., Harrison, S. P., Braconnot, P., Williams, C. J. R., Thornalley, D. J. R., Shi, X., Peterschmitt, J.-Y., Ohgaito, R., Kaufman, D. S., Kageyama, M., Hargreaves, J. C., Erb, M. P., Emile-Geay, J., D’Agostino, R., Chandan, D., Carré, M., Bartlein, P., Zheng, W., Zhang, Z., Zhang, Q., Yang, H., Volodin, E. M., Tomas, R. A., Routson, C., Peltier, W. R., Otto-Bliesner, B., Morozova, P. A., McKay, N. P., Lohmann, G., Legrande, A. N., Guo, C., Cao, J., Brady, E., Annan, J. D., and Abe-Ouchi, A.: in review, 2020, Large-scale features and evaluation of the PMIP4-CMIP6 midHolocene simulations, Clim. Past. 16:1847-1872, <a href="https://doi.org/10.5194/cp-2019-168" class="uri">https://doi.org/10.5194/cp-2019-168</a></p>
-<p>Holiday, V.T., P.J. Bartlein, A.C. Scott, J.R. Marlon, 2020, Extraordinary biomass-burning episode and impact winter triggered by the Younger Dryas cosmic impact ~ 12.800 years ago, Parts 1 and 2: a discussion. J. Geology 128:69-94. <a href="https://doi.org/10.1086/706264" class="uri">https://doi.org/10.1086/706264</a></p>
+<p>Otto-Bliesner, B.L. Brady, E.C., Tomas, RA, Albani, S., Bartlein, P.J., Mahowald, N.M.Shafer, S.L., Kluzek, E., Lawrence, P.J., Leguy, G., Rothstein, M., Sommers, A.N. 2020, A Comparison of the CMIP6 midHolocene and lig127k Simulations in CESM, Paleoceanography and Paleoclimatology 11 e2020PA003957, <a href="http://doi.org/10.1029/2020PA003957" class="uri">http://doi.org/10.1029/2020PA003957</a></p>
+<p>Brierley, C. M., Zhao, A., Harrison, S. P., Braconnot, P., Williams, C. J. R., Thornalley, D. J. R., Shi, X., Peterschmitt, J.-Y., Ohgaito, R., Kaufman, D. S., Kageyama, M., Hargreaves, J. C., Erb, M. P., Emile-Geay, J., D'Agostino, R., Chandan, D., Carré, M., Bartlein, P., Zheng, W., Zhang, Z., Zhang, Q., Yang, H., Volodin, E. M., Tomas, R. A., Routson, C., Peltier, W. R., Otto-Bliesner, B., Morozova, P. A., McKay, N. P., Lohmann, G., Legrande, A. N., Guo, C., Cao, J., Brady, E., Annan, J. D., and Abe-Ouchi, A.: in review, 2020, Large-scale features and evaluation of the PMIP4-CMIP6 <em>midHolocene</em> simulations, <em>Clim. Past.</em> 16:1847-1872<em>,</em> <a href="https://doi.org/10.5194/cp-2019-168" class="uri">https://doi.org/10.5194/cp-2019-168</a></p>
+<p>Holiday, V.T., P.J. Bartlein, A.C. Scott, J.R. Marlon, 2020, Extraordinary biomass-burning episode and impact winter triggered by the Younger Dryas cosmic impact ~ 12.800 years ago, Parts 1 and 2: a discussion. <em>J. Geology</em> 128:69-94. <a href="https://doi.org/10.1086/706264" class="uri">https://doi.org/10.1086/706264</a></p>
 <p>Bartlein, P.J., and S.L. Shafer, 2019, Paleo calendar-effect adjustments in time-slice and transient climate-model simulations (PaleoCalAdjust v1.0): impact and strategies for data analysis. Geosci. Model Dev., 12, 3889–3913, 2019. <a href="https://doi.org/10.5194/gmd-12-3889-2019" class="uri">https://doi.org/10.5194/gmd-12-3889-2019</a></p>
 <p>Long, C. J., J. J. Shinker, T. A. Minckley, M. J. Power and P. J. Bartlein (2019). A 7600 yr vegetation and fire history from Anthony Lake, northeastern Oregon, USA, with linkages to modern synoptic climate patterns."<em>Quaternary Research</em> 91(2): 705-713. <a href="https://doi.org/10.1017/qua.2018.124" class="uri">https://doi.org/10.1017/qua.2018.124</a></p>
-<p>Carter, V. A., M. J. Power, Z. J. Lundeen, J. L. Morris, K. L. Petersen, A. Brunelle, R. S. Anderson, J. J. Shinker, L. Turney, R. Koll and P. J. Bartlein (2018). A 1,500-year synthesis of wildfire activity stratified by elevation from the US Rocky Mountains. <em>Quaternary International</em> 488: 107-119. <a href="https://doi.org/10.1016/j.quaint.2017.06.051" class="uri">https://doi.org/10.1016/j.quaint.2017.06.051</a></p>
 <p>Harrison, S. P., Bartlein, P. J., Brovkin, V., Houweling, S., Kloster, S., &amp; Prentice, I. C. (2018). The biomass burning contribution to climate–carbon-cycle feedback. <em>Earth Syst. Dynam.,</em> 9(2), 663-677. <a href="https://doi.org/10.5194/esd-9-663-2018" class="uri">https://doi.org/10.5194/esd-9-663-2018</a></p>
 <p>Hostetler, S.W., P.J. Bartlein and J.R. Alder, 2018, Atmospheric and surface climate associated with 1986–2013 wildfires in North America. <em>Journal of Geophysical Research: Biogeosciences,</em> 123(5), 1588-1609. <a href="https://doi.org/10.1029/2017JG004195" class="uri">https://doi.org/10.1029/2017JG004195</a></p>
-<p>Marsicek, J., B.N. Shuman, P.J. Bartlein, S.L. Shafer &amp; S. Brewer, 2018, Reconciling divergent trends and millennial variations in Holocene temperatures. <em>Nature</em> 554:92. <a href="https://dx.doi.org/10.1038/nature25464" class="uri">https://dx.doi.org/10.1038/nature25464</a> News &amp;Views: <a href="http://dx.doi.org/10.1038/d41586-018-00943-4" class="uri">http://dx.doi.org/10.1038/d41586-018-00943-4</a></p>
-<p>Kageyama, M., P. Braconnot, S.P. Harrison, A.M. Haywood, J. Jungclaus, B.L. Otto-Bliesner, J.Y. Peterschmitt, A. Abe-Ouchi, S. Albani, P.J. Bartlein, C. Brierley, M. Crucifix, A. Dolan, L. Fernandez-Donado, H. Fischer, P.O. Hopcroft, R.F. Ivanovic, F. Lambert, D.J. Lunt, N.M. Mahowald, W.R. Peltier, S.J. Phipps, D.M. Roche, G.A. Schmidt, L. Tarasov, P.J. Valdes, Q. Zhang &amp; T. Zhou, 2018, PMIP4-CMIP6: the contribution of the Paleoclimate Modelling Intercomparison Project to CMIP6. <em>Geosci. Model Dev</em>. 11:1033-1057. <a href="https://dx.doi.org/doi:10.5194/gmd-11-1033-2018" class="uri">https://dx.doi.org/doi:10.5194/gmd-11-1033-2018</a></p>
+<p>Marsicek, J., B.N. Shuman, P.J. Bartlein, S.L. Shafer &amp; S. Brewer, 2018, Reconciling divergent trends and millennial variations in Holocene temperatures. <em>Nature</em> 554:92-96. <a href="https://dx.doi.org/10.1038/nature25464" class="uri">https://dx.doi.org/10.1038/nature25464</a> News &amp;Views: <a href="http://dx.doi.org/10.1038/d41586-018-00943-4" class="uri">http://dx.doi.org/10.1038/d41586-018-00943-4</a></p>
+<p>Kageyama, M., Albani, S., Braconnot, P., Harrison, S.P., Hopcroft, P.O., Ivanovic, R.F., Lambert, F., Marti, O., Peltier, W.R., Peterschmitt, J.Y., Roche, D.M., Tarasov, L., Zhang, X., Brady, E.C., Haywood, A.M., LeGrande, A.N., Lunt, D.J., Mahowald, N.M., Mikolajewicz, U., Nisancioglu, K.H., Otto-Bliesner, B.L., Renssen, H., Tomas, R.A., Zhang, Q., Abe-Ouchi, A., Bartlein, P.J., Cao, J., Li, Q., Lohmann, G., Ohgaito, R., Shi, X., Volodin, E., Yoshida, K., Zhang, X., and Zheng, W. 2017. The PMIP4 contribution to CMIP6 – Part 4: Scientific objectives and experimental design of the PMIP4-CMIP6 Last Glacial Maximum experiments and PMIP4 sensitivity experiments. <em>Geosci. Model Dev.</em> 10 (11):4035-4055. <a href="https://doi.org/10.5194/gmd-10-4035-2017" class="uri">https://doi.org/10.5194/gmd-10-4035-2017</a></p>
+<p>Kageyama, M., Braconnot, P., Harrison, S.P., Haywood, A.M., Jungclaus, J.H., Otto-Bliesner, B.L., Peterschmitt, J.Y., Abe-Ouchi, A., Albani, S., Bartlein, P.J., Brierley, C., Crucifix, M., Dolan, A., Fernandez-Donado, L., Fischer, H., Hopcroft, P.O., Ivanovic, R.F., Lambert, F., Lunt, D.J., Mahowald, N.M., Peltier, W.R., Phipps, S.J., Roche, D.M., Schmidt, G.A., Tarasov, L., Valdes, P.J., Zhang, Q., and Zhou, T. 2018. The PMIP4 contribution to CMIP6 – Part 1: Overview and over-arching analysis plan. <em>Geosci. Model Dev.</em> 11 (3):1033-1057. <a href="https://doi.org/10.5194/gmd-11-1033-2018" class="uri">https://doi.org/10.5194/gmd-11-1033-2018</a></p>
 <p>Otto-Bliesner, B.L., P. Braconnot, S.P. Harrison, D.J. Lunt, A. Abe-Ouchi, S. Albani, P.J. Bartlein, E. Capron, A.E. Carlson, A. Dutton, H. Fischer, H. Goelzer, A. Govin, A. Haywood, F. Joos, A.N. Legrande, W.H. Lipscomb, G. Lohmann, N. Mahowald, C. Nehrbass-Ahles, F.S.R. Pausata, J.Y. Peterschmitt, S. Phipps &amp; H. Renssen, 2017, The PMIP4 contribution to CMIP6 - Part 2: Two Interglacials, Scientific Objective and Experimental Design for Holocene and Last Interglacial Simulations. <em>Geosci. Model Dev.</em> 10:39-403. <a href="https://dx.doi.org/10.5194/gmd-10-3979-2017" class="uri">https://dx.doi.org/10.5194/gmd-10-3979-2017</a></p>
 <p>Marlon, J.R., N. Pederson, C. Nolan, S. Goring, B. Shuman, A. Robertson, R. Booth, P.J. Bartlein, M.A. Berke, M. Clifford, E. Cook, A. Dieffenbacher-Krall, M.C. Dietze, A. Hessl, J.B. Hubeny, S.T. Jackson, J. Marsicek, J. McLachlan, C.J. Mock, D.J.P. Moore, J. Nichols, D. Peteet, K. Schaefer, V. Trouet, C. Umbanhowar, J.W. Williams &amp; Z. Yu, 2017, Climatic history of the northeastern United States during the past 3000 years. <em>Clim. Past</em> 13<strong>:</strong>1355-1379. <a href="https://doi.org/10.5194/cp-13-1355-2017" class="uri">https://doi.org/10.5194/cp-13-1355-2017</a></p>
 <p>Bartlein, P.J., S.P. Harrison and K. Izumi, 2017, Underlying causes of Eurasian mid-continental aridity in simulations of mid-Holocene climate, <em>Geophysical Research Letters</em>. 44:1-9, <a href="http://dx.doi.org/10.1002/2017GL074476" class="uri">http://dx.doi.org/10.1002/2017GL074476</a></p>
-<p>Carter, V. A., M. J. Power, Z. J. Lundeen, J. L. Morris, K. L. Petersen, A. Brunelle, R. S. Anderson, J. J. Shinker, L. Turney, R. Koll &amp; P. J. Bartlein, 2017, A 1,500-year synthesis of wildfire activity stratified by elevation from the U.S. Rocky Mountains. <em>Quaternary International</em>. <a href="http://dx.doi.org/10.1016/j.quaint.2017.06.051" class="uri">http://dx.doi.org/10.1016/j.quaint.2017.06.051</a></p>
-<p>Kageyama, M., S. Albani, P. Braconnot, S.P. Harrison, P.O. Hopcroft, R.F. Ivanovic, F. Lambert, O. Marti, W.R. Peltier, J.Y. Peterschmitt, D.M. Roche, L. Tarasov, X. Zhang, E.C. Brady, A.M. Haywood, A.N. LeGrande, D.J. Lunt, N.M. Mahowald, U. Mikolajewicz, K.H. Nisancioglu, B.L. Otto-Bliesner, H. Renssen, R.A. Tomas, Q. Zhang, A. Abe-Ouchi, P.J. Bartlein, J. Cao, G. Lohmann, R. Ohgaito, X. Shi, E. Volodin, K. Yoshida, X. Zhang &amp; W. Zheng, 2017, The PMIP4 contribution to CMIP6 – Part 4: Scientific objectives and experimental design of the PMIP4-CMIP6 Last Glacial Maximum experiments and PMIP4 sensitivity experiments. <em>Geosci. Model Dev. Discuss.</em> 2017:1-33. <a href="https://doi.org/10.5194/gmd-2016-106" class="uri">https://doi.org/10.5194/gmd-2016-106</a></p>
+<p>Carter, V. A., M. J. Power, Z. J. Lundeen, J. L. Morris, K. L. Petersen, A. Brunelle, R. S. Anderson, J. J. Shinker, L. Turney, R. Koll &amp; P. J. Bartlein, 2018, A 1,500-year synthesis of wildfire activity stratified by elevation from the U.S. Rocky Mountains. <em>Quaternary International</em>. <a href="http://dx.doi.org/10.1016/j.quaint.2017.06.051" class="uri">http://dx.doi.org/10.1016/j.quaint.2017.06.051</a></p>
+<p>Kageyama, M., S. Albani, P. Braconnot, S.P. Harrison, P.O. Hopcroft, R.F. Ivanovic, F. Lambert, O. Marti, W.R. Peltier, J.Y. Peterschmitt, D.M. Roche, L. Tarasov, X. Zhang, E.C. Brady, A.M. Haywood, A.N. LeGrande, D.J. Lunt, N.M. Mahowald, U. Mikolajewicz, K.H. Nisancioglu, B.L. Otto-Bliesner, H. Renssen, R.A. Tomas, Q. Zhang, A. Abe-Ouchi, P.J. Bartlein, J. Cao, G. Lohmann, R. Ohgaito, X. Shi, E. Volodin, K. Yoshida, X. Zhang &amp; W. Zheng, 2017, The PMIP4 contribution to CMIP6 – Part 4: Scientific objectives and experimental design of the PMIP4-CMIP6 Last Glacial Maximum experiments and PMIP4 sensitivity experiments. <em>Geosci. Model Dev. Discuss.</em> 2017:1-33. <a href="https://dx.doi.org/10.5194/gmd-2016-106" class="uri">https://dx.doi.org/10.5194/gmd-2016-106</a></p>
 <p>Daniels, S. &amp; P.J. Bartlein, 2016, Charting time. <em>Annals of the American Association of Geographers</em> 107:28-32. <a href="https://doi.org/10.1080/24694452.2016.1230420" class="uri">https://doi.org/10.1080/24694452.2016.1230420</a></p>
 <p>Izumi, K. and P.J. Bartlein, 2016, North American paleoclimate reconstructions for the last glacial maximum using an inverse-modeling through iterative-forward-modeling (IMIFM) approach applied to pollen data. <em>Geophysical Research Letters.</em> 43:1-8, <a href="http://dx.doi.org/10.1002/2016GL070152" class="uri">http://dx.doi.org/10.1002/2016GL070152</a></p>
 <p>Schwörer, C., D.M. Fisher, D.G. Gavin, C. Temperli &amp; P.J. Bartlein, 2016, Modeling postglacial vegetation dynamics of temperate forests on the Olympic Peninsula (WA, USA) with special regard to snowpack. <em>Climatic Change</em> 137:379-394. <a href="https://doi.org/10.1007/s10584-016-1696-z" class="uri">https://doi.org/10.1007/s10584-016-1696-z</a></p>
@@ -539,7 +505,7 @@ $(document).ready(function () {
 
 $(document).ready(function () {
   $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
+    $(this).parent().toggleClass('nav-tabs-open');
   });
 });
 </script>
