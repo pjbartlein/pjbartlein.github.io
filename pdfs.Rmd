@@ -1,0 +1,12 @@
+---
+title: ".pdfs of Selected Publications"
+output:
+  html_document:
+    theme: cosmo
+    css: md-08.css
+---
+
+
+```{r child="./source/pdfs.md"}
+```
+

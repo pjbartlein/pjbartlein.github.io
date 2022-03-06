@@ -3,7 +3,7 @@ navbar:
   title: Patrick J. Bartlein
   left:
   - text: Publications
-    href: publications.html
+    href: BartleinPublications.html
   - text: .pdfs
     href: pdfs.html
   - text: CVs
@@ -20,4 +20,6 @@ output:
     css: md-08.css
     lib_dir: site_libs
     self_contained: no
+    output_dir: "./docs/"
+output_dir: docs
 

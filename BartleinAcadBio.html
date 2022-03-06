@@ -1,387 +1,224 @@
-<!DOCTYPE html>
+<style type="text/css">body, td {
+   font-family: Times, TimesNewRoman, serif;
+   background-color: white;
+   font-size: 1.0em;
+   margin: 40px;
+   width:  940px;
+   text-align:justify;
+}
 
-<html>
+tt, code, pre {
+   font-family: Arial, Helvetica, Geneva, sans-serif;
+   font-size: 0.88em;
+}
 
-<head>
-
-<meta charset="utf-8" />
-<meta name="generator" content="pandoc" />
-<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
-
-
-
-
-<title>BartleinAcadBio.utf8</title>
-
-<script src="site_libs/header-attrs-2.6/header-attrs.js"></script>
-<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
-<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
-<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
-<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
-<script src="site_libs/navigation-1.1/tabsets.js"></script>
-
-<style type="text/css">
-  code{white-space: pre-wrap;}
-  span.smallcaps{font-variant: small-caps;}
-  span.underline{text-decoration: underline;}
-  div.column{display: inline-block; vertical-align: top; width: 50%;}
-  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-  ul.task-list{list-style: none;}
-    </style>
-
-
-
-
-<style type="text/css">
 h1 {
-  font-size: 34px;
+   font-size:1.8em;
+   font-weight: normal;
 }
-h1.title {
-  font-size: 38px;
-}
+
 h2 {
-  font-size: 30px;
+   font-size:1.6em;
+   font-weight: normal;
 }
+
 h3 {
-  font-size: 24px;
+   font-size:1.4em;
+   font-weight: normal;
+   font-style: italic;
 }
+
 h4 {
-  font-size: 18px;
+   font-size:1.2em;
+   font-weight: normal;
 }
+
 h5 {
-  font-size: 16px;
+   font-size:0.9em;
 }
+
 h6 {
-  font-size: 12px;
-}
-.table th:not([align]) {
-  text-align: left;
-}
-</style>
-
-
-<link rel="stylesheet" href="md-08.css" type="text/css" />
-
-
-
-<style type = "text/css">
-.main-container {
-  max-width: 940px;
-  margin-left: auto;
-  margin-right: auto;
-}
-code {
-  color: inherit;
-  background-color: rgba(0, 0, 0, 0.04);
-}
-img {
-  max-width:100%;
-}
-.tabbed-pane {
-  padding-top: 12px;
-}
-.html-widget {
-  margin-bottom: 20px;
-}
-button.code-folding-btn:focus {
-  outline: none;
-}
-summary {
-  display: list-item;
-}
-</style>
-
-
-<style type="text/css">
-/* padding for bootstrap navbar */
-body {
-  padding-top: 51px;
-  padding-bottom: 40px;
-}
-/* offset scroll position for anchor links (for fixed navbar)  */
-.section h1 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h2 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h3 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h4 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h5 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h6 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.dropdown-submenu {
-  position: relative;
-}
-.dropdown-submenu>.dropdown-menu {
-  top: 0;
-  left: 100%;
-  margin-top: -6px;
-  margin-left: -1px;
-  border-radius: 0 6px 6px 6px;
-}
-.dropdown-submenu:hover>.dropdown-menu {
-  display: block;
-}
-.dropdown-submenu>a:after {
-  display: block;
-  content: " ";
-  float: right;
-  width: 0;
-  height: 0;
-  border-color: transparent;
-  border-style: solid;
-  border-width: 5px 0 5px 5px;
-  border-left-color: #cccccc;
-  margin-top: 5px;
-  margin-right: -10px;
-}
-.dropdown-submenu:hover>a:after {
-  border-left-color: #ffffff;
-}
-.dropdown-submenu.pull-left {
-  float: none;
-}
-.dropdown-submenu.pull-left>.dropdown-menu {
-  left: -100%;
-  margin-left: 10px;
-  border-radius: 6px 0 6px 6px;
-}
-</style>
-
-<script>
-// manage active state of menu based on current page
-$(document).ready(function () {
-  // active menu anchor
-  href = window.location.pathname
-  href = href.substr(href.lastIndexOf('/') + 1)
-  if (href === "")
-    href = "index.html";
-  var menuAnchor = $('a[href="' + href + '"]');
-
-  // mark it active
-  menuAnchor.parent().addClass('active');
-
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
-});
-</script>
-
-<!-- tabsets -->
-
-<style type="text/css">
-.tabset-dropdown > .nav-tabs {
-  display: inline-table;
-  max-height: 500px;
-  min-height: 44px;
-  overflow-y: auto;
-  background: white;
-  border: 1px solid #ddd;
-  border-radius: 4px;
+   font-size:0.8em;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
-  font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
+a:visited {
+   color: rgb(50%, 0%, 50%);
 }
 
-.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "&#xe258;";
+pre { 
+   margin-top: 0;
+   max-width: 100%;
+   border: 1px solid #ccc;
+   white-space: pre-wrap;
+}
+
+pre code {
+   display: block; padding: 0.5em;
+   background-color:  #E0E0E0;
+}
+
+code.r, code.noeval, code.cpp {
+   background-color: #eeeeee;
+}
+
+table, td, th {
   border: none;
 }
 
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
-  font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
+blockquote {
+   color:#000000;
+   margin:0;
+   padding-left: 1em;
+   padding-right: 1em;
+   border-left: 0.5em #E0E0E0 solid;
+   border-right: 0.5em #E0E0E0 solid
 }
 
-.tabset-dropdown > .nav-tabs > li.active {
-  display: block;
+hr {
+   height: 0px;
+   border-bottom: none;
+   border-top-width: thin;
+   border-top-style: dotted;
+   border-top-color: #999999;
 }
 
-.tabset-dropdown > .nav-tabs > li > a,
-.tabset-dropdown > .nav-tabs > li > a:focus,
-.tabset-dropdown > .nav-tabs > li > a:hover {
-  border: none;
-  display: inline-block;
-  border-radius: 4px;
-  background-color: transparent;
-}
+@media print {
+   * {
+      background: transparent !important;
+      color: black !important;
+      filter:none !important;
+      -ms-filter: none !important;
+   }
 
-.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
-  display: block;
-  float: none;
-}
+   body {
+      font-size:10pt;
+      max-width:90%;
+   }
 
-.tabset-dropdown > .nav-tabs > li {
-  display: none;
+   pre, tt, code {
+      font-size: 10pt;
+      max-width: 100%
+      font-weight: normal;
+   }
+
+   a, a:visited {
+      text-decoration: underline;
+   }
+
+   hr {
+      visibility: hidden;
+      page-break-before: always;
+   }
+
+   pre, blockquote {
+      page-break-inside: auto;
+   }
+
+   tr, img {
+      page-break-inside: auto;
+   }
+
+   img {
+      max-width: 100% !important;
+   }
+
+   p, h2, h3 {
+      orphans: 3; widows: 3;
+   }
+
+   h2, h3 {
+      page-break-after: avoid;
+   }
 }
 </style>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css">
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+<h4 id="patrickj.bartlein">Patrick J. Bartlein</h4>
 
-<!-- code folding -->
-
-
-
-
-</head>
-
-<body>
-
-
-<div class="container-fluid main-container">
-
-
-
-
-<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
-  <div class="container">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="index.html">Patrick J. Bartlein</a>
-    </div>
-    <div id="navbar" class="navbar-collapse collapse">
-      <ul class="nav navbar-nav">
-        <li>
-  <a href="publications.html">Publications</a>
-</li>
-<li>
-  <a href="pdfs.html">.pdfs</a>
-</li>
-<li>
-  <a href="cv.html">CVs</a>
-</li>
-<li>
-  <a href="websites.html">Web Sites</a>
-</li>
-      </ul>
-      <ul class="nav navbar-nav navbar-right">
-        <li>
-  <a href="contact.html">Contact</a>
-</li>
-      </ul>
-    </div><!--/.nav-collapse -->
-  </div><!--/.container -->
-</div><!--/.navbar -->
-
-<div class="fluid-row" id="header">
-
-
-
-
-</div>
-
-
-<p>Patrick J. Bartlein</p>
 <p>CONTACT INFORMATION</p>
-<p>Department of Geography, University of Oregon, Eugene, Oregon 97403-1251; (541) 346-4555 -4967 (office); email: <a href="mailto:bartlein@oregon.uoregon.edu">bartlein@uoregon.edu</a>; www: <a href="https://pjbartlein.github.io" class="uri">https://pjbartlein.github.io</a> ResearcherID: E-4643-2011; ORCID: 0000-0001-7657-5685; <a href="https://scholar.google.com/citations?user=FTFHPNMAAAAJ&amp;hl=en">Google Scholar</a></p>
+
+<p>Department of Geography, University of Oregon, Eugene, Oregon 97403&#8211;1251; (541) 346&#8211;4555 -4967 (office); email: <a href="mailto:bartlein@oregon.uoregon.edu">bartlein@uoregon.edu</a>; www: https://pjbartlein.github.io ResearcherID: E-4643&#8211;2011; ORCID: 0000&#8211;0001&#8211;7657&#8211;5685; <a href="https://scholar.google.com/citations?user=FTFHPNMAAAAJ&amp;hl=en">Google Scholar</a></p>
+
 <p>EDUCATION</p>
-<p>Univ. Wisconsin -- Madison, (Geography) B.A. June 1972; M.S. June 1975; Ph.D. August 1978</p>
+
+<p>Univ. Wisconsin -- Madison, (Geography) B.A. June 1972; M.S. June 1975; Ph.D. August 1978</p>
+
 <p>RESEARCH INTERESTS</p>
+
 <p>Paleoclimatology; Data Analysis and Visualization; Environmental Modeling</p>
+
 <p>TEACHING INTERESTS</p>
+
 <p>Climatology; Environmental Change; Data Analysis and Visualization in Geography</p>
+
 <p>POSITIONS HELD</p>
-<p>University of Oregon, Department of Geography: Professor (Sept. 1994 - present), Associate Professor (April 1986 - Sept. 1994), Assistant Professor (Sept. 1982 - April 1986); Brown University, Department of Geological Sciences: Research Associate and Visiting Assistant Professor (Research) (May 1981 - Aug. 1984); Boston University, Department of Geography: Assistant Professor (Sept. 1979 - Aug. 1982). Center for Energy and Environmental Studies: Research Associate (Sept. 1980 - Aug. 1982); University of Iowa, Department of Geography: Visiting Assistant Professor (Jan. 1979 - May 1979); University of Wisconsin -- Madison, Institute for Environmental Studies: Research Associate (post-doc) (Sept. 1978 - Aug. 1979).</p>
+
+<p>University of Oregon, Department of Geography: Professor (Sept. 1994 - present), Associate Professor (April 1986 - Sept. 1994), Assistant Professor (Sept. 1982 - April 1986); Brown University, Department of Geological Sciences: Research Associate and Visiting Assistant Professor (Research) (May 1981 - Aug. 1984); Boston University, Department of Geography: Assistant Professor (Sept. 1979 - Aug. 1982). Center for Energy and Environmental Studies: Research Associate (Sept. 1980 - Aug. 1982); University of Iowa, Department of Geography: Visiting Assistant Professor (Jan. 1979 - May 1979); University of Wisconsin -- Madison, Institute for Environmental Studies: Research Associate (post-doc) (Sept. 1978 - Aug. 1979).</p>
+
 <p>DEPARTMENTAL AND UNIVERSITY SERVICE</p>
-<p>Graduate Council (1991-1993); UO Educational Technology Committee (2007); College of Arts and Science Curriculum Committee (2005-2007); University Undergraduate Council (2006-2007); outside member, Mikesell Chair (Economics) search committee (2001); multiple departmental search committees. Personnel and Promotion-and-Tenure Committees: Department of Geography Personnel Committee (1997-2002, 2006-present); College of Arts and Sciences Dean’s Advisory Committee (2011-2013, Chair 2012-2013); University Faculty Personnel Committee (1998-2000; 2014-2015).</p>
+
+<p>Graduate Council (1991&#8211;1993); UO Educational Technology Committee (2007); College of Arts and Science Curriculum Committee (2005&#8211;2007); University Undergraduate Council (2006&#8211;2007); outside member, Mikesell Chair (Economics) search committee (2001); multiple departmental search committees. Personnel and Promotion-and-Tenure Committees: Department of Geography Personnel Committee (1997&#8211;2002, 2006-present); College of Arts and Sciences Dean&#8217;s Advisory Committee (2011&#8211;2013, Chair 2012&#8211;2013); University Faculty Personnel Committee (1998&#8211;2000; 2014&#8211;2015).</p>
+
 <p>PROFESSIONAL MEMBERSHIPS</p>
+
 <p>American Association for the Advancement of Science; American Geophysical Union; American Quaternary Association; American Association of Geographers</p>
+
 <p>EDITORIAL BOARD SERVICE</p>
+
 <p>Current: <em>Quaternary Research</em> (Associate Editor); <em>Annals</em>, Association of American Geographers, Past: <em>The Holocene</em> (Associate Editor); <em>Quaternary Science Reviews</em>; <em>Geology</em></p>
+
 <p>MANUSCRIPT REVIEWS</p>
+
 <p><em>Annals</em>, Association of American Geographers, <em>Climates of the Past, Climate Dynamics, Ecology,</em> <em>Geographie Physique et Quateraire, Geological Society of America Bulletin, Geology, Global Change Biology, The Holocene, J. Biogeography, J. Geophysical Research, J. Vegetation Science, Nature, PNAS, Professional Geographer, Quaternary Research, Quaternary Science Reviews, Reviews of Geophysics, Science, Water Resources Bulletin.</em></p>
+
 <p>PROPOSAL REVIEWS</p>
+
 <p>National Science Foundation: Climate Dynamics Program, Division of Polar Programs, Ecology Program, Geography and Regional Science Program, Division of Earth Sciences, Instrumentation and Facilities, Continental Hydrologic Processes, Earth-System History Program, Arctic System Science, Paleoclimatology Program. NOAA: Office of Global Programs. European Science Foundation. Natural Environment Research Council</p>
+
 <p>GRADUATE AND POST-GRADUATE STUDENT TRAINING</p>
-<p>Post-doctoral advisor (2); Ph.D. (12 as chair, 20 as committee member) Masters (8 as chair, 32 as committee member)</p>
+
+<p>Post-doctoral advisor (2); Ph.D. (12 as chair, 20 as committee member) Masters (8 as chair, 32 as committee member)</p>
+
 <p>HONORS</p>
+
 <p>Fellow, American Association for the Advancement of Science (AAAS), 2008; American Quaternary Association (AMQUA) Distinguished Career Award, 2016; American Association of Geographers (AAG) Distinguished Scholarship Honors, 2017.</p>
-<p>RECENT PUBLICATIONS (207 total; WOS: 165 indexed, 18,328 citations, 12 highly cited; h-index: 74)</p>
-<p>Marshall, J.A., J.J. Roering, A.W. Remple, S.L. Shafer and P.J. Bartlein, 2021, Extensive frost weathering across unglaciated North America during the Last Glacial Maximum. Geophysical Research Letters 48, e2020GL090305 <a href="https://doi.org/10.1029/2020GL090305" class="uri">https://doi.org/10.1029/2020GL090305</a></p>
-<p>Otto-Bliesner, B.L. Brady, E.C., Tomas, RA, Albani, S., Bartlein, P.J., Mahowald, N.M.Shafer, S.L., Kluzek, E., Lawrence, P.J., Leguy, G., Rothstein, M., Sommers, A.N. 2020, A Comparison of the CMIP6 midHolocene and lig127k Simulations in CESM, Paleoceanography and Paleoclimatology 11 e2020PA003957, <a href="http://doi.org/10.1029/2020PA003957" class="uri">http://doi.org/10.1029/2020PA003957</a></p>
-<p>Brierley, C. M., Zhao, A., Harrison, S. P., Braconnot, P., Williams, C. J. R., Thornalley, D. J. R., Shi, X., Peterschmitt, J.-Y., Ohgaito, R., Kaufman, D. S., Kageyama, M., Hargreaves, J. C., Erb, M. P., Emile-Geay, J., D’Agostino, R., Chandan, D., Carré, M., Bartlein, P., Zheng, W., Zhang, Z., Zhang, Q., Yang, H., Volodin, E. M., Tomas, R. A., Routson, C., Peltier, W. R., Otto-Bliesner, B., Morozova, P. A., McKay, N. P., Lohmann, G., Legrande, A. N., Guo, C., Cao, J., Brady, E., Annan, J. D., and Abe-Ouchi, A.: in review, 2020, Large-scale features and evaluation of the PMIP4-CMIP6 midHolocene simulations, Clim. Past. 16:1847-1872, <a href="https://doi.org/10.5194/cp-2019-168" class="uri">https://doi.org/10.5194/cp-2019-168</a></p>
-<p>Holiday, V.T., P.J. Bartlein, A.C. Scott, J.R. Marlon, 2020, Extraordinary biomass-burning episode and impact winter triggered by the Younger Dryas cosmic impact ~ 12.800 years ago, Parts 1 and 2: a discussion. J. Geology 128:69-94. <a href="https://doi.org/10.1086/706264" class="uri">https://doi.org/10.1086/706264</a></p>
-<p>Bartlein, P.J., and S.L. Shafer, 2019, Paleo calendar-effect adjustments in time-slice and transient climate-model simulations (PaleoCalAdjust v1.0): impact and strategies for data analysis. Geosci. Model Dev. 12:3889-3913.</p>
-<p>Harrison, S. P., Bartlein, P. J., Brovkin, V., Houweling, S., Kloster, S., &amp; Prentice, I. C. (2018). The biomass burning contribution to climate–carbon-cycle feedback. Earth Syst. Dynam., 9(2), 663-677. Hostetler, S.W., P.J. Bartlein and J.R. Alder, 2018, Atmospheric and surface climate associated with 1986–2013 wildfires in North America. Journal of Geophysical Research: Biogeosciences, 123(5), 1588-1609.</p>
-<p>Marsicek, J., B.N. Shuman, P.J. Bartlein, S.L. Shafer &amp; S. Brewer, 2018, Reconciling divergent trends and millennial variations in Holocene temperatures. Nature 554:92</p>
-<p>Bartlein, P.J., S.P. Harrison and K. Izumi, 2017, Underlying causes of Eurasian mid-continental aridity in simulations of mid-Holocene climate, Geophysical Research Letters. <a href="DOI:10.1002/2017GL074476" class="uri">DOI:10.1002/2017GL074476</a></p>
-<p>Marlon, J.R., R. Kelly, A.L. Daniau, B. Vannière, M.J. Power, P. Bartlein, P. Higuera, O. Blarquez, S. Brewer, T. Brücher, A. Feurdean, G.G. Romera, V. Iglesias, S.Y. Maezumi, B. Magi, C.J. Courtney Mustaphi &amp; T. Zhihai, 2016, Reconstructions of biomass burning from sediment-charcoal records to improve data–model comparisons. Biogeosciences 13:3225-3244.</p>
-<p>Harrison, S.P., P.J. Bartlein, K. Izumi, G. Li, J. Annan, J. Hargreaves, P. Braconnot and M. Kageyama, 2015, Implications of evaluation of CMIP5 palaeosimulations for climate projections. Nature Climate Change 8:735-743.</p>
-<p>Izumi, K., Bartlein, P.J., Harrison, S.P., 2015. Energy-balance mechanisms underlying consistent large-scale temperature responses in warm and cold climates. Climate Dynamics. 44:3111-3127. DOI 10.1007/s00382-014-2189-2 Harrison, S.P., Bartlein, P.J., Brewer, S., Prentice, I.C., Boyd, M., Hessler, I., Holmgren, K., Izumi, K., Willis, K., 2014. Climate model benchmarking with glacial and mid-Holocene climates. Climate Dynamics 43, 671-688.</p>
-<p>Izumi, K., P.J. Bartlein and S.P. Harrison, 2013, Consistent large-scale temperature responses in warm and cold climates, Geophysical Research Letters, DOI: 10.1002/grl.50350 Marlon, J.R. P.J. Bartlein, A.-L. Daniau, S.P. Harrison, S.Y. Maesumi, M.J. Power, W. Tinner, B. Vanniére, 2013, Global biomass burning: a synthesis and review of Holocene paleofire records and their controls. Quaternary Science Reviews 65:5-25</p>
-<p>Braconnot, P., S.P. Harrison, M. Kageyama, P.J. Bartlein, V. Masson-Delmotte, A. Abe-Ouchi, B. Otto-Bliesner &amp; Y. Zhao, 2012, Evaluation of climate models using palaeoclimatic data. Nature Climate Change 2:417-424, <a href="doi:10.1038/nclimate1456" class="uri">doi:10.1038/nclimate1456</a>.</p>
-<p>Clark, P.U., J.D. Shakun, P.A. Baker, P.J. Bartlein, S. Brewer, E. Brook, A.E. Carlson, H. Cheng, D.S. Kaufman, Z. Liu, T.M. Marchitto, A.C. Mix, C. Morrill, B.L. Otto-Bliesner, K. Pahnke, J.M. Russell, C. Whitlock, J.F. Adkins, J.L. Blois, J. Clark, S.M. Colman, W.B. Curry, B.P. Flower, F. He, T.C. Johnson, J. Lynch-Stieglitz, V. Markgraf, J. McManus, J.X. Mitrovica, P.I. Moreno &amp; J.W. Williams, 2012, Global climate evolution during the last deglaciation. Proceedings of the National Academy of Sciencesdoi:10.1073/pnas.1116619109</p>
-<p>Marlon, J.R., P.J. Bartlein, D.G. Gavin, C.J. Long, R.S. Anderson, C.E. Briles, K.J. Brown, D. Colombaroli, D.J. Hallett, M.J. Power, E.A. Scharf &amp; M.K. Walsh, 2012, Long-term perspective on wildfires in the western USA. Proceedings of the National Academy of Sciences 109:E535-E543.</p>
 
+<p>RECENT PUBLICATIONS (209 total; WOS: 166 indexed, 19,098 citations, 12 highly cited; h-index: 77)</p>
 
+<p>Marshall, J.A., J.J. Roering, A.W. Remple, S.L. Shafer and P.J. Bartlein, 2021, Extensive frost weathering across unglaciated North America during the Last Glacial Maximum. Geophysical Research Letters 48, e2020GL090305 <a href="https://doi.org/10.1029/2020GL090305">https://doi.org/10.1029/2020GL090305</a></p>
 
+<p>Otto-Bliesner, B.L. Brady, E.C., Tomas, RA, Albani, S., Bartlein, P.J., Mahowald, N.M.Shafer, S.L., Kluzek, E., Lawrence, P.J., Leguy, G., Rothstein, M., Sommers, A.N. 2020, A Comparison of the CMIP6 midHolocene and lig127k Simulations in CESM, Paleoceanography and Paleoclimatology 11 e2020PA003957, <a href="http://doi.org/10.1029/2020PA003957">http://doi.org/10.1029/2020PA003957</a></p>
 
-</div>
+<p>Brierley, C. M., Zhao, A., Harrison, S. P., Braconnot, P., Williams, C. J. R., Thornalley, D. J. R., Shi, X., Peterschmitt, J.-Y., Ohgaito, R., Kaufman, D. S., Kageyama, M., Hargreaves, J. C., Erb, M. P., Emile-Geay, J., D'Agostino, R., Chandan, D., Carré, M., Bartlein, P., Zheng, W., Zhang, Z., Zhang, Q., Yang, H., Volodin, E. M., Tomas, R. A., Routson, C., Peltier, W. R., Otto-Bliesner, B., Morozova, P. A., McKay, N. P., Lohmann, G., Legrande, A. N., Guo, C., Cao, J., Brady, E., Annan, J. D., and Abe-Ouchi, A.: in review, 2020, Large-scale features and evaluation of the PMIP4-CMIP6 midHolocene simulations, Clim. Past. 16:1847&#8211;1872, <a href="https://doi.org/10.5194/cp-2019-168">https://doi.org/10.5194/cp-2019-168</a></p>
 
-<script>
+<p>Holiday, V.T., P.J. Bartlein, A.C. Scott, J.R. Marlon, 2020, Extraordinary biomass-burning episode and impact winter triggered by the Younger Dryas cosmic impact ~ 12.800 years ago, Parts 1 and 2: a discussion. J. Geology 128:69&#8211;94. <a href="https://doi.org/10.1086/706264">https://doi.org/10.1086/706264</a></p>
 
-// add bootstrap table styles to pandoc tables
-function bootstrapStylePandocTables() {
-  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
-}
-$(document).ready(function () {
-  bootstrapStylePandocTables();
-});
+<p>Bartlein, P.J., and S.L. Shafer, 2019, Paleo calendar-effect adjustments in time-slice and transient climate-model simulations (PaleoCalAdjust v1.0): impact and strategies for data analysis. <em>Geosci. Model Dev.</em> 12:3889&#8211;3913.</p>
 
+<p>Harrison, S. P., Bartlein, P. J., Brovkin, V., Houweling, S., Kloster, S., &amp; Prentice, I. C. (2018). The biomass burning contribution to climate&#8211;carbon-cycle feedback. <em>Earth Syst. Dynam.</em>, 9(2), 663&#8211;677.</p>
 
-</script>
+<p>Hostetler, S.W., P.J. Bartlein and J.R. Alder, 2018, Atmospheric and surface climate associated with 1986&#8211;2013 wildfires in North America. <em>Journal of Geophysical Research: Biogeosciences</em>, 123(5), 1588&#8211;1609.</p>
 
-<!-- tabsets -->
+<p>Marsicek, J., B.N. Shuman, P.J. Bartlein, S.L. Shafer &amp; S. Brewer, 2018, Reconciling divergent trends and millennial variations in Holocene temperatures. <em>Nature</em> 554:92</p>
 
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
+<p>Bartlein, P.J., S.P. Harrison and K. Izumi, 2017, Underlying causes of Eurasian mid-continental aridity in simulations of mid-Holocene climate, <em>Geophysical Research Letters</em>. DOI:10.1002/2017GL074476</p>
 
-$(document).ready(function () {
-  $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
-  });
-});
-</script>
+<p>Marlon, J.R., R. Kelly, A.L. Daniau, B. Vannière, M.J. Power, P. Bartlein, P. Higuera, O. Blarquez, S. Brewer, T. Brücher, A. Feurdean, G.G. Romera, V. Iglesias, S.Y. Maezumi, B. Magi, C.J. Courtney Mustaphi &amp; T. Zhihai, 2016, Reconstructions of biomass burning from sediment-charcoal records to improve data&#8211;model comparisons. <em>Biogeosciences</em> 13:3225&#8211;3244.</p>
 
-<!-- code folding -->
+<p>Harrison, S.P., P.J. Bartlein, K. Izumi, G. Li, J. Annan, J. Hargreaves, P. Braconnot and M. Kageyama, 2015, Implications of evaluation of CMIP5 palaeosimulations for climate projections. Nature Climate Change 8:735&#8211;743.</p>
 
+<p>Izumi, K., Bartlein, P.J., Harrison, S.P., 2015. Energy-balance mechanisms underlying consistent large-scale temperature responses in warm and cold climates. <em>Climate Dynamics</em>. 44:3111&#8211;3127. DOI 10.1007/s00382&#8211;014&#8211;2189&#8211;2</p>
 
-<!-- dynamically load mathjax for compatibility with self-contained -->
-<script>
-  (function () {
-    var script = document.createElement("script");
-    script.type = "text/javascript";
-    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
-    document.getElementsByTagName("head")[0].appendChild(script);
-  })();
-</script>
+<p>Harrison, S.P., Bartlein, P.J., Brewer, S., Prentice, I.C., Boyd, M., Hessler, I., Holmgren, K., Izumi, K., Willis, K., 2014. Climate model benchmarking with glacial and mid-Holocene climates. <em>Climate Dynamics</em> 43, 671&#8211;688.</p>
 
-</body>
-</html>
+<p>Izumi, K., P.J. Bartlein and S.P. Harrison, 2013, Consistent large-scale temperature responses in warm and cold climates, <em>Geophysical Research Letters</em>, DOI: 10.1002/grl.50350</p>
+
+<p>Marlon, J.R. P.J. Bartlein, A.-L. Daniau, S.P. Harrison, S.Y. Maesumi, M.J. Power, W. Tinner, B. Vanniére, 2013, Global biomass burning: a synthesis and review of Holocene paleofire records and their controls. <em>Quaternary Science Reviews</em> 65:5&#8211;25</p>
+
+<p>Braconnot, P., S.P. Harrison, M. Kageyama, P.J. Bartlein, V. Masson-Delmotte, A. Abe-Ouchi, B. Otto-Bliesner &amp; Y. Zhao, 2012, Evaluation of climate models using palaeoclimatic data. <em>Nature Climate Change</em> 2:417&#8211;424, doi:10.1038/nclimate1456.</p>
+
+<p>Clark, P.U., J.D. Shakun, P.A. Baker, P.J. Bartlein, S. Brewer, E. Brook, A.E. Carlson, H. Cheng, D.S. Kaufman, Z. Liu, T.M. Marchitto, A.C. Mix, C. Morrill, B.L. Otto-Bliesner, K. Pahnke, J.M. Russell, C. Whitlock, J.F. Adkins, J.L. Blois, J. Clark, S.M. Colman, W.B. Curry, B.P. Flower, F. He, T.C. Johnson, J. Lynch-Stieglitz, V. Markgraf, J. McManus, J.X. Mitrovica, P.I. Moreno &amp; J.W. Williams, 2012, Global climate evolution during the last deglaciation. <em>Proceedings of the National Academy of Sciences</em>doi:10.1073/pnas.1116619109</p>
+
+<p>Marlon, J.R., P.J. Bartlein, D.G. Gavin, C.J. Long, R.S. Anderson, C.E. Briles, K.J. Brown, D. Colombaroli, D.J. Hallett, M.J. Power, E.A. Scharf &amp; M.K. Walsh, 2012, Long-term perspective on wildfires in the western USA. <em>Proceedings of the National Academy of Sciences</em> 109:E535-E543.</p>
