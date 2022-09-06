@@ -13,7 +13,7 @@
 
 <title>Research and Teaching Web Sites</title>
 
-<script src="site_libs/header-attrs-2.11/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.15/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
@@ -45,6 +45,7 @@
 
 
 
+
 <link rel="stylesheet" href="md-08.css" type="text/css" />
 
 
@@ -69,6 +70,9 @@ button.code-folding-btn:focus {
 }
 summary {
   display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
 }
 pre code {
   padding: 0;
@@ -126,11 +130,15 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark it active
-  menuAnchor.tab('show');
-
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -221,7 +229,7 @@ $(document).ready(function () {
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -264,56 +272,78 @@ $(document).ready(function () {
 <div id="current-weather-climate" class="section level4">
 <h4>Current Weather &amp; Climate</h4>
 <ul>
-<li>A collection of links to weather and climate web pages used for teaching GEOG 321 (Climatology), GEOG 361 (Global Environmental Change) and GEOG4/521 (Adv. Climatology)<br><a href="https://pjbartlein.github.io/UOCWC/">[https://pjbartlein.github.io/UOCWC/]</a></li>
+<li>A collection of links to weather and climate web pages used for
+teaching GEOG 321 (Climatology), GEOG 361 (Global Environmental Change)
+and GEOG4/521 (Adv. Climatology)<br><a
+href="https://pjbartlein.github.io/UOCWC/">[https://pjbartlein.github.io/UOCWC/]</a></li>
 </ul>
 </div>
 <div id="geog-4595-geographic-data-analysis" class="section level4">
 <h4>GEOG 4/595 Geographic Data Analysis</h4>
 <ul>
-<li>Lecture notes, exercises and course materials<br> <a href="https://pjbartlein.github.io/GeogDataAnalysis/">[https://pjbartlein.github.io/GeogDataAnalysis/]</a></li>
+<li>Lecture notes, exercises and course materials<br> <a
+href="https://pjbartlein.github.io/GeogDataAnalysis/">[https://pjbartlein.github.io/GeogDataAnalysis/]</a></li>
 </ul>
 </div>
 <div id="geog-4590-r-for-earth-system-science" class="section level4">
 <h4>GEOG 4/590 R for Earth-System Science</h4>
 <ul>
-<li>Lecture notes and course materials for teaching GEOG 4/590 GISci Topics <br> <a href="https://pjbartlein.github.io/REarthSysSci/">[https://pjbartlein.github.io/REarthSysSci/]</a></li>
+<li>Lecture notes and course materials for teaching GEOG 4/590 GISci
+Topics <br> <a
+href="https://pjbartlein.github.io/REarthSysSci/">[https://pjbartlein.github.io/REarthSysSci/]</a></li>
 </ul>
 </div>
-<div id="analysis-of-the-global-charcoal-databases-gcds" class="section level4">
+<div id="analysis-of-the-global-charcoal-databases-gcds"
+class="section level4">
 <h4>Analysis of the Global Charcoal Databases (GCDs)</h4>
 <ul>
-<li><p>R scripts for fitting composite curves of charcoal data from the Global Charcoal Database (GCDv3)<br> <a href="https://pjbartlein.github.io/GCDv3Analysis/">[https://pjbartlein.github.io/GCDv3Analysis/index.html]</a></p></li>
-<li><p>Using the locfit package for composite curves<br> <a href="https://pjbartlein.github.io/GCDv3Analysis/locfit.html">[https://pjbartlein.github.io/GCDv3Analysis/locfit.html]</a></p></li>
+<li><p>R scripts for fitting composite curves of charcoal data from the
+Global Charcoal Database (GCDv3)<br> <a
+href="https://pjbartlein.github.io/GCDv3Analysis/">[https://pjbartlein.github.io/GCDv3Analysis/index.html]</a></p></li>
+<li><p>Using the locfit package for composite curves<br> <a
+href="https://pjbartlein.github.io/GCDv3Analysis/locfit.html">[https://pjbartlein.github.io/GCDv3Analysis/locfit.html]</a></p></li>
 </ul>
 </div>
-<div id="development-and-characterization-of-a-daily-fire-start-dataset-for-the-u.s.-and-canada" class="section level4">
-<h4>Development and Characterization of a Daily Fire-Start Dataset for the U.S. and Canada</h4>
+<div
+id="development-and-characterization-of-a-daily-fire-start-dataset-for-the-u.s.-and-canada"
+class="section level4">
+<h4>Development and Characterization of a Daily Fire-Start Dataset for
+the U.S. and Canada</h4>
 <ul>
-<li>R scripts and results for cleaning and merging daily fire-start data <br> <a href="http://regclim.coas.oregonstate.edu/FireStarts/index.html">[http://regclim.coas.oregonstate.edu/FireStarts/index.html]</a></li>
+<li>R scripts and results for cleaning and merging daily fire-start data
+<br> <a
+href="http://regclim.coas.oregonstate.edu/FireStarts/index.html">[http://regclim.coas.oregonstate.edu/FireStarts/index.html]</a></li>
 </ul>
 </div>
 <div id="western-u.s.-fire-climate-research" class="section level4">
 <h4>Western U.S. Fire &amp; Climate Research</h4>
 <ul>
-<li>Graphics and animations of fire-start, climate, and regional climate-model data <br> <a href="http://climate.uoregon.edu/fire/index.html">[http://climate.uoregon.edu/fire/]</a></li>
+<li>Graphics and animations of fire-start, climate, and regional
+climate-model data <br> <a
+href="http://climate.uoregon.edu/fire/index.html">[http://climate.uoregon.edu/fire/]</a></li>
 </ul>
 </div>
 <div id="global-climate-animations" class="section level4">
 <h4>Global Climate Animations</h4>
 <ul>
-<li>Loops of monthly long-term means for various climate variables <br> <a href="https://pjbartlein.github.io/UOCWC/globalclimate.html">[https://pjbartlein.github.io/UOCWC/globalclimate.html]</a></li>
+<li>Loops of monthly long-term means for various climate variables <br>
+<a
+href="https://pjbartlein.github.io/UOCWC/globalclimate.html">[https://pjbartlein.github.io/UOCWC/globalclimate.html]</a></li>
 </ul>
 </div>
 <div id="data-graphics-research" class="section level4">
 <h4>Data Graphics Research</h4>
 <ul>
-<li>“End of the Rainbow” color scales from Light and Bartlein (2004, 2005)<br> <a href="https://pjbartlein.github.io/datagraphics/index.html">[https://pjbartlein.github.io/datagraphics/index.html]</a></li>
+<li>“End of the Rainbow” color scales from Light and Bartlein (2004,
+2005)<br> <a
+href="https://pjbartlein.github.io/datagraphics/index.html">[https://pjbartlein.github.io/datagraphics/index.html]</a></li>
 </ul>
 </div>
 <div id="environmental-change-research-group" class="section level4">
 <h4>Environmental Change Research Group</h4>
 <ul>
-<li>ECRG web page <br> <a href="https://blogs.uoregon.edu/envchange/">[https://blogs.uoregon.edu/envchange/]</a></li>
+<li>ECRG web page <br> <a
+href="https://blogs.uoregon.edu/envchange/">[https://blogs.uoregon.edu/envchange/]</a></li>
 </ul>
 </div>
 
