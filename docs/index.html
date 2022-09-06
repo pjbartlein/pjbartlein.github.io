@@ -13,7 +13,7 @@
 
 <title>Patrick J. Bartlein</title>
 
-<script src="site_libs/header-attrs-2.11/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.15/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
@@ -45,6 +45,7 @@
 
 
 
+
 <link rel="stylesheet" href="md-08.css" type="text/css" />
 
 
@@ -69,6 +70,9 @@ button.code-folding-btn:focus {
 }
 summary {
   display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
 }
 pre code {
   padding: 0;
@@ -126,11 +130,15 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark it active
-  menuAnchor.tab('show');
-
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -221,7 +229,7 @@ $(document).ready(function () {
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -261,21 +269,31 @@ $(document).ready(function () {
 </div>
 
 
-<div id="professor-department-of-geography-university-of-oregon-eugene-or-97403-1251-usa" class="section level4">
-<h4>Professor | Department of Geography | University of Oregon | Eugene, OR 97403-1251 USA</h4>
+<div
+id="professor-department-of-geography-university-of-oregon-eugene-or-97403-1251-usa"
+class="section level4">
+<h4>Professor | Department of Geography | University of Oregon | Eugene,
+OR 97403-1251 USA</h4>
 <ul>
 <li><em>voice</em>: +1 541 346 4967<br />
 </li>
-<li><em>www:</em> <a href="https://pjbartlein.github.io">https://pjbartlein.github.io</a></li>
+<li><em>www:</em> <a
+href="https://pjbartlein.github.io">https://pjbartlein.github.io</a></li>
 </ul>
 </div>
 <div id="bibliographies" class="section level4">
 <h4>Bibliographies</h4>
 <ul>
-<li><a href="https://scholar.google.com/citations?user=FTFHPNMAAAAJ&amp;hl=en">Google Scholar</a></li>
-<li><a href="https://orcid.org/0000-0001-7657-5685">ORCID (0000-0001-7657-5685)</a></li>
-<li><a href="http://www.scopus.com/inward/authorDetails.url?authorID=7004069409&amp;partnerID=MN8TOARS">Scopus AuthorID (7004069409)</a></li>
-<li><a href="http://www.researcherid.com/rid/E-4643-2011">ResearcherID (E-4643-2011)</a></li>
+<li><a
+href="https://scholar.google.com/citations?user=FTFHPNMAAAAJ&amp;hl=en">Google
+Scholar</a></li>
+<li><a href="https://orcid.org/0000-0001-7657-5685">ORCID
+(0000-0001-7657-5685)</a></li>
+<li><a
+href="http://www.scopus.com/inward/authorDetails.url?authorID=7004069409&amp;partnerID=MN8TOARS">Scopus
+AuthorID (7004069409)</a></li>
+<li><a href="http://www.researcherid.com/rid/E-4643-2011">ResearcherID
+(E-4643-2011)</a></li>
 </ul>
 </div>
 <div id="research-teaching-interests" class="section level4">
@@ -289,15 +307,18 @@ $(document).ready(function () {
 <div id="github" class="section level4">
 <h4>GitHub</h4>
 <ul>
-<li><a href="https://github.com/pjbartlein">[https://github.com/pjbartlein]</a></li>
+<li><a
+href="https://github.com/pjbartlein">[https://github.com/pjbartlein]</a></li>
 </ul>
 </div>
 <div id="links" class="section level4">
 <h4>Links</h4>
 <ul>
-<li><a href="http://geography.uoregon.edu">Department of Geography</a><br />
+<li><a href="http://geography.uoregon.edu">Department of
+Geography</a><br />
 </li>
-<li><a href="https://blogs.uoregon.edu/envchange/">Environmental Change Research Group</a></li>
+<li><a href="https://blogs.uoregon.edu/envchange/">Environmental Change
+Research Group</a></li>
 </ul>
 <hr />
 </div>
