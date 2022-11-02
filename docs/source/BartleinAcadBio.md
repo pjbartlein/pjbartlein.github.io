@@ -1,4 +1,4 @@
-#### Patrick J. Bartlein 
+Patrick J. Bartlein
 
 CONTACT INFORMATION
 
