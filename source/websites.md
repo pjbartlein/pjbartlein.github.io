@@ -33,7 +33,7 @@
 #### Global Climate Animations ####
 
 - Loops of monthly long-term means for various climate variables <br>
-[[https://pjbartlein.github.io/UOCWC/globalclimate.html]](https://pjbartlein.github.io/UOCWC/globalclimate.html)
+[[https://climvis.org]](https://climvis.org/index.html)
 
 #### Data Graphics Research ####
 
