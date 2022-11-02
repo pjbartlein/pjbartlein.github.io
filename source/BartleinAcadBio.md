@@ -1,8 +1,8 @@
-#### Patrick J. Bartlein
+Patrick J. Bartlein
 
 CONTACT INFORMATION
 
-Department of Geography, University of Oregon, Eugene, Oregon 97403-1251; (541) 346-4555 -4967 (office); email: [bartlein\@uoregon.edu](mailto:bartlein@oregon.uoregon.edu); www: https://pjbartlein.github.io ResearcherID: E-4643-2011; ORCID: 0000-0001-7657-5685; [Google Scholar](https://scholar.google.com/citations?user=FTFHPNMAAAAJ&hl=en)
+Department of Geography, University of Oregon, Eugene, Oregon 97403-1251; (541) 346-4555 -4967 (office); email: [bartlein@uoregon.edu](mailto:bartlein@oregon.uoregon.edu); www: https://pjbartlein.github.io ResearcherID: E-4643-2011; ORCID: 0000-0001-7657-5685; [Google Scholar](https://scholar.google.com/citations?user=FTFHPNMAAAAJ&hl=en)
 
 EDUCATION
 

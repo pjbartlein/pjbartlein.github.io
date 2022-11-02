@@ -1,34 +1,34 @@
-#### Publications
+Publications
 
 (See the .pdf tab for reprints of some of these.)
 
 Sommers, A.N., B.L. Otto-Bliesner, W.H. Lipscomb, M. Lofverstrom, S.L. Shafer, P.J. Bartlein, et al., 2021, Retreat and regrowth of the Greenland Ice Sheet ruring the Last Interglacial as simulated by the CESM2-CISM2 Coupled Climate-Ice Sheet Model, *Paleoceanography and Paleoclimatology* 36. <https://doi.org/10.1029/2021pa004272>
 
-Bartlein, P.J. and T. Webb III, 2021, Paleoclimatic data syntheses from the terrestrial realm: history and prospects. PAGES Magazine 29:70-71 <https://doi.org/10.22498/pages.29.2.70>
+Bartlein, P.J. and T. Webb III, 2021, Paleoclimatic data syntheses from the terrestrial realm: history and prospects. *PAGES Magazine* 29:70-71 <https://doi.org/10.22498/pages.29.2.70>
 
-Thompson, R. S., Anderson, K.H., Peltier, R.T., Strickland, L.E., Shafer, S.L. and Bartlein, P.J., 2021, Assessing the uncertainties in climatic estimates based on vegetation assemblages: Examples from modern vegetation assemblages in the American Southwest, Quat. Sci. Rev. 262:106880, 27 p. <https://doi.org/10.1016/j.quascirev.2021.106880>
+Thompson, R. S., Anderson, K.H., Peltier, R.T., Strickland, L.E., Shafer, S.L. and Bartlein, P.J., 2021, Assessing the uncertainties in climatic estimates based on vegetation assemblages: Examples from modern vegetation assemblages in the American Southwest, *Quat. Sci. Rev.* 262:106880, 27 p. <https://doi.org/10.1016/j.quascirev.2021.106880>
 
-Marshall, J.A., J.J. Roering, A.W. Remple, S.L. Shafer and P.J. Bartlein, 2021, Extensive frost weathering across unglaciated North America during the Last Glacial Maximum. Geophysical Research Letters 48, e2020GL090305 <https://doi.org/10.1029/2020GL090305>
+Marshall, J.A., J.J. Roering, A.W. Remple, S.L. Shafer and P.J. Bartlein, 2021, Extensive frost weathering across unglaciated North America during the Last Glacial Maximum. *Geophysical Research Letters 48*, e2020GL090305 <https://doi.org/10.1029/2020GL090305>
 
-Otto-Bliesner, B.L. Brady, E.C., Tomas, RA, Albani, S., Bartlein, P.J., Mahowald, N.M.Shafer, S.L., Kluzek, E., Lawrence, P.J., Leguy, G., Rothstein, M., Sommers, A.N. 2020, A Comparison of the CMIP6 midHolocene and lig127k Simulations in CESM, Paleoceanography and Paleoclimatology 11 e2020PA003957, <http://doi.org/10.1029/2020PA003957>
+Otto-Bliesner, B.L. Brady, E.C., Tomas, RA, Albani, S., Bartlein, P.J., Mahowald, N.M.Shafer, S.L., Kluzek, E., Lawrence, P.J., Leguy, G., Rothstein, M., Sommers, A.N. 2020, A Comparison of the CMIP6 midHolocene and lig127k Simulations in CESM, *Paleoceanography and Paleoclimatology* 11 e2020PA003957, <http://doi.org/10.1029/2020PA003957>
 
 Brierley, C. M., Zhao, A., Harrison, S. P., Braconnot, P., Williams, C. J. R., Thornalley, D. J. R., Shi, X., Peterschmitt, J.-Y., Ohgaito, R., Kaufman, D. S., Kageyama, M., Hargreaves, J. C., Erb, M. P., Emile-Geay, J., D\'Agostino, R., Chandan, D., Carré, M., Bartlein, P., Zheng, W., Zhang, Z., Zhang, Q., Yang, H., Volodin, E. M., Tomas, R. A., Routson, C., Peltier, W. R., Otto-Bliesner, B., Morozova, P. A., McKay, N. P., Lohmann, G., Legrande, A. N., Guo, C., Cao, J., Brady, E., Annan, J. D., and Abe-Ouchi, A.: in review, 2020, Large-scale features and evaluation of the PMIP4-CMIP6 *midHolocene* simulations, *Clim. Past.* 16:1847-1872*,* <https://doi.org/10.5194/cp-2019-168>
 
 Holiday, V.T., P.J. Bartlein, A.C. Scott, J.R. Marlon, 2020, Extraordinary biomass-burning episode and impact winter triggered by the Younger Dryas cosmic impact \~ 12.800 years ago, Parts 1 and 2: a discussion. *J. Geology* 128:69-94. <https://doi.org/10.1086/706264>
 
-Bartlein, P.J., and S.L. Shafer, 2019, Paleo calendar-effect adjustments in time-slice and transient climate-model simulations (PaleoCalAdjust v1.0): impact and strategies for data analysis. Geosci. Model Dev., 12, 3889--3913, 2019. <https://doi.org/10.5194/gmd-12-3889-2019>
+Bartlein, P.J., and S.L. Shafer, 2019, Paleo calendar-effect adjustments in time-slice and transient climate-model simulations (PaleoCalAdjust v1.0): impact and strategies for data analysis. *Geosci. Model Dev.,* 12, 3889--3913, 2019. <https://doi.org/10.5194/gmd-12-3889-2019>
 
-Long, C. J., J. J. Shinker, T. A. Minckley, M. J. Power and P. J. Bartlein (2019). A 7600 yr vegetation and fire history from Anthony Lake, northeastern Oregon, USA, with linkages to modern synoptic climate patterns.\"*Quaternary Research* 91(2): 705-713. <https://doi.org/10.1017/qua.2018.124>
+Long, C. J., J. J. Shinker, T. A. Minckley, M. J. Power and P. J. Bartlein (2019). A 7600 yr vegetation and fire history from Anthony Lake, northeastern Oregon, USA, with linkages to modern synoptic climate patterns. *Quaternary Research* 91(2): 705-713. <https://doi.org/10.1017/qua.2018.124>
+
+Carter, V. A., M. J. Power, Z. J. Lundeen, J. L. Morris, K. L. Petersen, A. Brunelle, R. S. Anderson, J. J. Shinker, L. Turney, R. Koll and P. J. Bartlein (2018). A 1,500-year synthesis of wildfire activity stratified by elevation from the US Rocky Mountains. *Quaternary International* 488: 107-119. <https://doi.org/10.1016/j.quaint.2017.06.051>
 
 Harrison, S. P., Bartlein, P. J., Brovkin, V., Houweling, S., Kloster, S., & Prentice, I. C. (2018). The biomass burning contribution to climate--carbon-cycle feedback. *Earth Syst. Dynam.,* 9(2), 663-677. <https://doi.org/10.5194/esd-9-663-2018>
 
 Hostetler, S.W., P.J. Bartlein and J.R. Alder, 2018, Atmospheric and surface climate associated with 1986--2013 wildfires in North America. *Journal of Geophysical Research: Biogeosciences,* 123(5), 1588-1609. <https://doi.org/10.1029/2017JG004195>
 
-Marsicek, J., B.N. Shuman, P.J. Bartlein, S.L. Shafer & S. Brewer, 2018, Reconciling divergent trends and millennial variations in Holocene temperatures. *Nature* 554:92-96. https://dx.doi.org/10.1038/nature25464 News &Views: <http://dx.doi.org/10.1038/d41586-018-00943-4>
+Marsicek, J., B.N. Shuman, P.J. Bartlein, S.L. Shafer & S. Brewer, 2018, Reconciling divergent trends and millennial variations in Holocene temperatures. *Nature* 554:92. https://dx.doi.org/10.1038/nature25464 News &Views: <http://dx.doi.org/10.1038/d41586-018-00943-4>
 
-Kageyama, M., Albani, S., Braconnot, P., Harrison, S.P., Hopcroft, P.O., Ivanovic, R.F., Lambert, F., Marti, O., Peltier, W.R., Peterschmitt, J.Y., Roche, D.M., Tarasov, L., Zhang, X., Brady, E.C., Haywood, A.M., LeGrande, A.N., Lunt, D.J., Mahowald, N.M., Mikolajewicz, U., Nisancioglu, K.H., Otto-Bliesner, B.L., Renssen, H., Tomas, R.A., Zhang, Q., Abe-Ouchi, A., Bartlein, P.J., Cao, J., Li, Q., Lohmann, G., Ohgaito, R., Shi, X., Volodin, E., Yoshida, K., Zhang, X., and Zheng, W. 2017. The PMIP4 contribution to CMIP6 -- Part 4: Scientific objectives and experimental design of the PMIP4-CMIP6 Last Glacial Maximum experiments and PMIP4 sensitivity experiments. *Geosci. Model Dev.* 10 (11):4035-4055. https://doi.org/10.5194/gmd-10-4035-2017
-
-Kageyama, M., Braconnot, P., Harrison, S.P., Haywood, A.M., Jungclaus, J.H., Otto-Bliesner, B.L., Peterschmitt, J.Y., Abe-Ouchi, A., Albani, S., Bartlein, P.J., Brierley, C., Crucifix, M., Dolan, A., Fernandez-Donado, L., Fischer, H., Hopcroft, P.O., Ivanovic, R.F., Lambert, F., Lunt, D.J., Mahowald, N.M., Peltier, W.R., Phipps, S.J., Roche, D.M., Schmidt, G.A., Tarasov, L., Valdes, P.J., Zhang, Q., and Zhou, T. 2018. The PMIP4 contribution to CMIP6 -- Part 1: Overview and over-arching analysis plan. *Geosci. Model Dev.* 11 (3):1033-1057. <https://doi.org/10.5194/gmd-11-1033-2018>
+Kageyama, M., P. Braconnot, S.P. Harrison, A.M. Haywood, J. Jungclaus, B.L. Otto-Bliesner, J.Y. Peterschmitt, A. Abe-Ouchi, S. Albani, P.J. Bartlein, C. Brierley, M. Crucifix, A. Dolan, L. Fernandez-Donado, H. Fischer, P.O. Hopcroft, R.F. Ivanovic, F. Lambert, D.J. Lunt, N.M. Mahowald, W.R. Peltier, S.J. Phipps, D.M. Roche, G.A. Schmidt, L. Tarasov, P.J. Valdes, Q. Zhang & T. Zhou, 2018, PMIP4-CMIP6: the contribution of the Paleoclimate Modelling Intercomparison Project to CMIP6. *Geosci. Model Dev*. 11:1033-1057. <https://dx.doi.org/doi:10.5194/gmd-11-1033-2018>
 
 Otto-Bliesner, B.L., P. Braconnot, S.P. Harrison, D.J. Lunt, A. Abe-Ouchi, S. Albani, P.J. Bartlein, E. Capron, A.E. Carlson, A. Dutton, H. Fischer, H. Goelzer, A. Govin, A. Haywood, F. Joos, A.N. Legrande, W.H. Lipscomb, G. Lohmann, N. Mahowald, C. Nehrbass-Ahles, F.S.R. Pausata, J.Y. Peterschmitt, S. Phipps & H. Renssen, 2017, The PMIP4 contribution to CMIP6 - Part 2: Two Interglacials, Scientific Objective and Experimental Design for Holocene and Last Interglacial Simulations. *Geosci. Model Dev.* 10:39-403. <https://dx.doi.org/10.5194/gmd-10-3979-2017>
 
@@ -36,9 +36,9 @@ Marlon, J.R., N. Pederson, C. Nolan, S. Goring, B. Shuman, A. Robertson, R. Boot
 
 Bartlein, P.J., S.P. Harrison and K. Izumi, 2017, Underlying causes of Eurasian mid-continental aridity in simulations of mid-Holocene climate, *Geophysical Research Letters*. 44:1-9, http://dx.doi.org/10.1002/2017GL074476
 
-Carter, V. A., M. J. Power, Z. J. Lundeen, J. L. Morris, K. L. Petersen, A. Brunelle, R. S. Anderson, J. J. Shinker, L. Turney, R. Koll & P. J. Bartlein, 2018, A 1,500-year synthesis of wildfire activity stratified by elevation from the U.S. Rocky Mountains. *Quaternary International*. <http://dx.doi.org/10.1016/j.quaint.2017.06.051>
+Carter, V. A., M. J. Power, Z. J. Lundeen, J. L. Morris, K. L. Petersen, A. Brunelle, R. S. Anderson, J. J. Shinker, L. Turney, R. Koll & P. J. Bartlein, 2017, A 1,500-year synthesis of wildfire activity stratified by elevation from the U.S. Rocky Mountains. *Quaternary International*. <http://dx.doi.org/10.1016/j.quaint.2017.06.051>
 
-Kageyama, M., S. Albani, P. Braconnot, S.P. Harrison, P.O. Hopcroft, R.F. Ivanovic, F. Lambert, O. Marti, W.R. Peltier, J.Y. Peterschmitt, D.M. Roche, L. Tarasov, X. Zhang, E.C. Brady, A.M. Haywood, A.N. LeGrande, D.J. Lunt, N.M. Mahowald, U. Mikolajewicz, K.H. Nisancioglu, B.L. Otto-Bliesner, H. Renssen, R.A. Tomas, Q. Zhang, A. Abe-Ouchi, P.J. Bartlein, J. Cao, G. Lohmann, R. Ohgaito, X. Shi, E. Volodin, K. Yoshida, X. Zhang & W. Zheng, 2017, The PMIP4 contribution to CMIP6 -- Part 4: Scientific objectives and experimental design of the PMIP4-CMIP6 Last Glacial Maximum experiments and PMIP4 sensitivity experiments. *Geosci. Model Dev. Discuss.* 2017:1-33. https://dx.doi.org/10.5194/gmd-2016-106
+Kageyama, M., S. Albani, P. Braconnot, S.P. Harrison, P.O. Hopcroft, R.F. Ivanovic, F. Lambert, O. Marti, W.R. Peltier, J.Y. Peterschmitt, D.M. Roche, L. Tarasov, X. Zhang, E.C. Brady, A.M. Haywood, A.N. LeGrande, D.J. Lunt, N.M. Mahowald, U. Mikolajewicz, K.H. Nisancioglu, B.L. Otto-Bliesner, H. Renssen, R.A. Tomas, Q. Zhang, A. Abe-Ouchi, P.J. Bartlein, J. Cao, G. Lohmann, R. Ohgaito, X. Shi, E. Volodin, K. Yoshida, X. Zhang & W. Zheng, 2017, The PMIP4 contribution to CMIP6 -- Part 4: Scientific objectives and experimental design of the PMIP4-CMIP6 Last Glacial Maximum experiments and PMIP4 sensitivity experiments. *Geosci. Model Dev. Discuss.* 2017:1-33. https://doi.org/10.5194/gmd-2016-106
 
 Daniels, S. & P.J. Bartlein, 2016, Charting time. *Annals of the American Association of Geographers* 107:28-32. <https://doi.org/10.1080/24694452.2016.1230420>
 
@@ -425,3 +425,44 @@ Bartlein, P.J., 1978, The influence of short-period climatic variations on strea
 Knox, J.C., P.J. Bartlein, K.K. Hirschboeck and R.J. Muckenhirn, 1975, The response of floods and sediment yields to climatic variation and land use in the Upper Mississippi Valley, Institute for Environmental Studies, University of Wisconsin-Madison, Report 52, 76 p.
 
 Knox, J.C., P.J. Bartlein and W.C. Johnson, 1974, Environmental assessment of sediment sources and sedimentation distribution for the Lake LaFarge watershed and impoundment, Institute for Environmental Studies, University of Wisconsin-Madison, Report 28, pp. 77-116.
+
+PUBLISHED DATA SETS
+
+Strickland, L.E., Thompson, R.S., Anderson, K.H., Pelltier, R.T., Shafer, S.L., Bartlein, P.J., Schumann, R.R., and McFadden, A.K., 2022, USGS North American Packrat Midden Database, Version 5.0: U.S. Geological Survey data release, <https://doi.org/10.5066/P91UOARW>.
+
+Shafer, S.L., Bartlein, P.J., Izumi, K., 2021, PMIP3/CMIP5 lgm simulated temperature data for North America downscaled to a 10-km grid: U.S. Geological Survey data release, <https://doi.org/10.5066/P9KC0L47>.
+
+Shafer, S.L., Bartlein, P.J., Sommers, A.N., Otto-Bliesner, B.L., Lipscomb, W.H., Lofverstrom, M., Brady, E.C., Kluzek, E., Leguy, G., Thayer-Calder, K., and Tomas, R.A., 2021, Global biomes for the Last Interglacial period (127-119 ka) simulated by BIOME4 using CESM2-CISM2 coupled climate--ice sheet model data: U.S. Geological Survey data release, <https://doi.org/10.5066/P9RPB5KD>.
+
+Thompson, R.S., Anderson, K.H., Pelltier, R.T., Strickland, L.E., Shafer, S.L., and Bartlein, P.J., 2021, Data release for assessing the uncertainties in climatic estimates based on vegetation assemblages: Examples from modern vegetation assemblages in the American southwest: U.S. Geological Survey data release, <https://doi.org/10.5066/P9CKCP22>.
+
+Shafer, S.L., Bartlein, P.J., Otto-Bliesner, B.L., and Brady, E.C., 2020, Biomes simulated by BIOME4 using CESM2 lig127k, midHolocene, and piControl climate data on a global 0.5-degree grid: U.S. Geological Survey data release, <https://doi.org/10.5066/P9D9S4EY>.
+
+Marsicek, J., B.N. Shuman, P.J. Bartlein, S.L. Shafer & S. Brewer, 2018, Reconciling divergent trends and millennial variations in Holocene temperatures. *Nature* 554:92. https://dx.doi.org/10.1038/nature25464 News &Views: <http://dx.doi.org/10.1038/d41586-018-00943-4>\
+<https://www.ncei.noaa.gov/pub/data/paleo/reconstructions/marsicek2018/>
+
+Thompson, R.S., K.H. Anderson, R.T. Peltier, L.E. Strickland, S.L. Shafer, P.J. Bartlein and A.K. McFadden, 2015, Atlas of relations between climatic parameters and distributions of important trees and shrubs in North America---revisions for all taxa from the United States and Canada and new taxa from the western United States. *U.S. Geological Survey Professional Paper 1650-G.* (<https://pubs.usgs.gov/pp/p1650-g/> )
+
+Praskievicz, Sarah; Bartlein, Patrick J 2014): Modeled monthly local topographic lapse rates, Pacific Northwest, USA. *PANGAEA*, <https://doi.org/10.1594/PANGAEA.863085>,
+
+Schmittner, A., N.M. Urban, J.D. Shakun, N.M. Mahowald, P.U. Clark, P.J. Bartlein, A.C. Mix, and A. Rosell-Melé. 2011. Climate Sensitivity Estimated from Temperature Reconstructions of the Last Glacial Maximum. Science, Vol. 334, No. 6061, pp. 1385-1388, 9 December 2011. DOI: 10.1126/science.1203513 Published Online November 24 2011 <https://www.ncei.noaa.gov/access/paleo-search/study/12280>
+
+Bartlein, P.J., S.P. Harrison, S. Brewer, S. Connor, B.A.S. Davis, K. Gajewski, J. Guiot, T.I. Harrison-Prentice, A. Henderson, O. Peyron, I.C. Prentice, M. Scholze, H. Seppa, B. Shuman, S. Sugita, R.S. Thompson, A.E. Viau, J. Williams, and H. Wu. 2010. Pollen-based continental climate reconstructions at 6 and 21 ka: a global synthesis. Climate Dynamics, DOI: 10.1007/s00382-010-0904-1 <https://www.ncei.noaa.gov/access/paleo-search/study/9897>
+
+Power M. J., J. Marlon, N. Ortiz, P.J. Bartlein, S.P. Harrison, et al.,, 2008, Changes in fire regimes since the Last Glacial Maximum: an assessment based on a global synthesis and analysis of charcoal data, *Climate Dynamics*, DOI 10.1007/s00382-007-0334-x. <https://www.ncei.noaa.gov/pub/data/paleo/firehistory/charcoal/gcd/>
+
+Williams, J.W., Shuman, B., Bartlein, PJ.., Whitmore, J., Gajewski, K. Sawada, M., Minckley, T., Shafer, S., Viau, A.E., Webb, T. III, Anderson, P. Brubaker, L., Whitlock, C. Davis, O., 2006, An Atlas of Pollen-Vegetation-Climate Relationships for the United States and Canada, American Association of Stratigraphic Palynologists *Contributions Series 43,* 300p. <https://www.ncei.noaa.gov/access/paleo-search/study/5974>
+
+Williams, J.W., B.N. Shuman, T. Webb III, P.J. Bartlein, P.L. Leduc, 2004, Late Quaternary vegetation dynamics in North America: scaling from taxa to biomes. *Ecological Monographs* 74(2):309-334. <https://www.ncei.noaa.gov/pub/data/paleo/pollen/na_gridded/>
+
+Thompson, R.S., K.H. Anderson and P.J. Bartlein, 2000, *Atlas of relations between climatic parameters and distributions of important trees and shrubs in North America---introduction and conifers*. U.S. Geological Survey Professional Paper 1650-A-F. <https://pubs.usgs.gov/pp/p1650-a/>, <https://pubs.er.usgs.gov/publication/pp1650C>,\
+<https://pubs.usgs.gov/pp/p1650-d/>, <https://pubs.usgs.gov/pp/p1650-e/>, <https://pubs.usgs.gov/pp/p1650-f/>
+
+Long, C.J., C. Whitlock, P.J. Bartlein and S.H. Millspaugh, 1998, A 9000-year fire history from the Oregon Coast Range, based on a high-resolution charcoal study. *Canadian J. Forest Res*. 28:774-787.\
+<https://www.ncei.noaa.gov/pub/data/paleo/firehistory/charcoal/northamerica/usltl001.txt>
+
+J. R. Marlon, R. Kelly, A.-L. Daniau, B. Vannière, M. J. Power, P. Bartlein, P. Higuera, O. Blarquez, S. Brewer, T. Brücher, A. Feurdean, G. Gil-Romera, V. Iglesias, S. Y. Maezumi, B. Magi, C. J. C. Mustaphi, and T. Zhihai. 2016. Reconstructions of biomass burning from sediment charcoal records to improve data-model comparisons. Biogeosciences. doi: doi:10.5194/bgd-12-18571-2015\
+<https://www.ncei.noaa.gov/pub/data/paleo/firehistory/charcoal/gcd/>
+
+Millspaugh, S.H., C. Whitlock and P.J. Bartlein, 2000, Variations in fire frequency and climate over the last 17,000 years in Central Yellowstone National Park. *Geology* 28:211-214.\
+<https://www.ncei.noaa.gov/pub/data/paleo/firehistory/charcoal/northamerica/uscyg001.txt>
