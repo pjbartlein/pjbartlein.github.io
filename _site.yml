@@ -3,7 +3,7 @@ navbar:
   title: Patrick J. Bartlein
   left:
   - text: Publications
-    href: BartleinPublications.html
+    href: publications.html
   - text: .pdfs
     href: pdfs.html
   - text: CVs

@@ -1,4 +1,3 @@
-Publications
 
 (See the .pdf tab for reprints of some of these.)
 
