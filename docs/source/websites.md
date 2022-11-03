@@ -25,10 +25,10 @@
 - R scripts and results for cleaning and merging daily fire-start data <br>
 [[http://regclim.coas.oregonstate.edu/FireStarts/index.html]](http://regclim.coas.oregonstate.edu/FireStarts/index.html)
 
-#### Western U.S. Fire & Climate Research ####
+#### Future Climate Analogue Mapping ####
 
-- Graphics and animations of fire-start, climate, and regional climate-model data <br>
-[[http://climate.uoregon.edu/fire/]](http://climate.uoregon.edu/fire/index.html)
+- Maps and graphics of present-day analogues of future climates in North America <br>
+[[https://pages.uoregon.edu/bartlein/ClimAnalogues/]](https://pages.uoregon.edu/bartlein/ClimAnalogues/)
 
 #### Global Climate Animations ####
 
