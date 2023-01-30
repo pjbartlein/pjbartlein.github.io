@@ -1,4 +1,4 @@
-pandoc -s BartleinCV-Mar2022.docx -t markdown -o BartleinCV.md --wrap=none
+pandoc -s BartleinCV-Nov2022.docx -t markdown -o BartleinCV.md --wrap=none
 pandoc -s BartleinAcadBio.docx -t markdown -o BartleinAcadBio.md --wrap=none
 pandoc -s BartleinPublications.docx -t markdown -o BartleinPublications.md --wrap=none
 
