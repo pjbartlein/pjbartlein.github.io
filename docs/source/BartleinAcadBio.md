@@ -48,7 +48,7 @@ HONORS
 
 Fellow, American Association for the Advancement of Science (AAAS), 2008; American Quaternary Association (AMQUA) Distinguished Career Award, 2016; American Association of Geographers (AAG) Distinguished Scholarship Honors, 2017.
 
-RECENT PUBLICATIONS (209 total; WOS: 166 indexed, 19,098 citations, 12 highly cited; h-index: 77)
+RECENT PUBLICATIONS (225 total; WOS: 218 indexed, 20,839 citations, 12 highly cited; h-index: 79)
 
 Marshall, J.A., J.J. Roering, A.W. Remple, S.L. Shafer and P.J. Bartlein, 2021, Extensive frost weathering across unglaciated North America during the Last Glacial Maximum. Geophysical Research Letters 48, e2020GL090305 <https://doi.org/10.1029/2020GL090305>
 
