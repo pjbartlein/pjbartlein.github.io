@@ -48,7 +48,9 @@ HONORS
 
 Fellow, American Association for the Advancement of Science (AAAS), 2008; American Quaternary Association (AMQUA) Distinguished Career Award, 2016; American Association of Geographers (AAG) Distinguished Scholarship Honors, 2017.
 
-RECENT PUBLICATIONS (209 total; WOS: 166 indexed, 19,098 citations, 12 highly cited; h-index: 77)
+RECENT PUBLICATIONS
+
+(WOS: 253 indexed, 24,831 citations, h-index: 84; Google Scholar: 34,731 citations, h-index: 96)
 
 Clark, P. U., J. D. Shakun, Y. Rosenthal, P. Koehler, and P. J. Bartlein, 2024, Global and regional temperature change over the past 4.5 million years. Science, 383. <https://doi.org/10.1126/science.adi1908>
 

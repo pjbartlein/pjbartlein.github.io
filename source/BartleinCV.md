@@ -45,6 +45,8 @@ American Association of Geographers (AAG) Distinguished Scholarship Honors, 2017
 
 PUBLICATIONS
 
+(WOS: 253 indexed, 24,831 citations, h-index: 84; Google Scholar: 34,731 citations, h-index: 96)
+
 Clark, P. U., J. D. Shakun, Y. Rosenthal, P. Koehler, and P. J. Bartlein, 2024, Global and regional temperature change over the past 4.5 million years. *Science*, 383. <https://doi.org/10.1126/science.adi1908>
 
 Gavin, D.G., P.J. Bartlein, and C.J. Mock, 2023, Historical archives reveal record rainfall and severe flooding in December 1867 resulting from an atmospheric river and snowmelt, western Washington, USA. *PLOS Climate* 2(12) e0000324, <https://doi.org/10.1371/journal.pclm.0000324>
@@ -1088,7 +1090,15 @@ Courses Taught at the University of Oregon
 
 2017-2018 611-612 (F&W), 4/521 (W), 4/595 (W), 321 (S)
 
-2018-2019 361 (W), 4/595 (W), 321 (S), 4.590 (S)
+2018-2019 361 (W), 4/595 (W), 321 (S), 4/590 (S)
+
+2019-2020 361 (W), 321 (S), 4/495 (S)
+
+2020-2021 321 (W), 4/495 (W)
+
+2021-2022 321 (W)
+
+2022-2023 4/590 (W)
 
 plus 631 many quarters
 

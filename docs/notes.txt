@@ -2,37 +2,46 @@ To build pjbartlein.github.io webpage
 
 1. Edit source files:
 
-/Users/bartlein/Dropbox/WebPages/source_pjbartlein.github.io/source/bartlein-201910-acadbio.docx
-/Users/bartlein/Dropbox/WebPages/source_pjbartlein.github.io/source/BartleinCV-Oct2019.docx
-/Users/bartlein/Dropbox/WebPages/source_pjbartlein.github.io/source/BartleinPublications-201910.docx
+/Users/bartlein/Dropbox/WebPages/source_pjbartlein.github.io/source/BartleinAcadBio.docx
+/Users/bartlein/Dropbox/WebPages/source_pjbartlein.github.io/source/BartleinCV-May2024.docx
+/Users/bartlein/Dropbox/WebPages/source_pjbartlein.github.io/source/BartleinPublications.docx
 
-2. run /Users/bartlein/Dropbox/WebPages/source_pjbartlein.github.io/source/docx-to-md.txt
+2. export as .pdfs
 
-3. use MacDown to create .html files
+3. run Pandoc
 
-/Users/bartlein/Dropbox/WebPages/source_pjbartlein.github.io/source/BartleinAcadBio.html
-/Users/bartlein/Dropbox/WebPages/source_pjbartlein.github.io/source/BartleinCV.html
-/Users/bartlein/Dropbox/WebPages/source_pjbartlein.github.io/source/BartleinPublications.html
+pandoc -s BartleinCV-May2024.docx -t markdown -o BartleinCV.md --wrap=none
+pandoc -s BartleinAcadBio.docx -t markdown -o BartleinAcadBio.md --wrap=none
+pandoc -s BartleinPublications.docx -t markdown -o BartleinPublications.md --wrap=none
 
-4. Build R Markdown .html web site in the folder /source_pjbartlein.github.io
-
-(/Users/bartlein/Dropbox/WebPages/source_pjbartlein.github.io/Bartlein.Rproj)
-
-5. Copy .html files to /pjbartlein.github.io
+4. use MMDComposer5 to create .html files (pdf-wide.css)
 
 /Users/bartlein/Dropbox/WebPages/source_pjbartlein.github.io/source/BartleinAcadBio.html
 /Users/bartlein/Dropbox/WebPages/source_pjbartlein.github.io/source/BartleinCV.html
 /Users/bartlein/Dropbox/WebPages/source_pjbartlein.github.io/source/BartleinPublications.html
+
+45 Build R Markdown .html web site in the folder /pjbartlein.github.io
+
+(/Users/bartlein/Dropbox/WebPages/Bartlein/pjbartlein.github.io/Bartlein.Rproj)
+
+5. Copy .html and .pdf files to /pjbartlein.github.io
+
+/Users/bartlein/Dropbox/WebPages/Bartlein/pjbartlein.github.io/source/BartleinAcadBio.html
+/Users/bartlein/Dropbox/WebPages/Bartlein/pjbartlein.github.io/source/BartleinCV.html
+/Users/bartlein/Dropbox/WebPages/Bartlein/pjbartlein.github.io/source/BartleinPublications.html
+/Users/bartlein/Dropbox/WebPages/Bartlein/pjbartlein.github.io/source/BartleinAcadBio.pdf
+/Users/bartlein/Dropbox/WebPages/Bartlein/pjbartlein.github.io/source/BartleinCV.pdf
+/Users/bartlein/Dropbox/WebPages/Bartlein/pjbartlein.github.io/source/BartleinPublications.pdf
 
 and 
 
-/Users/bartlein/Dropbox/WebPages/source_pjbartlein.github.io/docs/contact.html
-/Users/bartlein/Dropbox/WebPages/source_pjbartlein.github.io/docs/cv.html
-/Users/bartlein/Dropbox/WebPages/source_pjbartlein.github.io/docs/index.html
-/Users/bartlein/Dropbox/WebPages/source_pjbartlein.github.io/docs/pdfs.html
-/Users/bartlein/Dropbox/WebPages/source_pjbartlein.github.io/docs/publications.html
-/Users/bartlein/Dropbox/WebPages/source_pjbartlein.github.io/docs/websites.html
+/Users/bartlein/Dropbox/WebPages/Bartlein/pjbartlein.github.io/docs/contact.html
+/Users/bartlein/Dropbox/WebPages/Bartlein/pjbartlein.github.io/docs/cv.html
+/Users/bartlein/Dropbox/WebPages/Bartlein/pjbartlein.github.io/docs/index.html
+/Users/bartlein/Dropbox/WebPages/Bartlein/pjbartlein.github.io/docs/pdfs.html
+/Users/bartlein/Dropbox/WebPages/Bartlein/pjbartlein.github.io/docs/publications.html
+/Users/bartlein/Dropbox/WebPages/Bartlein/pjbartlein.github.io/docs/websites.html
 
 (note /source/ vs. /doc/ folder distinction)
 
-6. Use Sourcetree (not RStudio) to upload files to GitHub
+6. Use Git Desktop (not RStudio) to upload files to GitHub

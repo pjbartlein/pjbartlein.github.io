@@ -1,3 +1,5 @@
+Publications
+
 (See the .pdf tab for reprints of some of these.)
 
 Clark, P. U., J. D. Shakun, Y. Rosenthal, P. Koehler, and P. J. Bartlein, 2024, Global and regional temperature change over the past 4.5 million years. *Science*, 383. <https://doi.org/10.1126/science.adi1908>
