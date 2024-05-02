@@ -1,5 +1,18 @@
+Publications
 
 (See the .pdf tab for reprints of some of these.)
+
+Clark, P. U., J. D. Shakun, Y. Rosenthal, P. Koehler, and P. J. Bartlein, 2024, Global and regional temperature change over the past 4.5 million years. *Science*, 383. <https://doi.org/10.1126/science.adi1908>
+
+Gavin, D.G., P.J. Bartlein, and C.J. Mock, 2023, Historical archives reveal record rainfall and severe flooding in December 1867 resulting from an atmospheric river and snowmelt, western Washington, USA. *PLOS Climate* 2(12) e0000324, <https://doi.org/10.1371/journal.pclm.0000324>
+
+Cruz-Silva, E., S. P. Harrison, I. C. Prentice, E. Marinova, P. J. Bartlein, H. Renssen, and Y. Zhang, 2023, Pollen-based reconstructions of Holocene climate trends in the eastern Mediterranean region. *Climate of the Past*, 19**,** 2093-2108. <https://doi.org/10.5194/cp-19-2093-2023>
+
+Holliday, V. T., T. L. Daulton, P. J. Bartlein, M. B. Boslough, R. P. Breslawski, A. E. Fisher, I. A. Jorgeson, A. C. Scott, C. Koeberl, J. R. Marlon, J. Severinghaus, M. I. Petaev, and P. Claeys, 2023, Comprehensive refutation of the Younger Dryas Impact Hypothesis (YDIH). Earth-Science Reviews, 247. <https://doi.org/10.1016/j.earscirev.2023.104502>
+
+Strickland, L. E., R. S. Thompson, S. L. Shafer, P. J. Bartlein, R. T. Pelltier, K. H. Anderson, R. R. Schumann, and A. K. McFadden, 2024, Plant macrofossil data for 48-0 ka in the USGS North American Packrat Midden Database, version 5.0. *Scientific Data*, 11. <https://doi.org/10.1038/s41597-023-02616-y>
+
+Uscanga, A., P. J. Bartlein, and L. C. R. Silva, 2023, Local and Regional Effects of Land-Use Intensity on Aboveground Biomass and Tree Diversity in Tropical Montane Cloud Forests. *Ecosystems*, 26**,** 1734-1752. https://doi.org/10.1007/s10021-023-00861-1
 
 Sommers, A.N., B.L. Otto-Bliesner, W.H. Lipscomb, M. Lofverstrom, S.L. Shafer, P.J. Bartlein, et al., 2021, Retreat and regrowth of the Greenland Ice Sheet ruring the Last Interglacial as simulated by the CESM2-CISM2 Coupled Climate-Ice Sheet Model, *Paleoceanography and Paleoclimatology* 36. <https://doi.org/10.1029/2021pa004272>
 
@@ -426,6 +439,8 @@ Knox, J.C., P.J. Bartlein, K.K. Hirschboeck and R.J. Muckenhirn, 1975, The respo
 Knox, J.C., P.J. Bartlein and W.C. Johnson, 1974, Environmental assessment of sediment sources and sedimentation distribution for the Lake LaFarge watershed and impoundment, Institute for Environmental Studies, University of Wisconsin-Madison, Report 28, pp. 77-116.
 
 PUBLISHED DATA SETS
+
+Thompson, R. S., K. Anderson, R. T. Pelltier, L. E. Strickland, S. Shafer, and P. J. Bartlein, 2023: A gridded database of the modern distributions of climate, woody plant taxa, and ecoregions for the continental United States and Canada. United States Geological Survey. <https://doi.org/10.5066/P9FPD80E>
 
 Strickland, L.E., Thompson, R.S., Anderson, K.H., Pelltier, R.T., Shafer, S.L., Bartlein, P.J., Schumann, R.R., and McFadden, A.K., 2022, USGS North American Packrat Midden Database, Version 5.0: U.S. Geological Survey data release, <https://doi.org/10.5066/P91UOARW>.
 

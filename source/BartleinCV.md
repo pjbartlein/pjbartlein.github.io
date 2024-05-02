@@ -45,6 +45,18 @@ American Association of Geographers (AAG) Distinguished Scholarship Honors, 2017
 
 PUBLICATIONS
 
+Clark, P. U., J. D. Shakun, Y. Rosenthal, P. Koehler, and P. J. Bartlein, 2024, Global and regional temperature change over the past 4.5 million years. *Science*, 383. <https://doi.org/10.1126/science.adi1908>
+
+Gavin, D.G., P.J. Bartlein, and C.J. Mock, 2023, Historical archives reveal record rainfall and severe flooding in December 1867 resulting from an atmospheric river and snowmelt, western Washington, USA. *PLOS Climate* 2(12) e0000324, <https://doi.org/10.1371/journal.pclm.0000324>
+
+Cruz-Silva, E., S. P. Harrison, I. C. Prentice, E. Marinova, P. J. Bartlein, H. Renssen, and Y. Zhang, 2023, Pollen-based reconstructions of Holocene climate trends in the eastern Mediterranean region. *Climate of the Past*, 19**,** 2093-2108. <https://doi.org/10.5194/cp-19-2093-2023>
+
+Holliday, V. T., T. L. Daulton, P. J. Bartlein, M. B. Boslough, R. P. Breslawski, A. E. Fisher, I. A. Jorgeson, A. C. Scott, C. Koeberl, J. R. Marlon, J. Severinghaus, M. I. Petaev, and P. Claeys, 2023, Comprehensive refutation of the Younger Dryas Impact Hypothesis (YDIH). *Earth-Science Reviews*, 247. <https://doi.org/10.1016/j.earscirev.2023.104502>
+
+Strickland, L. E., R. S. Thompson, S. L. Shafer, P. J. Bartlein, R. T. Pelltier, K. H. Anderson, R. R. Schumann, and A. K. McFadden, 2024, Plant macrofossil data for 48-0 ka in the USGS North American Packrat Midden Database, version 5.0. *Scientific Data*, 11. <https://doi.org/10.1038/s41597-023-02616-y>
+
+Uscanga, A., P. J. Bartlein, and L. C. R. Silva, 2023, Local and Regional Effects of Land-Use Intensity on Aboveground Biomass and Tree Diversity in Tropical Montane Cloud Forests. *Ecosystems*, 26**,** 1734-1752. https://doi.org/10.1007/s10021-023-00861-1
+
 Sommers, A.N., B.L. Otto-Bliesner, W.H. Lipscomb, M. Lofverstrom, S.L. Shafer, P.J. Bartlein, et al., 2021, Retreat and regrowth of the Greenland Ice Sheet ruring the Last Interglacial as simulated by the CESM2-CISM2 Coupled Climate-Ice Sheet Model, *Paleoceanography and Paleoclimatology* 36. <https://doi.org/10.1029/2021pa004272>
 
 Bartlein, P.J. and T. Webb III, 2021, Paleoclimatic data syntheses from the terrestrial realm: history and prospects. *PAGES Magazine* 29:70-71 <https://doi.org/10.22498/pages.29.2.70>
@@ -471,6 +483,8 @@ Knox, J.C., P.J. Bartlein and W.C. Johnson, 1974, Environmental assessment of se
 
 PUBLISHED DATA SETS
 
+Thompson, R. S., K. Anderson, R. T. Pelltier, L. E. Strickland, S. Shafer, and P. J. Bartlein, 2023: A gridded database of the modern distributions of climate, woody plant taxa, and ecoregions for the continental United States and Canada. United States Geological Survey. <https://doi.org/10.5066/P9FPD80E>
+
 Strickland, L.E., Thompson, R.S., Anderson, K.H., Pelltier, R.T., Shafer, S.L., Bartlein, P.J., Schumann, R.R., and McFadden, A.K., 2022, USGS North American Packrat Midden Database, Version 5.0: U.S. Geological Survey data release, <https://doi.org/10.5066/P91UOARW>.
 
 Shafer, S.L., Bartlein, P.J., Izumi, K., 2021, PMIP3/CMIP5 lgm simulated temperature data for North America downscaled to a 10-km grid: U.S. Geological Survey data release, <https://doi.org/10.5066/P9KC0L47>.
@@ -511,6 +525,12 @@ Millspaugh, S.H., C. Whitlock and P.J. Bartlein, 2000, Variations in fire freque
 <https://www.ncei.noaa.gov/pub/data/paleo/firehistory/charcoal/northamerica/uscyg001.txt>
 
 INVITED LECTURES AND SELECTED CONFERENCE PAPERS
+
+"Paleofire reconstructions from sedimentary charcoal analyses: review and improvement of the approaches =for decomposing, compositing, and synthesizing records", P.J. Bartlein, J.R. Marlon, and N O'Mara AGU Fall Meeting Abstracts 2023, PP44A-07
+
+"Simulated Last Interglacial and Projected Future Global Biomes at High Latitudes", S. Shafer, P.J. Bartlein, AGU Fall Meeting Abstracts 2023, PP03-03.
+
+"Expanding the palette of potential explanations for change and variability in paleoclimatic reconstructions by applying data-science and machine-learning methods to diagnose climate change and climate variability in transient and long-run snapshot simulations. P.J. Bartlein, AGU Fall Meeting Abstracdts 2022.
 
 "LPJ-GUESS Simulated Vegetation Changes from 21-0 ka for the HJ Andrews Experimental Forest Long Term Ecological Research Site (Oregon, USA)", S Shafer, P Bartlein, AGU Fall Meeting Abstracts 2021, PP15E-0971.
 

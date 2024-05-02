@@ -48,9 +48,11 @@ HONORS
 
 Fellow, American Association for the Advancement of Science (AAAS), 2008; American Quaternary Association (AMQUA) Distinguished Career Award, 2016; American Association of Geographers (AAG) Distinguished Scholarship Honors, 2017.
 
-RECENT PUBLICATIONS (225 total; WOS: 218 indexed, 20,839 citations, 12 highly cited; h-index: 79)
+RECENT PUBLICATIONS (209 total; WOS: 166 indexed, 19,098 citations, 12 highly cited; h-index: 77)
 
-Marshall, J.A., J.J. Roering, A.W. Remple, S.L. Shafer and P.J. Bartlein, 2021, Extensive frost weathering across unglaciated North America during the Last Glacial Maximum. Geophysical Research Letters 48, e2020GL090305 <https://doi.org/10.1029/2020GL090305>
+Clark, P. U., J. D. Shakun, Y. Rosenthal, P. Koehler, and P. J. Bartlein, 2024, Global and regional temperature change over the past 4.5 million years. Science, 383. <https://doi.org/10.1126/science.adi1908>
+
+Holliday, V. T., T. L. Daulton, P. J. Bartlein, M. B. Boslough, R. P. Breslawski, A. E. Fisher, I. A. Jorgeson, A. C. Scott, C. Koeberl, J. R. Marlon, J. Severinghaus, M. I. Petaev, and P. Claeys, 2023, Comprehensive refutation of the Younger Dryas Impact Hypothesis (YDIH). Earth-Science Reviews, 247. <https://doi.org/10.1016/j.earscirev.2023.104502>
 
 Otto-Bliesner, B.L. Brady, E.C., Tomas, RA, Albani, S., Bartlein, P.J., Mahowald, N.M.Shafer, S.L., Kluzek, E., Lawrence, P.J., Leguy, G., Rothstein, M., Sommers, A.N. 2020, A Comparison of the CMIP6 midHolocene and lig127k Simulations in CESM, Paleoceanography and Paleoclimatology 11 e2020PA003957, <http://doi.org/10.1029/2020PA003957>
 
@@ -81,7 +83,5 @@ Izumi, K., P.J. Bartlein and S.P. Harrison, 2013, Consistent large-scale tempera
 Marlon, J.R. P.J. Bartlein, A.-L. Daniau, S.P. Harrison, S.Y. Maesumi, M.J. Power, W. Tinner, B. Vanniére, 2013, Global biomass burning: a synthesis and review of Holocene paleofire records and their controls. *Quaternary Science Reviews* 65:5-25
 
 Braconnot, P., S.P. Harrison, M. Kageyama, P.J. Bartlein, V. Masson-Delmotte, A. Abe-Ouchi, B. Otto-Bliesner & Y. Zhao, 2012, Evaluation of climate models using palaeoclimatic data. *Nature Climate Change* 2:417-424, doi:10.1038/nclimate1456.
-
-Clark, P.U., J.D. Shakun, P.A. Baker, P.J. Bartlein, S. Brewer, E. Brook, A.E. Carlson, H. Cheng, D.S. Kaufman, Z. Liu, T.M. Marchitto, A.C. Mix, C. Morrill, B.L. Otto-Bliesner, K. Pahnke, J.M. Russell, C. Whitlock, J.F. Adkins, J.L. Blois, J. Clark, S.M. Colman, W.B. Curry, B.P. Flower, F. He, T.C. Johnson, J. Lynch-Stieglitz, V. Markgraf, J. McManus, J.X. Mitrovica, P.I. Moreno & J.W. Williams, 2012, Global climate evolution during the last deglaciation. *Proceedings of the National Academy of Sciences*doi:10.1073/pnas.1116619109
 
 Marlon, J.R., P.J. Bartlein, D.G. Gavin, C.J. Long, R.S. Anderson, C.E. Briles, K.J. Brown, D. Colombaroli, D.J. Hallett, M.J. Power, E.A. Scharf & M.K. Walsh, 2012, Long-term perspective on wildfires in the western USA. *Proceedings of the National Academy of Sciences* 109:E535-E543.
