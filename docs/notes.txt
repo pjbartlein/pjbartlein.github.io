@@ -10,7 +10,7 @@ To build pjbartlein.github.io webpage
 
 3. run Pandoc
 
-pandoc -s BartleinCV.docx -t markdown -o BartleinCV.md --wrap=none
+pandoc -s BartleinCV-May2024.docx -t markdown -o BartleinCV.md --wrap=none
 pandoc -s BartleinAcadBio.docx -t markdown -o BartleinAcadBio.md --wrap=none
 pandoc -s BartleinPublications.docx -t markdown -o BartleinPublications.md --wrap=none
 
