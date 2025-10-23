@@ -1,268 +1,73 @@
 <!DOCTYPE html>
-
-<html>
-
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
 <head>
-
-<meta charset="utf-8" />
-<meta name="generator" content="pandoc" />
-<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
-
-
-
-
-<title>BartleinPublications</title>
-
-<script src="site_libs/header-attrs-2.26/header-attrs.js"></script>
-<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
-<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
-<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
-<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
-<style>h1 {font-size: 34px;}
-       h1.title {font-size: 38px;}
-       h2 {font-size: 30px;}
-       h3 {font-size: 24px;}
-       h4 {font-size: 18px;}
-       h5 {font-size: 16px;}
-       h6 {font-size: 12px;}
-       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
-       pre:not([class]) { background-color: white }</style>
-<script src="site_libs/navigation-1.1/tabsets.js"></script>
-
-<style type="text/css">
-  code{white-space: pre-wrap;}
-  span.smallcaps{font-variant: small-caps;}
-  span.underline{text-decoration: underline;}
-  div.column{display: inline-block; vertical-align: top; width: 50%;}
-  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-  ul.task-list{list-style: none;}
-    </style>
-
-
-
-
-
-
-
-<link rel="stylesheet" href="md-08.css" type="text/css" />
-
-
-
-<style type = "text/css">
-.main-container {
-  max-width: 940px;
-  margin-left: auto;
-  margin-right: auto;
-}
-img {
-  max-width:100%;
-}
-.tabbed-pane {
-  padding-top: 12px;
-}
-.html-widget {
-  margin-bottom: 20px;
-}
-button.code-folding-btn:focus {
-  outline: none;
-}
-summary {
-  display: list-item;
-}
-details > summary > p:only-child {
-  display: inline;
-}
-pre code {
-  padding: 0;
-}
-</style>
-
-
-<style type="text/css">
-.dropdown-submenu {
-  position: relative;
-}
-.dropdown-submenu>.dropdown-menu {
-  top: 0;
-  left: 100%;
-  margin-top: -6px;
-  margin-left: -1px;
-  border-radius: 0 6px 6px 6px;
-}
-.dropdown-submenu:hover>.dropdown-menu {
-  display: block;
-}
-.dropdown-submenu>a:after {
-  display: block;
-  content: " ";
-  float: right;
-  width: 0;
-  height: 0;
-  border-color: transparent;
-  border-style: solid;
-  border-width: 5px 0 5px 5px;
-  border-left-color: #cccccc;
-  margin-top: 5px;
-  margin-right: -10px;
-}
-.dropdown-submenu:hover>a:after {
-  border-left-color: #adb5bd;
-}
-.dropdown-submenu.pull-left {
-  float: none;
-}
-.dropdown-submenu.pull-left>.dropdown-menu {
-  left: -100%;
-  margin-left: 10px;
-  border-radius: 6px 0 6px 6px;
-}
-</style>
-
-<script type="text/javascript">
-// manage active state of menu based on current page
-$(document).ready(function () {
-  // active menu anchor
-  href = window.location.pathname
-  href = href.substr(href.lastIndexOf('/') + 1)
-  if (href === "")
-    href = "index.html";
-  var menuAnchor = $('a[href="' + href + '"]');
-
-  // mark the anchor link active (and if it's in a dropdown, also mark that active)
-  var dropdown = menuAnchor.closest('li.dropdown');
-  if (window.bootstrap) { // Bootstrap 4+
-    menuAnchor.addClass('active');
-    dropdown.find('> .dropdown-toggle').addClass('active');
-  } else { // Bootstrap 3
-    menuAnchor.parent().addClass('active');
-    dropdown.addClass('active');
-  }
-
-  // Navbar adjustments
-  var navHeight = $(".navbar").first().height() + 15;
-  var style = document.createElement('style');
-  var pt = "padding-top: " + navHeight + "px; ";
-  var mt = "margin-top: -" + navHeight + "px; ";
-  var css = "";
-  // offset scroll position for anchor links (for fixed navbar)
-  for (var i = 1; i <= 6; i++) {
-    css += ".section h" + i + "{ " + pt + mt + "}\n";
-  }
-  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
-  document.head.appendChild(style);
-});
-</script>
-
-<!-- tabsets -->
-
-<style type="text/css">
-.tabset-dropdown > .nav-tabs {
-  display: inline-table;
-  max-height: 500px;
-  min-height: 44px;
-  overflow-y: auto;
-  border: 1px solid #ddd;
-  border-radius: 4px;
-}
-
-.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "\e259";
-  font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "\e258";
-  font-family: 'Glyphicons Halflings';
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs > li.active {
-  display: block;
-}
-
-.tabset-dropdown > .nav-tabs > li > a,
-.tabset-dropdown > .nav-tabs > li > a:focus,
-.tabset-dropdown > .nav-tabs > li > a:hover {
-  border: none;
-  display: inline-block;
-  border-radius: 4px;
-  background-color: transparent;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
-  display: block;
-  float: none;
-}
-
-.tabset-dropdown > .nav-tabs > li {
-  display: none;
-}
-</style>
-
-<!-- code folding -->
-
-
-
-
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>BartleinPublications</title>
+  <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <link rel="stylesheet" href="pdf_wide.css" />
 </head>
-
 <body>
-
-
-<div class="container-fluid main-container">
-
-
-
-
-<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
-  <div class="container">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="index.html">Patrick J. Bartlein</a>
-    </div>
-    <div id="navbar" class="navbar-collapse collapse">
-      <ul class="nav navbar-nav">
-        <li>
-  <a href="publications.html">Publications</a>
-</li>
-<li>
-  <a href="pdfs.html">.pdfs</a>
-</li>
-<li>
-  <a href="cv.html">CVs</a>
-</li>
-<li>
-  <a href="websites.html">Web Sites</a>
-</li>
-      </ul>
-      <ul class="nav navbar-nav navbar-right">
-        <li>
-  <a href="contact.html">Contact</a>
-</li>
-      </ul>
-    </div><!--/.nav-collapse -->
-  </div><!--/.container -->
-</div><!--/.navbar -->
-
-<div id="header">
-
-
-
-
-</div>
-
-
 <p>Publications</p>
 <p>(See the .pdf tab for reprints of some of these.)</p>
+<p>Clark, P.U., Shakun, J.D., Rosenthal, Y., Pollard, D., Hostetler,
+S.W., Kohler, P., Bartlein, P.J., Gregory, J.M., Zhu, C., Schrag, D.P.,
+Liu, Z. and Pisias, N.G., 2025. Global mean sea level over the past 4.5
+million years. <em>Science</em>, 390(6770): eadv8389. <a
+href="https://doi.org/10.1126/science.adv8389"
+class="uri">https://doi.org/10.1126/science.adv8389</a>.</p>
+<p>Harrison, S.P., Bartlein, P.J., Cruz-Silva, E., Haas, O., Jackson,
+S.T., Kaushal, N., Liu, M.M., Magri, D., Robson, D.T., Vettoretti, G.
+and Prentice, I.C., 2025. Paleoclimate Perspectives on Contemporary
+Climate Change. <em>Annual Review of Environment and Resources</em>,
+50(1): 67-95. https://doi.org/10.1146/annurev-environ-112922-110121
+.</p>
+<p>Clark, P.U., Shakun, J.D., Rosenthal, Y., Zhu, C.Y., Bartlein, P.J.,
+Gregory, J.M., Köhler, P., Liu, Z.Y. and Schrag, D.P., 2025. Mean ocean
+temperature change and decomposition of the benthic δ<sup>18</sup> O
+record over the past 4.5 million years. <em>Climate of the Past</em>,
+21(6): 973-1000. https://doi.org/10.5194/cp-21-973-2025 .</p>
+<p>Harrison, S.P., Haas, O., Bartlein, P.J., Sweeney, L. and Zhang,
+G.X., 2025. Climate, vegetation, people: disentangling the controls of
+fire at different timescales. <em>Philosophical Transactions of the
+Royal Society B-Biological Sciences,</em> 380(1924).
+https://doi.org/10.1098/rstb.2023.0464 .</p>
+<p>Strickland, L.E., Thompson, R.S., Shafer, S.L., Bartlein, P.J.,
+Pelltier, R.T., Anderson, K.H., Schumann, R.R. and McFadden, A.K., 2024.
+Plant macrofossil data for 48-0 ka in the USGS North American Packrat
+Midden Database, version 5.0. <em>Scientific Data</em>, 11(1): 68. <a
+href="https://doi.org/10.1038/s41597-023-02616-y"
+class="uri">https://doi.org/10.1038/s41597-023-02616-y</a>.</p>
+<p>Holliday, V.T., Daulton, T.L. and Bartlein, P.J., 2025. Response to
+Zamora regarding the Carolina Bays. <em>Earth-Science Reviews</em>, 261.
+https://doi.org/10.1016/j.earscirev.2024.105025 .</p>
+<p>Holliday, V.T., Daulton, T.L., Bartlein, P.J., Boslough, M.B.,
+Breslawski, R.P., Fisher, A.E., Jorgeson, I.A., Scott, A.C., Koeberl,
+C., Marlon, J.R., Severinghaus, J., Petaev, M.I. and Claeys, P., 2024.
+Rebuttal of Sweatman, Powell, and West's "Rejection of Holliday et al.'s
+alleged refutation of the Younger Dryas Impact Hypothesis".
+<em>Earth-Science Reviews</em>, 258.
+https://doi.org/10.1016/j.earscirev.2024.104961 .</p>
 <p>Clark, P. U., J. D. Shakun, Y. Rosenthal, P. Koehler, and P. J.
 Bartlein, 2024, Global and regional temperature change over the past 4.5
 million years. <em>Science</em>, 383. <a
@@ -284,7 +89,7 @@ class="uri">https://doi.org/10.5194/cp-19-2093-2023</a></p>
 Breslawski, A. E. Fisher, I. A. Jorgeson, A. C. Scott, C. Koeberl, J. R.
 Marlon, J. Severinghaus, M. I. Petaev, and P. Claeys, 2023,
 Comprehensive refutation of the Younger Dryas Impact Hypothesis (YDIH).
-Earth-Science Reviews, 247. <a
+<em>Earth-Science Reviews</em>, 247. <a
 href="https://doi.org/10.1016/j.earscirev.2023.104502"
 class="uri">https://doi.org/10.1016/j.earscirev.2023.104502</a></p>
 <p>Strickland, L. E., R. S. Thompson, S. L. Shafer, P. J. Bartlein, R.
@@ -296,9 +101,8 @@ class="uri">https://doi.org/10.1038/s41597-023-02616-y</a></p>
 <p>Uscanga, A., P. J. Bartlein, and L. C. R. Silva, 2023, Local and
 Regional Effects of Land-Use Intensity on Aboveground Biomass and Tree
 Diversity in Tropical Montane Cloud Forests. <em>Ecosystems</em>,
-26<strong>,</strong> 1734-1752. <a
-href="https://doi.org/10.1007/s10021-023-00861-1"
-class="uri">https://doi.org/10.1007/s10021-023-00861-1</a></p>
+26<strong>,</strong> 1734-1752.
+https://doi.org/10.1007/s10021-023-00861-1</p>
 <p>Sommers, A.N., B.L. Otto-Bliesner, W.H. Lipscomb, M. Lofverstrom,
 S.L. Shafer, P.J. Bartlein, et al., 2021, Retreat and regrowth of the
 Greenland Ice Sheet ruring the Last Interglacial as simulated by the
@@ -379,10 +183,9 @@ surface climate associated with 1986–2013 wildfires in North America.
 class="uri">https://doi.org/10.1029/2017JG004195</a></p>
 <p>Marsicek, J., B.N. Shuman, P.J. Bartlein, S.L. Shafer &amp; S.
 Brewer, 2018, Reconciling divergent trends and millennial variations in
-Holocene temperatures. <em>Nature</em> 554:92. <a
-href="https://dx.doi.org/10.1038/nature25464"
-class="uri">https://dx.doi.org/10.1038/nature25464</a> News &amp;Views:
-<a href="http://dx.doi.org/10.1038/d41586-018-00943-4"
+Holocene temperatures. <em>Nature</em> 554:92.
+<u>https://dx.doi.org/10.1038/nature25464</u> News &amp;Views: <a
+href="http://dx.doi.org/10.1038/d41586-018-00943-4"
 class="uri">http://dx.doi.org/10.1038/d41586-018-00943-4</a></p>
 <p>Kageyama, M., P. Braconnot, S.P. Harrison, A.M. Haywood, J.
 Jungclaus, B.L. Otto-Bliesner, J.Y. Peterschmitt, A. Abe-Ouchi, S.
@@ -415,9 +218,8 @@ href="https://doi.org/10.5194/cp-13-1355-2017"
 class="uri">https://doi.org/10.5194/cp-13-1355-2017</a></p>
 <p>Bartlein, P.J., S.P. Harrison and K. Izumi, 2017, Underlying causes
 of Eurasian mid-continental aridity in simulations of mid-Holocene
-climate, <em>Geophysical Research Letters</em>. 44:1-9, <a
-href="http://dx.doi.org/10.1002/2017GL074476"
-class="uri">http://dx.doi.org/10.1002/2017GL074476</a></p>
+climate, <em>Geophysical Research Letters</em>. 44:1-9,
+<u>http://dx.doi.org/10.1002/2017GL074476</u></p>
 <p>Carter, V. A., M. J. Power, Z. J. Lundeen, J. L. Morris, K. L.
 Petersen, A. Brunelle, R. S. Anderson, J. J. Shinker, L. Turney, R. Koll
 &amp; P. J. Bartlein, 2017, A 1,500-year synthesis of wildfire activity
@@ -434,9 +236,8 @@ Bartlein, J. Cao, G. Lohmann, R. Ohgaito, X. Shi, E. Volodin, K.
 Yoshida, X. Zhang &amp; W. Zheng, 2017, The PMIP4 contribution to CMIP6
 – Part 4: Scientific objectives and experimental design of the
 PMIP4-CMIP6 Last Glacial Maximum experiments and PMIP4 sensitivity
-experiments. <em>Geosci. Model Dev. Discuss.</em> 2017:1-33. <a
-href="https://doi.org/10.5194/gmd-2016-106"
-class="uri">https://doi.org/10.5194/gmd-2016-106</a></p>
+experiments. <em>Geosci. Model Dev. Discuss.</em> 2017:1-33.
+<u>https://doi.org/10.5194/gmd-2016-106</u></p>
 <p>Daniels, S. &amp; P.J. Bartlein, 2016, Charting time. <em>Annals of
 the American Association of Geographers</em> 107:28-32. <a
 href="https://doi.org/10.1080/24694452.2016.1230420"
@@ -444,9 +245,8 @@ class="uri">https://doi.org/10.1080/24694452.2016.1230420</a></p>
 <p>Izumi, K. and P.J. Bartlein, 2016, North American paleoclimate
 reconstructions for the last glacial maximum using an inverse-modeling
 through iterative-forward-modeling (IMIFM) approach applied to pollen
-data. <em>Geophysical Research Letters.</em> 43:1-8, <a
-href="http://dx.doi.org/10.1002/2016GL070152"
-class="uri">http://dx.doi.org/10.1002/2016GL070152</a></p>
+data. <em>Geophysical Research Letters.</em> 43:1-8,
+<u>http://dx.doi.org/10.1002/2016GL070152</u></p>
 <p>Schwörer, C., D.M. Fisher, D.G. Gavin, C. Temperli &amp; P.J.
 Bartlein, 2016, Modeling postglacial vegetation dynamics of temperate
 forests on the Olympic Peninsula (WA, USA) with special regard to
@@ -583,9 +383,8 @@ Maya Political Systems in Response to Climate Change. <em>Science</em>
 338<strong>:</strong>788-791.</p>
 <p>Daniau, A.-L., P.J. Bartlein, S.P. Harrison and 57 others, 2012,
 Predictability of biomass burning in response to climate changes,
-<em>Global Biogeochemical Cycles</em> 26, GB4007, <a
-href="doi:10.1029/2011GB004249"
-class="uri">doi:10.1029/2011GB004249</a>.</p>
+<em>Global Biogeochemical Cycles</em> 26, GB4007,
+doi:10.1029/2011GB004249.</p>
 <p>Gill, J.L., J.L. Blois, S. Goring, J.R. Marlon, P.J. Bartlein, K.
 Nicoll, A.C. Scott &amp; C. Whitlock, 2012, Paleoecological changes at
 Lake Cuitzeo were not consistent with an extraterrestrial impact.
@@ -602,8 +401,7 @@ range technique, <em>Quaternary Science Reviews</em> 51:18-39.</p>
 <p>Braconnot, P., S.P. Harrison, M. Kageyama, P.J. Bartlein, V.
 Masson-Delmotte, A. Abe-Ouchi, B. Otto-Bliesner &amp; Y. Zhao, 2012,
 Evaluation of climate models using palaeoclimatic data. <em>Nature
-Climate Change</em> 2:417-424, <a href="doi:10.1038/nclimate1456"
-class="uri">doi:10.1038/nclimate1456</a>.</p>
+Climate Change</em> 2:417-424, doi:10.1038/nclimate1456.</p>
 <p>Shafer, S.L., Atkins, J., Bancroft, B.A., Bartlein, P.J., Lawler,
 J.J., Smith, B., and Wilsey, C.B., 2012, Projected climate and
 vegetation changes and potential biotic effects for Fort Benning,
@@ -617,8 +415,7 @@ Whitlock, J.F. Adkins, J.L. Blois, J. Clark, S.M. Colman, W.B. Curry,
 B.P. Flower, F. He, T.C. Johnson, J. Lynch-Stieglitz, V. Markgraf, J.
 McManus, J.X. Mitrovica, P.I. Moreno &amp; J.W. Williams, 2012, Global
 climate evolution during the last deglaciation. <em>Proceedings of the
-National Academy of Sciences</em><a href="doi:10.1073/pnas.1116619109"
-class="uri">doi:10.1073/pnas.1116619109</a></p>
+National Academy of Sciences</em>doi:10.1073/pnas.1116619109</p>
 <p>Marlon, J.R., P.J. Bartlein, D.G. Gavin, C.J. Long, R.S. Anderson,
 C.E. Briles, K.J. Brown, D. Colombaroli, D.J. Hallett, M.J. Power, E.A.
 Scharf &amp; M.K. Walsh, 2012, Long-term perspective on wildfires in the
@@ -734,9 +531,8 @@ Interactions</em> 13:3-1 - 3-50</p>
 <p>Tang, G., S.L. Shafer, P.J. Bartlein, and J.O. Holman, 2009, Effects
 of experimental protocol on global vegetation model accuracy: a
 comparison of simulated and observed vegetation patterns for Asia.
-<em>Ecological Modelling</em>. 220:1481-1491, <a
-href="doi:10.1016/j.ecolmodel.2009.03.021"
-class="uri">doi:10.1016/j.ecolmodel.2009.03.021</a></p>
+<em>Ecological Modelling</em>. 220:1481-1491,
+doi:10.1016/j.ecolmodel.2009.03.021</p>
 <p>Williams, J.W., B. Shuman, P.J. Bartlein, 2009, Abrupt responses of
 the prairie-forest ecotone to early Holocene aridity in mid-continental
 North America. <em>Global and Planetary Change</em> 66:195-207 doi:
@@ -750,8 +546,7 @@ Brunelle, C. Carcaillet, M. Daniels, F. S. Hu, M. Lavoie, C. Long, T.
 Minckley, P. J. H. Richard, A.C. Scott, D. S. Shafer, W. Tinner, C. E.
 Jr. Umbanhowar and C. Whitlock, 2009, Wildfire responses to abrupt
 climate change in North America. <em>Proceedings of the National Academy
-of Sciences.</em> 106:2519-2524 <a href="doi:10.1073/pnas.0808212106"
-class="uri">doi:10.1073/pnas.0808212106</a></p>
+of Sciences.</em> 106:2519-2524 doi:10.1073/pnas.0808212106</p>
 <p>Cook, E.R., P.J. Bartlein, N.S. Diffenbaugh, R. Seager, B.N. Shuman,
 R.S. Webb and J.W. Williams, 2008, Hydrological variability and change,
 in P.U. Clark, A.J. Weaver, E.J. Brook, E.R. Cook and T. Delworth, eds.,
@@ -838,9 +633,8 @@ Canada, American Association of Stratigraphic Palynologists
 <p>Diffenbaugh, N.S., M. Ashfaq, B. Shuman, J.W. Williams, and P.J.
 Bartlein, 2006, Summer aridity in the United States: response to
 mid-Holocene changes in insolation and sea surface temperature.
-<em>Geophysical Research Letters</em> 33, L22712, <a
-href="doi:10.1029/2006GL028012"
-class="uri">doi:10.1029/2006GL028012</a>, 2006</p>
+<em>Geophysical Research Letters</em> 33, L22712,
+doi:10.1029/2006GL028012, 2006</p>
 <p>Marlon, J., P.J. Bartlein, and C. Whitlock, 2006, Fire-fuel-climate
 linkages in the northwestern U.S. during the Holocene. <em>The
 Holocene</em> 16:1065-1077</p>
@@ -949,16 +743,14 @@ Gajewski, V. Wolf, B.Holmqvist, Y. Igarashi, K. Kremenetskii, A. Paus,
 M.F.J. Pisaric and V. S. Volkova, 2003, Climate change and Arctic
 ecosystems I. Vegetation changes north of 55°N between the last glacial
 maximum, mid-Holocene and present, <em>J. Geophysical Research</em>
-108(19): 11-1 to 11-25, <a href="doi:10.1029/2002JD002558"
-class="uri">doi:10.1029/2002JD002558</a>, 2003</p>
+108(19): 11-1 to 11-25, doi:10.1029/2002JD002558, 2003</p>
 <p>Kaplan, J.O., N.H. Bigelow, I.C. Prentice, S.P. Harrison, P.J.
 Bartlein, T.R. Christensen, W. Cramer, N.V. Matveyeva, A.D. McGuire,
 D.F. Murray, V.Y. Razzhivin, B. Smith, D.A. Walker, P.M. Anderson, A.A.
 Andreev, L.B. Brubaker, M.E. Edwards, A.V. Lozhkin, J.C. Ritchie, 2003,
 Climate change and Arctic ecosystems II. Modeling, paleodata-model
 comparisons, and future projections, <em>J. Geophysical Research</em>
-108(19): 12-1 to 12-17, <a href="doi:10.1029/2002JD002559"
-class="uri">doi:10.1029/2002JD002559</a>, 2003</p>
+108(19): 12-1 to 12-17, doi:10.1029/2002JD002559, 2003</p>
 <p>Bartlein, P.J., S.W. Hostetler, S.L. Shafer, J.O. Holman and A.M.
 Solomon (2003). The seasonal cycle of wildfire and climate in the
 western United States, 5th Symposium on Fire and Forest Meteorology.
@@ -978,9 +770,8 @@ climate in the early Holocene. <em>Climate Dynamics</em> 21:243-256.</p>
 <p>Diffenbaugh, N.S., L.C. Sloan, M.A. Snyder, J.L. Bell, J. Kaplan,
 S.L. Shafer and P.J. Bartlein, 2003, Vegetation sensitivity to global
 anthropogenic carbon dioxide emissions in a topographically complex
-region. <em>Global Biogeochemical Cycles</em> 17(2) 1067, <a
-href="doi:10.1029/2002GB001974"
-class="uri">doi:10.1029/2002GB001974</a>, 2003</p>
+region. <em>Global Biogeochemical Cycles</em> 17(2) 1067,
+doi:10.1029/2002GB001974, 2003</p>
 <p>Harrison, S. P., Kutzbach, J. E., Liu, Z., Bartlein, P. J.,
 Otto-Bliesner, B., Muhs, D., Prentice, I. C., and Thompson, R. S., 2003,
 Mid-Holocene climates of the Americas: A dynamical response to changed
@@ -1335,6 +1126,11 @@ assessment of sediment sources and sedimentation distribution for the
 Lake LaFarge watershed and impoundment, Institute for Environmental
 Studies, University of Wisconsin-Madison, Report 28, pp. 77-116.</p>
 <p>PUBLISHED DATA SETS</p>
+<p>Strickland, L.E., Thompson, R.S., Shafer, S.L., Bartlein, P.J.,
+Pelltier, R.T., Anderson, K.H., Schumann, R.R. and McFadden, A.K., 2024.
+Plant macrofossil data for 48-0 ka in the USGS North American Packrat
+Midden Database, version 5.0. <em>Scientific Data</em>, 11(1): 68.
+https://doi.org/10.1038/s41597-023-02616-y .</p>
 <p>Thompson, R. S., K. Anderson, R. T. Pelltier, L. E. Strickland, S.
 Shafer, and P. J. Bartlein, 2023: A gridded database of the modern
 distributions of climate, woody plant taxa, and ecoregions for the
@@ -1373,11 +1169,10 @@ Survey data release, <a href="https://doi.org/10.5066/P9D9S4EY"
 class="uri">https://doi.org/10.5066/P9D9S4EY</a>.</p>
 <p>Marsicek, J., B.N. Shuman, P.J. Bartlein, S.L. Shafer &amp; S.
 Brewer, 2018, Reconciling divergent trends and millennial variations in
-Holocene temperatures. <em>Nature</em> 554:92. <a
-href="https://dx.doi.org/10.1038/nature25464"
-class="uri">https://dx.doi.org/10.1038/nature25464</a> News &amp;Views:
-<a href="http://dx.doi.org/10.1038/d41586-018-00943-4"
-class="uri">http://dx.doi.org/10.1038/d41586-018-00943-4</a><br />
+Holocene temperatures. <em>Nature</em> 554:92.
+<u>https://dx.doi.org/10.1038/nature25464</u> News &amp;Views: <a
+href="http://dx.doi.org/10.1038/d41586-018-00943-4"
+class="uri">http://dx.doi.org/10.1038/d41586-018-00943-4</a>[]{.underline}
 <a
 href="https://www.ncei.noaa.gov/pub/data/paleo/reconstructions/marsicek2018/"
 class="uri">https://www.ncei.noaa.gov/pub/data/paleo/reconstructions/marsicek2018/</a></p>
@@ -1453,8 +1248,8 @@ Bartlein, P. Higuera, O. Blarquez, S. Brewer, T. Brücher, A. Feurdean,
 G. Gil-Romera, V. Iglesias, S. Y. Maezumi, B. Magi, C. J. C. Mustaphi,
 and T. Zhihai. 2016. Reconstructions of biomass burning from sediment
 charcoal records to improve data-model comparisons. Biogeosciences. doi:
-<a href="doi:10.5194/bgd-12-18571-2015\"
-class="uri">doi:10.5194/bgd-12-18571-2015\</a> <a
+doi:10.5194/bgd-12-18571-2015<br />
+<a
 href="https://www.ncei.noaa.gov/pub/data/paleo/firehistory/charcoal/gcd/"
 class="uri">https://www.ncei.noaa.gov/pub/data/paleo/firehistory/charcoal/gcd/</a></p>
 <p>Millspaugh, S.H., C. Whitlock and P.J. Bartlein, 2000, Variations in
@@ -1463,51 +1258,5 @@ Yellowstone National Park. <em>Geology</em> 28:211-214.<br />
 <a
 href="https://www.ncei.noaa.gov/pub/data/paleo/firehistory/charcoal/northamerica/uscyg001.txt"
 class="uri">https://www.ncei.noaa.gov/pub/data/paleo/firehistory/charcoal/northamerica/uscyg001.txt</a></p>
-
-
-
-
-</div>
-
-<script>
-
-// add bootstrap table styles to pandoc tables
-function bootstrapStylePandocTables() {
-  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
-}
-$(document).ready(function () {
-  bootstrapStylePandocTables();
-});
-
-
-</script>
-
-<!-- tabsets -->
-
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-
-$(document).ready(function () {
-  $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open');
-  });
-});
-</script>
-
-<!-- code folding -->
-
-
-<!-- dynamically load mathjax for compatibility with self-contained -->
-<script>
-  (function () {
-    var script = document.createElement("script");
-    script.type = "text/javascript";
-    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
-    document.getElementsByTagName("head")[0].appendChild(script);
-  })();
-</script>
-
 </body>
 </html>

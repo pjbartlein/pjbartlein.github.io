@@ -45,7 +45,21 @@ American Association of Geographers (AAG) Distinguished Scholarship Honors, 2017
 
 PUBLICATIONS
 
-(WOS: 253 indexed, 24,831 citations, h-index: 84; Google Scholar: 34,731 citations, h-index: 96)
+(WOS: 264 indexed, 26,893 citations, h-index: 85; Google Scholar: 37,787 citations, h-index: 99)
+
+Clark, P.U., Shakun, J.D., Rosenthal, Y., Pollard, D., Hostetler, S.W., Kohler, P., Bartlein, P.J., Gregory, J.M., Zhu, C., Schrag, D.P., Liu, Z. and Pisias, N.G., 2025. Global mean sea level over the past 4.5 million years. *Science*, 390(6770): eadv8389. <https://doi.org/10.1126/science.adv8389>.
+
+Harrison, S.P., Bartlein, P.J., Cruz-Silva, E., Haas, O., Jackson, S.T., Kaushal, N., Liu, M.M., Magri, D., Robson, D.T., Vettoretti, G. and Prentice, I.C., 2025. Paleoclimate Perspectives on Contemporary Climate Change. *Annual Review of Environment and Resources*, 50(1): 67-95. https://doi.org/10.1146/annurev-environ-112922-110121 .
+
+Clark, P.U., Shakun, J.D., Rosenthal, Y., Zhu, C.Y., Bartlein, P.J., Gregory, J.M., Köhler, P., Liu, Z.Y. and Schrag, D.P., 2025. Mean ocean temperature change and decomposition of the benthic δ^18^ O record over the past 4.5 million years. *Climate of the Past*, 21(6): 973-1000. https://doi.org/10.5194/cp-21-973-2025 .
+
+Harrison, S.P., Haas, O., Bartlein, P.J., Sweeney, L. and Zhang, G.X., 2025. Climate, vegetation, people: disentangling the controls of fire at different timescales. *Philosophical Transactions of the Royal Society B-Biological Sciences,* 380(1924). https://doi.org/10.1098/rstb.2023.0464 .
+
+Strickland, L.E., Thompson, R.S., Shafer, S.L., Bartlein, P.J., Pelltier, R.T., Anderson, K.H., Schumann, R.R. and McFadden, A.K., 2024. Plant macrofossil data for 48-0 ka in the USGS North American Packrat Midden Database, version 5.0. *Scientific Data*, 11(1): 68. <https://doi.org/10.1038/s41597-023-02616-y>.
+
+Holliday, V.T., Daulton, T.L. and Bartlein, P.J., 2025. Response to Zamora regarding the Carolina Bays. *Earth-Science Reviews*, 261. https://doi.org/10.1016/j.earscirev.2024.105025 .
+
+Holliday, V.T., Daulton, T.L., Bartlein, P.J., Boslough, M.B., Breslawski, R.P., Fisher, A.E., Jorgeson, I.A., Scott, A.C., Koeberl, C., Marlon, J.R., Severinghaus, J., Petaev, M.I. and Claeys, P., 2024. Rebuttal of Sweatman, Powell, and West\'s \"Rejection of Holliday et al.\'s alleged refutation of the Younger Dryas Impact Hypothesis\". *Earth-Science Reviews*, 258. https://doi.org/10.1016/j.earscirev.2024.104961 .
 
 Clark, P. U., J. D. Shakun, Y. Rosenthal, P. Koehler, and P. J. Bartlein, 2024, Global and regional temperature change over the past 4.5 million years. *Science*, 383. <https://doi.org/10.1126/science.adi1908>
 
@@ -485,6 +499,8 @@ Knox, J.C., P.J. Bartlein and W.C. Johnson, 1974, Environmental assessment of se
 
 PUBLISHED DATA SETS
 
+Strickland, L.E., Thompson, R.S., Shafer, S.L., Bartlein, P.J., Pelltier, R.T., Anderson, K.H., Schumann, R.R. and McFadden, A.K., 2024. Plant macrofossil data for 48-0 ka in the USGS North American Packrat Midden Database, version 5.0. *Scientific Data*, 11(1): 68. https://doi.org/10.1038/s41597-023-02616-y .
+
 Thompson, R. S., K. Anderson, R. T. Pelltier, L. E. Strickland, S. Shafer, and P. J. Bartlein, 2023: A gridded database of the modern distributions of climate, woody plant taxa, and ecoregions for the continental United States and Canada. United States Geological Survey. <https://doi.org/10.5066/P9FPD80E>
 
 Strickland, L.E., Thompson, R.S., Anderson, K.H., Pelltier, R.T., Shafer, S.L., Bartlein, P.J., Schumann, R.R., and McFadden, A.K., 2022, USGS North American Packrat Midden Database, Version 5.0: U.S. Geological Survey data release, <https://doi.org/10.5066/P91UOARW>.
@@ -527,6 +543,8 @@ Millspaugh, S.H., C. Whitlock and P.J. Bartlein, 2000, Variations in fire freque
 <https://www.ncei.noaa.gov/pub/data/paleo/firehistory/charcoal/northamerica/uscyg001.txt>
 
 INVITED LECTURES AND SELECTED CONFERENCE PAPERS
+
+"Wildfire during the Last Glacial-Interglacial Transition: No support for widespread synchronous biomass buringing from ice-core and sedimentary charcoal at the beginning fo the YD/GS-1 chronozone. P.J. Bartlein, and J.R. Marlon, AGU Fall Meeting Abstracts 2024, PP21E-0519.
 
 "Paleofire reconstructions from sedimentary charcoal analyses: review and improvement of the approaches =for decomposing, compositing, and synthesizing records", P.J. Bartlein, J.R. Marlon, and N O'Mara AGU Fall Meeting Abstracts 2023, PP44A-07
 
@@ -1144,78 +1162,78 @@ Global Change (24), Paleoclimatology (18)
 Externally Funded Research at the University of Oregon
 
   --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- ------------ ---------- ----------------------------------------------- ---------------
-  Title                                                                                                                                                                       Start Date   Duration   Source                                          U of O Budget
+  Title                                                                                                                                                                        Start Date   Duration  Source                                            U of O Budget
 
-  Prehistoric Climate Determined from Modern Pollen and Climate Relationships                                                                                                 9-82         1 yr       DOE, subcontract from ORNL                      \$ 15,000
+  Prehistoric Climate Determined from Modern Pollen and Climate Relationships                                                                                                     9-82        1 yr    DOE, subcontract from ORNL                            \$ 15,000
 
-  Application of Pollen-Climate Response Surfaces to the Verification of Climate Model Simulations                                                                            8-84         2 yrs      NSF, subcontract from Brown Univ.                16,989
+  Application of Pollen-Climate Response Surfaces to the Verification of Climate Model Simulations                                                                                8-84       2 yrs    NSF, subcontract from Brown Univ.                        16,989
 
-  Vegetational and Climatic Histories of Northcentral Alaska During the Late Quaternary                                                                                       12-84        3 yrs      NSF Division of Polar Programs                   67,639
+  Vegetational and Climatic Histories of Northcentral Alaska During the Late Quaternary                                                                                          12-84       3 yrs    NSF Division of Polar Programs                           67,639
 
-  Methods for the Validation of Paleoclimatic Simulations                                                                                                                     2-85         3.5 yrs    DOE, subcontract from Brown Univ.                52,987
+  Methods for the Validation of Paleoclimatic Simulations                                                                                                                         2-85      3.5 yrs   DOE, subcontract from Brown Univ.                        52,987
 
-  Prehistoric Climate Determined from Modern Pollen and Climate Relationships                                                                                                 1-86         1 yr       DOE, subcontract from ORNL                        8,993
+  Prehistoric Climate Determined from Modern Pollen and Climate Relationships                                                                                                     1-86        1 yr    DOE, subcontract from ORNL                                8,993
 
-  Holocene Paleoclimatic Reconstructions for Europe, NATO Grant for International Collaboration in Research                                                                   6-87         2 yrs      NATO Intl. Collaboration in Research            0
+  Holocene Paleoclimatic Reconstructions for Europe, NATO Grant for International Collaboration in Research                                                                       6-87       2 yrs    NATO Intl. Collaboration in Research                          0
 
-  COHMAP---Cooperative Holocene Mapping Project                                                                                                                               9-87         4 yrs      NSF Climate Dynamics Program                    184,650
+  COHMAP---Cooperative Holocene Mapping Project                                                                                                                                   9-87       4 yrs    NSF Climate Dynamics Program                            184,650
 
-  Paleoclimatology of the Southern Great Basin: Reconstruction of Late-Quaternary Climatic Variations from Paleoecological Data                                               9-87         4 yrs      USDI, U.S. Geological Survey                    115,555
+  Paleoclimatology of the Southern Great Basin: Reconstruction of Late-Quaternary Climatic Variations from Paleoecological Data                                                   9-87       4 yrs    USDI, U.S. Geological Survey                            115,555
 
-  Assessing the Response of Vegetation to Future Trace-Gas-Induced Climatic Change: The Application of Ecological Response Surfaces                                           1-88         1 yr       EPA, Center for Global Habitability             19,932
+  Assessing the Response of Vegetation to Future Trace-Gas-Induced Climatic Change: The Application of Ecological Response Surfaces                                               1-88        1 yr    EPA, Center for Global Habitability                      19,932
 
-  COHMAP\--Cooperative Holocene Mapping Project                                                                                                                               9-91         4 yrs      NSF Climate Dynamics Program                    442,000
+  COHMAP\--Cooperative Holocene Mapping Project                                                                                                                                   9-91       4 yrs    NSF Climate Dynamics Program                            442,000
 
-  Paleoclimatic Reconstruction and Climate Model Validation using Paleoecological Data Sets                                                                                   3-92         2 yr       USDI, U.S. Geological Survey                    43,000
+  Paleoclimatic Reconstruction and Climate Model Validation using Paleoecological Data Sets                                                                                       3-92        2 yr    USDI, U.S. Geological Survey                             43,000
 
-  Potential Magnitude and Rate of Future Vegetation Change in the Western United States in Response to Global Warming (with C. Whitlock)                                      7-92         1 yr       DOE, Natl. Inst. Global Environ-mental Change   75,650
+  Potential Magnitude and Rate of Future Vegetation Change in the Western United States in Response to Global Warming (with C. Whitlock)                                          7-92        1 yr    DOE, Natl. Inst. Global Environ-mental Change            75,650
 
-  EPA Student Traineeship in Global Change                                                                                                                                    9-94         3 yrs      EPA, Student Research Traineeship               79,181
+  EPA Student Traineeship in Global Change                                                                                                                                        9-94       3 yrs    EPA, Student Research Traineeship                        79,181
 
-  TEMPO---Testing Earth-system Models using Paleoenvironmental Observations                                                                                                   6-95         4 yrs      NSF, Paleo-climatology Program                  496,868
+  TEMPO---Testing Earth-system Models using Paleoenvironmental Observations                                                                                                       6-95       4 yrs    NSF, Paleo-climatology Program                          496,868
 
-  Quaternary Paleoclimatic Variations in Beringia: Large-Scale Controls and Regional Responses (with C. Mock)                                                                 6-96         3 yrs      NSF, Arctic System Science                      224,565
+  Quaternary Paleoclimatic Variations in Beringia: Large-Scale Controls and Regional Responses (with C. Mock)                                                                     6-96       3 yrs    NSF, Arctic System Science                              224,565
 
-  Applications of Continental-Scale Climate and Vegetation Data Sets to the Validation of Climate Models and the Projection of the Impacts of Future Climatic Changes         10-96        1 yr       USDI, U.S. Geological Survey                    24,995
+  Applications of Continental-Scale Climate and Vegetation Data Sets to the Validation of Climate Models and the Projection of the Impacts of Future Climatic Changes            10-96        1 yr    USDI, U.S. Geological Survey                             24,995
 
-  Collaborative Research: Late-Quaternary Climate of Northeast Asia: Temporal and Spatial Variations (with C. Mock)                                                           10-98        3 yrs      NSF, Earth-System History Program               111,766
+  Collaborative Research: Late-Quaternary Climate of Northeast Asia: Temporal and Spatial Variations (with C. Mock)                                                              10-98       3 yrs    NSF, Earth-System History Program                       111,766
 
-  TEMPO---Testing Earth-system Models using Paleoenvironmental Observations                                                                                                   9-99         4 yrs      NSF, Earth-System History Program               286,383
+  TEMPO---Testing Earth-system Models using Paleoenvironmental Observations                                                                                                       9-99       4 yrs    NSF, Earth-System History Program                       286,383
 
-  Collaborative Research: Land-Atmosphere Interactions in Beringia over the Last 21,000 Years: An Investigation of Feedback Using the Arctic Regional Climate System Model    9-2000       4 yrs      NSF, Earth-System History Program               83,853
+  Collaborative Research: Land-Atmosphere Interactions in Beringia over the Last 21,000 Years: An Investigation of Feedback Using the Arctic Regional Climate System Model       9-2000      4 yrs    NSF, Earth-System History Program                        83,853
 
-  Methods for Projecting the Response of Vegetation to Regional Climate Change                                                                                                9-2000       1 yr       USDI, U.S. Geological Survey                    44,995
+  Methods for Projecting the Response of Vegetation to Regional Climate Change                                                                                                   9-2000       1 yr    USDI, U.S. Geological Survey                             44,995
 
-  Collaborative ESH/PARCS Research: Centennial-to-Millennial-Scale Climatic Fluctuations in Northeast Siberia during the Last Glacial Cycle (P. Anderson, L. Brubaker, PIs)   9-2001       3 yrs      NSF, Earth-System History Program               0
+  Collaborative ESH/PARCS Research: Centennial-to-Millennial-Scale Climatic Fluctuations in Northeast Siberia during the Last Glacial Cycle (P. Anderson, L. Brubaker, PIs)      9-2001      3 yrs    NSF, Earth-System History Program                             0
 
-  Development and Testing of Process-Based Models and Datasets for\                                                                                                           3-2001       1 yr       USDI, U.S. Geological Survey                    43,025
+  Development and Testing of Process-Based Models and Datasets for\                                                                                                              3-2001       1 yr    USDI, U.S. Geological Survey                             43,025
   Regional-Scale Modeling                                                                                                                                                                                                                             
 
-  Climatic Controls of Fire in the Western United States: from the Atmosphere to Ecosystems (S. Hostetler, P. Bartlein, and A. Solomon, PIs, \$572,136 total)                 10-2001      3 yrs      USDI, Joint Fire-Science Program                0
+  Climatic Controls of Fire in the Western United States: from the Atmosphere to Ecosystems (S. Hostetler, P. Bartlein, and A. Solomon, PIs, \$572,136 total)                   10-2001      3 yrs    USDI, Joint Fire-Science Program                              0
 
-  Holocene Fire-Climate-Vegetation Linkages in the Western Mid-latitude Forests of North and South America (C. Whitlock and P. Bartlein, PIs)                                 10-2001      3 yrs      NSF, Earth-System History Program               418,634
+  Holocene Fire-Climate-Vegetation Linkages in the Western Mid-latitude Forests of North and South America (C. Whitlock and P. Bartlein, PIs)                                   10-2001      3 yrs    NSF, Earth-System History Program                       418,634
 
-  Doctoral Dissertation Research: Visualizing Mechanistic Controls of North American Climate Variability Through Cartographic Animation. (J.J. Shinker and P. Bartlein)       8-2002       1.5 yrs    NSF, Geography and Regional Science Program     9,445
+  Doctoral Dissertation Research: Visualizing Mechanistic Controls of North American Climate Variability Through Cartographic Animation. (J.J. Shinker and P. Bartlein)          8-2002     1.5 yrs   NSF, Geography and Regional Science Program               9,445
 
-  Collaborative Research: Surface-Atmosphere Feedbacks and Holocene Climate\                                                                                                  10-2003      4 years    NSF, Earth-System History Program               0
+  Collaborative Research: Surface-Atmosphere Feedbacks and Holocene Climate\                                                                                                    10-2003     4 years   NSF, Earth-System History Program                             0
   Variations in Eastern North America:  Linkages, Impacts, and Governing\                                                                                                                                                                             
   Mechanisms (B. Shuman and P. Bartlein, PIs, \$198,532 Transferred to Univ. Minnesota)                                                                                                                                                               
 
-  Methods for the interpolation of base-line climate data to regular grids or arbitrary point locations                                                                       8-2004       1 year     USDI, U.S. Geological Survey                    9,724
+  Methods for the interpolation of base-line climate data to regular grids or arbitrary point locations                                                                          8-2004      1 year   USDI, U.S. Geological Survey                              9,724
 
-  Collaborative Research: Project PALEOVAR---Past Climatic variability: understanding mechanisms and interactions with the mean state                                         6-2006       5 years    NSF, Paleoclimatology                           438,803
+  Collaborative Research: Project PALEOVAR---Past Climatic variability: understanding mechanisms and interactions with the mean state                                            6-2006     5 years   NSF, Paleoclimatology                                   438,803
 
-  Collaborative Research:  Holocene Fire-Climate Linkages In Southern South America: Explaining Regional Responses To Large-scale Climate Forcing                             9-2007       3 yrs      NSF, Paleoclimatology                           160,305
+  Collaborative Research:  Holocene Fire-Climate Linkages In Southern South America: Explaining Regional Responses To Large-scale Climate Forcing                                9-2007      3 yrs    NSF, Paleoclimatology                                   160,305
 
-  Doctoral Dissertation Research:  Global Fire Since the Last Glacial Maximum                                                                                                 6-2007       1.5 yrs    NSF, Geography and Regional Science Program     7,585
+  Doctoral Dissertation Research:  Global Fire Since the Last Glacial Maximum                                                                                                    6-2007     1.5 yrs   NSF, Geography and Regional Science Program               7,585
 
-  Assessing and Visualizing the Effects of Past and Future Climate Change on Species and Ecosystems                                                                           8-2010       2 yr       U.S. Geological Survey                          259,464
+  Assessing and Visualizing the Effects of Past and Future Climate Change on Species and Ecosystems                                                                              8-2010       2 yr    U.S. Geological Survey                                  259,464
 
-  Doctoral Dissertation Research: A Hierarchical Modeling Approach to Simulating the Geomorphic Response of River Systems to Environmental Change                             8-2012       2 yr       NSF, Geography and Spatial Sciences Program     13,726
+  Doctoral Dissertation Research: A Hierarchical Modeling Approach to Simulating the Geomorphic Response of River Systems to Environmental Change                                8-2012       2 yr    NSF, Geography and Spatial Sciences Program              13,726
 
-  Climate Change Effects on Ecosystems: Analysis of Simulated Climate Change Impacts on Ecosystems in the Western US                                                          5-2014       1 yr       USGS, subcontract from OSU                      28,440
+  Climate Change Effects on Ecosystems: Analysis of Simulated Climate Change Impacts on Ecosystems in the Western US                                                             5-2014       1 yr    USGS, subcontract from OSU                               28,440
 
-  Collaborative Research: Testing hypotheses about human and climate impacts on fire over the past millennium using paleodata syntheses and global fire modeling              9-2014       3 yrs      NSF, Geography and Spatial Sciences             27,370
+  Collaborative Research: Testing hypotheses about human and climate impacts on fire over the past millennium using paleodata syntheses and global fire modeling                 9-2014      3 yrs    NSF, Geography and Spatial Sciences                      27,370
 
-  Total External Funding                                                                                                                                                                                                                              \$3,649,914
+  Total External Funding                                                                                                                                                                                                                                  \$3,649,914
   --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- ------------ ---------- ----------------------------------------------- ---------------

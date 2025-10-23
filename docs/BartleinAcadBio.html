@@ -1,274 +1,40 @@
 <!DOCTYPE html>
-
-<html>
-
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
 <head>
-
-<meta charset="utf-8" />
-<meta name="generator" content="pandoc" />
-<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
-
-
-
-
-<title>BartleinAcadBio</title>
-
-<script src="site_libs/header-attrs-2.26/header-attrs.js"></script>
-<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
-<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
-<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
-<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
-<style>h1 {font-size: 34px;}
-       h1.title {font-size: 38px;}
-       h2 {font-size: 30px;}
-       h3 {font-size: 24px;}
-       h4 {font-size: 18px;}
-       h5 {font-size: 16px;}
-       h6 {font-size: 12px;}
-       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
-       pre:not([class]) { background-color: white }</style>
-<script src="site_libs/navigation-1.1/tabsets.js"></script>
-
-<style type="text/css">
-  code{white-space: pre-wrap;}
-  span.smallcaps{font-variant: small-caps;}
-  span.underline{text-decoration: underline;}
-  div.column{display: inline-block; vertical-align: top; width: 50%;}
-  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-  ul.task-list{list-style: none;}
-    </style>
-
-
-
-
-
-
-
-<link rel="stylesheet" href="md-08.css" type="text/css" />
-
-
-
-<style type = "text/css">
-.main-container {
-  max-width: 940px;
-  margin-left: auto;
-  margin-right: auto;
-}
-img {
-  max-width:100%;
-}
-.tabbed-pane {
-  padding-top: 12px;
-}
-.html-widget {
-  margin-bottom: 20px;
-}
-button.code-folding-btn:focus {
-  outline: none;
-}
-summary {
-  display: list-item;
-}
-details > summary > p:only-child {
-  display: inline;
-}
-pre code {
-  padding: 0;
-}
-</style>
-
-
-<style type="text/css">
-.dropdown-submenu {
-  position: relative;
-}
-.dropdown-submenu>.dropdown-menu {
-  top: 0;
-  left: 100%;
-  margin-top: -6px;
-  margin-left: -1px;
-  border-radius: 0 6px 6px 6px;
-}
-.dropdown-submenu:hover>.dropdown-menu {
-  display: block;
-}
-.dropdown-submenu>a:after {
-  display: block;
-  content: " ";
-  float: right;
-  width: 0;
-  height: 0;
-  border-color: transparent;
-  border-style: solid;
-  border-width: 5px 0 5px 5px;
-  border-left-color: #cccccc;
-  margin-top: 5px;
-  margin-right: -10px;
-}
-.dropdown-submenu:hover>a:after {
-  border-left-color: #adb5bd;
-}
-.dropdown-submenu.pull-left {
-  float: none;
-}
-.dropdown-submenu.pull-left>.dropdown-menu {
-  left: -100%;
-  margin-left: 10px;
-  border-radius: 6px 0 6px 6px;
-}
-</style>
-
-<script type="text/javascript">
-// manage active state of menu based on current page
-$(document).ready(function () {
-  // active menu anchor
-  href = window.location.pathname
-  href = href.substr(href.lastIndexOf('/') + 1)
-  if (href === "")
-    href = "index.html";
-  var menuAnchor = $('a[href="' + href + '"]');
-
-  // mark the anchor link active (and if it's in a dropdown, also mark that active)
-  var dropdown = menuAnchor.closest('li.dropdown');
-  if (window.bootstrap) { // Bootstrap 4+
-    menuAnchor.addClass('active');
-    dropdown.find('> .dropdown-toggle').addClass('active');
-  } else { // Bootstrap 3
-    menuAnchor.parent().addClass('active');
-    dropdown.addClass('active');
-  }
-
-  // Navbar adjustments
-  var navHeight = $(".navbar").first().height() + 15;
-  var style = document.createElement('style');
-  var pt = "padding-top: " + navHeight + "px; ";
-  var mt = "margin-top: -" + navHeight + "px; ";
-  var css = "";
-  // offset scroll position for anchor links (for fixed navbar)
-  for (var i = 1; i <= 6; i++) {
-    css += ".section h" + i + "{ " + pt + mt + "}\n";
-  }
-  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
-  document.head.appendChild(style);
-});
-</script>
-
-<!-- tabsets -->
-
-<style type="text/css">
-.tabset-dropdown > .nav-tabs {
-  display: inline-table;
-  max-height: 500px;
-  min-height: 44px;
-  overflow-y: auto;
-  border: 1px solid #ddd;
-  border-radius: 4px;
-}
-
-.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "\e259";
-  font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "\e258";
-  font-family: 'Glyphicons Halflings';
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs > li.active {
-  display: block;
-}
-
-.tabset-dropdown > .nav-tabs > li > a,
-.tabset-dropdown > .nav-tabs > li > a:focus,
-.tabset-dropdown > .nav-tabs > li > a:hover {
-  border: none;
-  display: inline-block;
-  border-radius: 4px;
-  background-color: transparent;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
-  display: block;
-  float: none;
-}
-
-.tabset-dropdown > .nav-tabs > li {
-  display: none;
-}
-</style>
-
-<!-- code folding -->
-
-
-
-
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>BartleinAcadBio</title>
+  <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <link rel="stylesheet" href="pdf_wide.css" />
 </head>
-
 <body>
-
-
-<div class="container-fluid main-container">
-
-
-
-
-<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
-  <div class="container">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="index.html">Patrick J. Bartlein</a>
-    </div>
-    <div id="navbar" class="navbar-collapse collapse">
-      <ul class="nav navbar-nav">
-        <li>
-  <a href="publications.html">Publications</a>
-</li>
-<li>
-  <a href="pdfs.html">.pdfs</a>
-</li>
-<li>
-  <a href="cv.html">CVs</a>
-</li>
-<li>
-  <a href="websites.html">Web Sites</a>
-</li>
-      </ul>
-      <ul class="nav navbar-nav navbar-right">
-        <li>
-  <a href="contact.html">Contact</a>
-</li>
-      </ul>
-    </div><!--/.nav-collapse -->
-  </div><!--/.container -->
-</div><!--/.navbar -->
-
-<div id="header">
-
-
-
-
-</div>
-
-
 <p>Patrick J. Bartlein</p>
 <p>CONTACT INFORMATION</p>
 <p>Department of Geography, University of Oregon, Eugene, Oregon
 97403-1251; (541) 346-4555 -4967 (office); email: <a
 href="mailto:bartlein@oregon.uoregon.edu">bartlein@uoregon.edu</a>; www:
-<a href="https://pjbartlein.github.io"
-class="uri">https://pjbartlein.github.io</a> ResearcherID: E-4643-2011;
-ORCID: 0000-0001-7657-5685; <a
+https://pjbartlein.github.io ResearcherID: E-4643-2011; ORCID:
+0000-0001-7657-5685; <a
 href="https://scholar.google.com/citations?user=FTFHPNMAAAAJ&amp;hl=en">Google
 Scholar</a></p>
 <p>EDUCATION</p>
@@ -334,8 +100,31 @@ member) Masters (8 as chair, 32 as committee member)</p>
 Award, 2016; American Association of Geographers (AAG) Distinguished
 Scholarship Honors, 2017.</p>
 <p>RECENT PUBLICATIONS</p>
-<p>(WOS: 253 indexed, 24,831 citations, h-index: 84; Google Scholar:
-34,731 citations, h-index: 96)</p>
+<p>(WOS: 264 indexed, 26,893 citations, h-index: 85; Google Scholar:
+37,787 citations, h-index: 99)</p>
+<p>Clark, P.U., Shakun, J.D., Rosenthal, Y., Pollard, D., Hostetler,
+S.W., Kohler, P., Bartlein, P.J., Gregory, J.M., Zhu, C., Schrag, D.P.,
+Liu, Z. and Pisias, N.G., 2025. Global mean sea level over the past 4.5
+million years. <em>Science</em>, 390(6770): eadv8389.
+https://doi.org/10.1126/science.adv8389.</p>
+<p>Harrison, S.P., Bartlein, P.J., Cruz-Silva, E., Haas, O., Jackson,
+S.T., Kaushal, N., Liu, M.M., Magri, D., Robson, D.T., Vettoretti, G.
+and Prentice, I.C., 2025. Paleoclimate Perspectives on Contemporary
+Climate Change. <em>Annual Review of Environment and Resources</em>,
+50(1): 67-95. https://doi.org/10.1146/annurev-environ-112922-110121
+.</p>
+<p>Harrison, S.P., Haas, O., Bartlein, P.J., Sweeney, L. and Zhang,
+G.X., 2025. Climate, vegetation, people: disentangling the controls of
+fire at different timescales. Philosophical Transactions of the Royal
+Society B-Biological Sciences, 380(1924).
+https://doi.org/10.1098/rstb.2023.0464 .</p>
+<p>Holliday, V.T., Daulton, T.L., Bartlein, P.J., Boslough, M.B.,
+Breslawski, R.P., Fisher, A.E., Jorgeson, I.A., Scott, A.C., Koeberl,
+C., Marlon, J.R., Severinghaus, J., Petaev, M.I. and Claeys, P., 2024.
+Rebuttal of Sweatman, Powell, and West's "Rejection of Holliday et al.'s
+alleged refutation of the Younger Dryas Impact Hypothesis".
+<em>Earth-Science Reviews</em>, 258.
+https://doi.org/10.1016/j.earscirev.2024.104961 .</p>
 <p>Clark, P. U., J. D. Shakun, Y. Rosenthal, P. Koehler, and P. J.
 Bartlein, 2024, Global and regional temperature change over the past 4.5
 million years. Science, 383. <a
@@ -348,12 +137,6 @@ Comprehensive refutation of the Younger Dryas Impact Hypothesis (YDIH).
 Earth-Science Reviews, 247. <a
 href="https://doi.org/10.1016/j.earscirev.2023.104502"
 class="uri">https://doi.org/10.1016/j.earscirev.2023.104502</a></p>
-<p>Otto-Bliesner, B.L. Brady, E.C., Tomas, RA, Albani, S., Bartlein,
-P.J., Mahowald, N.M.Shafer, S.L., Kluzek, E., Lawrence, P.J., Leguy, G.,
-Rothstein, M., Sommers, A.N. 2020, A Comparison of the CMIP6 midHolocene
-and lig127k Simulations in CESM, Paleoceanography and Paleoclimatology
-11 e2020PA003957, <a href="http://doi.org/10.1029/2020PA003957"
-class="uri">http://doi.org/10.1029/2020PA003957</a></p>
 <p>Brierley, C. M., Zhao, A., Harrison, S. P., Braconnot, P., Williams,
 C. J. R., Thornalley, D. J. R., Shi, X., Peterschmitt, J.-Y., Ohgaito,
 R., Kaufman, D. S., Kageyama, M., Hargreaves, J. C., Erb, M. P.,
@@ -388,15 +171,8 @@ Brewer, 2018, Reconciling divergent trends and millennial variations in
 Holocene temperatures. <em>Nature</em> 554:92</p>
 <p>Bartlein, P.J., S.P. Harrison and K. Izumi, 2017, Underlying causes
 of Eurasian mid-continental aridity in simulations of mid-Holocene
-climate, <em>Geophysical Research Letters</em>. <a
-href="DOI:10.1002/2017GL074476"
-class="uri">DOI:10.1002/2017GL074476</a></p>
-<p>Marlon, J.R., R. Kelly, A.L. Daniau, B. Vannière, M.J. Power, P.
-Bartlein, P. Higuera, O. Blarquez, S. Brewer, T. Brücher, A. Feurdean,
-G.G. Romera, V. Iglesias, S.Y. Maezumi, B. Magi, C.J. Courtney Mustaphi
-&amp; T. Zhihai, 2016, Reconstructions of biomass burning from
-sediment-charcoal records to improve data–model comparisons.
-<em>Biogeosciences</em> 13:3225-3244.</p>
+climate, <em>Geophysical Research Letters</em>.
+DOI:10.1002/2017GL074476</p>
 <p>Harrison, S.P., P.J. Bartlein, K. Izumi, G. Li, J. Annan, J.
 Hargreaves, P. Braconnot and M. Kageyama, 2015, Implications of
 evaluation of CMIP5 palaeosimulations for climate projections. Nature
@@ -419,58 +195,6 @@ controls. <em>Quaternary Science Reviews</em> 65:5-25</p>
 <p>Braconnot, P., S.P. Harrison, M. Kageyama, P.J. Bartlein, V.
 Masson-Delmotte, A. Abe-Ouchi, B. Otto-Bliesner &amp; Y. Zhao, 2012,
 Evaluation of climate models using palaeoclimatic data. <em>Nature
-Climate Change</em> 2:417-424, <a href="doi:10.1038/nclimate1456"
-class="uri">doi:10.1038/nclimate1456</a>.</p>
-<p>Marlon, J.R., P.J. Bartlein, D.G. Gavin, C.J. Long, R.S. Anderson,
-C.E. Briles, K.J. Brown, D. Colombaroli, D.J. Hallett, M.J. Power, E.A.
-Scharf &amp; M.K. Walsh, 2012, Long-term perspective on wildfires in the
-western USA. <em>Proceedings of the National Academy of Sciences</em>
-109:E535-E543.</p>
-
-
-
-
-</div>
-
-<script>
-
-// add bootstrap table styles to pandoc tables
-function bootstrapStylePandocTables() {
-  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
-}
-$(document).ready(function () {
-  bootstrapStylePandocTables();
-});
-
-
-</script>
-
-<!-- tabsets -->
-
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-
-$(document).ready(function () {
-  $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open');
-  });
-});
-</script>
-
-<!-- code folding -->
-
-
-<!-- dynamically load mathjax for compatibility with self-contained -->
-<script>
-  (function () {
-    var script = document.createElement("script");
-    script.type = "text/javascript";
-    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
-    document.getElementsByTagName("head")[0].appendChild(script);
-  })();
-</script>
-
+Climate Change</em> 2:417-424, doi:10.1038/nclimate1456.</p>
 </body>
 </html>

@@ -1,224 +1,200 @@
-<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><style type="text/css">body, td {
-   font-family: Times, TimesNewRoman, serif;
-   background-color: white;
-   font-size: 1.0em;
-   margin: 40px;
-   width:  940px;
-   text-align:justify;
-}
-
-tt, code, pre {
-   font-family: Arial, Helvetica, Geneva, sans-serif;
-   font-size: 0.88em;
-}
-
-h1 {
-   font-size:1.8em;
-   font-weight: normal;
-}
-
-h2 {
-   font-size:1.6em;
-   font-weight: normal;
-}
-
-h3 {
-   font-size:1.4em;
-   font-weight: normal;
-   font-style: italic;
-}
-
-h4 {
-   font-size:1.2em;
-   font-weight: normal;
-}
-
-h5 {
-   font-size:0.9em;
-}
-
-h6 {
-   font-size:0.8em;
-}
-
-a:visited {
-   color: rgb(50%, 0%, 50%);
-}
-
-pre { 
-   margin-top: 0;
-   max-width: 100%;
-   border: 1px solid #ccc;
-   white-space: pre-wrap;
-}
-
-pre code {
-   display: block; padding: 0.5em;
-   background-color:  #E0E0E0;
-}
-
-code.r, code.noeval, code.cpp {
-   background-color: #eeeeee;
-}
-
-table, td, th {
-  border: none;
-}
-
-blockquote {
-   color:#000000;
-   margin:0;
-   padding-left: 1em;
-   padding-right: 1em;
-   border-left: 0.5em #E0E0E0 solid;
-   border-right: 0.5em #E0E0E0 solid
-}
-
-hr {
-   height: 0px;
-   border-bottom: none;
-   border-top-width: thin;
-   border-top-style: dotted;
-   border-top-color: #999999;
-}
-
-@media print {
-   * {
-      background: transparent !important;
-      color: black !important;
-      filter:none !important;
-      -ms-filter: none !important;
-   }
-
-   body {
-      font-size:10pt;
-      max-width:90%;
-   }
-
-   pre, tt, code {
-      font-size: 10pt;
-      max-width: 100%
-      font-weight: normal;
-   }
-
-   a, a:visited {
-      text-decoration: underline;
-   }
-
-   hr {
-      visibility: hidden;
-      page-break-before: always;
-   }
-
-   pre, blockquote {
-      page-break-inside: auto;
-   }
-
-   tr, img {
-      page-break-inside: auto;
-   }
-
-   img {
-      max-width: 100% !important;
-   }
-
-   p, h2, h3 {
-      orphans: 3; widows: 3;
-   }
-
-   h2, h3 {
-      page-break-after: avoid;
-   }
-}
-</style>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.13.20/dist/katex.min.css" integrity="sha384-cRxb1HsKSl8bTfU9fBcGsjktUfQa6w+fwvkYnU8XjFH4Qg8To1+/9OXv5iRzrKX4" crossorigin="anonymous"><script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.20/dist/katex.min.js" integrity="sha384-ov99pRO2tAc0JuxTVzf63RHHeQTJ0CIawbDZFiFTzB07aqFZwEu2pz4uzqL+5OPG" crossorigin="anonymous"></script><script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.20/dist/contrib/auto-render.min.js" integrity="sha384-+XBljXPPiv+OzfbB3cVmLHf4hdUFHlWNZN5spNQ7rmHTXpd7WvJum6fIACpNNfIR" crossorigin="anonymous" onload="renderMathInElement(document.body);"></script>
-</head><body><p>Patrick J. Bartlein</p>
-
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>BartleinAcadBio</title>
+  <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <link rel="stylesheet" href="pdf_wide.css" />
+</head>
+<body>
+<p>Patrick J. Bartlein</p>
 <p>CONTACT INFORMATION</p>
-
-<p>Department of Geography, University of Oregon, Eugene, Oregon 97403&#8211;1251; (541) 346&#8211;4555 -4967 (office); email: <a href="mailto:bartlein@oregon.uoregon.edu">bartlein@uoregon.edu</a>; www: https://pjbartlein.github.io ResearcherID: E-4643&#8211;2011; ORCID: 0000&#8211;0001&#8211;7657&#8211;5685; <a href="https://scholar.google.com/citations?user=FTFHPNMAAAAJ&amp;hl=en">Google Scholar</a></p>
-
+<p>Department of Geography, University of Oregon, Eugene, Oregon
+97403-1251; (541) 346-4555 -4967 (office); email: <a
+href="mailto:bartlein@oregon.uoregon.edu">bartlein@uoregon.edu</a>; www:
+https://pjbartlein.github.io ResearcherID: E-4643-2011; ORCID:
+0000-0001-7657-5685; <a
+href="https://scholar.google.com/citations?user=FTFHPNMAAAAJ&amp;hl=en">Google
+Scholar</a></p>
 <p>EDUCATION</p>
-
-<p>Univ. Wisconsin -- Madison, (Geography) B.A. June 1972; M.S. June 1975; Ph.D. August 1978</p>
-
+<p>Univ. Wisconsin -- Madison, (Geography) B.A. June 1972; M.S. June
+1975; Ph.D. August 1978</p>
 <p>RESEARCH INTERESTS</p>
-
-<p>Paleoclimatology; Data Analysis and Visualization; Environmental Modeling</p>
-
+<p>Paleoclimatology; Data Analysis and Visualization; Environmental
+Modeling</p>
 <p>TEACHING INTERESTS</p>
-
-<p>Climatology; Environmental Change; Data Analysis and Visualization in Geography</p>
-
+<p>Climatology; Environmental Change; Data Analysis and Visualization in
+Geography</p>
 <p>POSITIONS HELD</p>
-
-<p>University of Oregon, Department of Geography: Professor (Sept. 1994 - present), Associate Professor (April 1986 - Sept. 1994), Assistant Professor (Sept. 1982 - April 1986); Brown University, Department of Geological Sciences: Research Associate and Visiting Assistant Professor (Research) (May 1981 - Aug. 1984); Boston University, Department of Geography: Assistant Professor (Sept. 1979 - Aug. 1982). Center for Energy and Environmental Studies: Research Associate (Sept. 1980 - Aug. 1982); University of Iowa, Department of Geography: Visiting Assistant Professor (Jan. 1979 - May 1979); University of Wisconsin -- Madison, Institute for Environmental Studies: Research Associate (post-doc) (Sept. 1978 - Aug. 1979).</p>
-
+<p>University of Oregon, Department of Geography: Professor
+(Sept. 1994 - present), Associate Professor (April 1986 - Sept. 1994),
+Assistant Professor (Sept. 1982 - April 1986); Brown University,
+Department of Geological Sciences: Research Associate and Visiting
+Assistant Professor (Research) (May 1981 - Aug. 1984); Boston
+University, Department of Geography: Assistant Professor (Sept. 1979 -
+Aug. 1982). Center for Energy and Environmental Studies: Research
+Associate (Sept. 1980 - Aug. 1982); University of Iowa, Department of
+Geography: Visiting Assistant Professor (Jan. 1979 - May 1979);
+University of Wisconsin -- Madison, Institute for Environmental Studies:
+Research Associate (post-doc) (Sept. 1978 - Aug. 1979).</p>
 <p>DEPARTMENTAL AND UNIVERSITY SERVICE</p>
-
-<p>Graduate Council (1991&#8211;1993); UO Educational Technology Committee (2007); College of Arts and Science Curriculum Committee (2005&#8211;2007); University Undergraduate Council (2006&#8211;2007); outside member, Mikesell Chair (Economics) search committee (2001); multiple departmental search committees. Personnel and Promotion-and-Tenure Committees: Department of Geography Personnel Committee (1997&#8211;2002, 2006-present); College of Arts and Sciences Dean&#8217;s Advisory Committee (2011&#8211;2013, Chair 2012&#8211;2013); University Faculty Personnel Committee (1998&#8211;2000; 2014&#8211;2015).</p>
-
+<p>Graduate Council (1991-1993); UO Educational Technology Committee
+(2007); College of Arts and Science Curriculum Committee (2005-2007);
+University Undergraduate Council (2006-2007); outside member, Mikesell
+Chair (Economics) search committee (2001); multiple departmental search
+committees. Personnel and Promotion-and-Tenure Committees: Department of
+Geography Personnel Committee (1997-2002, 2006-present); College of Arts
+and Sciences Dean’s Advisory Committee (2011-2013, Chair 2012-2013);
+University Faculty Personnel Committee (1998-2000; 2014-2015).</p>
 <p>PROFESSIONAL MEMBERSHIPS</p>
-
-<p>American Association for the Advancement of Science; American Geophysical Union; American Quaternary Association; American Association of Geographers</p>
-
+<p>American Association for the Advancement of Science; American
+Geophysical Union; American Quaternary Association; American Association
+of Geographers</p>
 <p>EDITORIAL BOARD SERVICE</p>
-
-<p>Current: <em>Quaternary Research</em> (Associate Editor); <em>Annals</em>, Association of American Geographers, Past: <em>The Holocene</em> (Associate Editor); <em>Quaternary Science Reviews</em>; <em>Geology</em></p>
-
+<p>Current: <em>Quaternary Research</em> (Associate Editor);
+<em>Annals</em>, Association of American Geographers, Past: <em>The
+Holocene</em> (Associate Editor); <em>Quaternary Science Reviews</em>;
+<em>Geology</em></p>
 <p>MANUSCRIPT REVIEWS</p>
-
-<p><em>Annals</em>, Association of American Geographers, <em>Climates of the Past, Climate Dynamics, Ecology,</em> <em>Geographie Physique et Quateraire, Geological Society of America Bulletin, Geology, Global Change Biology, The Holocene, J. Biogeography, J. Geophysical Research, J. Vegetation Science, Nature, PNAS, Professional Geographer, Quaternary Research, Quaternary Science Reviews, Reviews of Geophysics, Science, Water Resources Bulletin.</em></p>
-
+<p><em>Annals</em>, Association of American Geographers, <em>Climates of
+the Past, Climate Dynamics, Ecology,</em> <em>Geographie Physique et
+Quateraire, Geological Society of America Bulletin, Geology, Global
+Change Biology, The Holocene, J. Biogeography, J. Geophysical Research,
+J. Vegetation Science, Nature, PNAS, Professional Geographer, Quaternary
+Research, Quaternary Science Reviews, Reviews of Geophysics, Science,
+Water Resources Bulletin.</em></p>
 <p>PROPOSAL REVIEWS</p>
-
-<p>National Science Foundation: Climate Dynamics Program, Division of Polar Programs, Ecology Program, Geography and Regional Science Program, Division of Earth Sciences, Instrumentation and Facilities, Continental Hydrologic Processes, Earth-System History Program, Arctic System Science, Paleoclimatology Program. NOAA: Office of Global Programs. European Science Foundation. Natural Environment Research Council</p>
-
+<p>National Science Foundation: Climate Dynamics Program, Division of
+Polar Programs, Ecology Program, Geography and Regional Science Program,
+Division of Earth Sciences, Instrumentation and Facilities, Continental
+Hydrologic Processes, Earth-System History Program, Arctic System
+Science, Paleoclimatology Program. NOAA: Office of Global Programs.
+European Science Foundation. Natural Environment Research Council</p>
 <p>GRADUATE AND POST-GRADUATE STUDENT TRAINING</p>
-
-<p>Post-doctoral advisor (2); Ph.D. (12 as chair, 20 as committee member) Masters (8 as chair, 32 as committee member)</p>
-
+<p>Post-doctoral advisor (2); Ph.D. (12 as chair, 20 as committee
+member) Masters (8 as chair, 32 as committee member)</p>
 <p>HONORS</p>
-
-<p>Fellow, American Association for the Advancement of Science (AAAS), 2008; American Quaternary Association (AMQUA) Distinguished Career Award, 2016; American Association of Geographers (AAG) Distinguished Scholarship Honors, 2017.</p>
-
+<p>Fellow, American Association for the Advancement of Science (AAAS),
+2008; American Quaternary Association (AMQUA) Distinguished Career
+Award, 2016; American Association of Geographers (AAG) Distinguished
+Scholarship Honors, 2017.</p>
 <p>RECENT PUBLICATIONS</p>
-
-<p>(WOS: 253 indexed, 24,831 citations, h-index: 84; Google Scholar: 34,731 citations, h-index: 96)</p>
-
-<p>Clark, P. U., J. D. Shakun, Y. Rosenthal, P. Koehler, and P. J. Bartlein, 2024, Global and regional temperature change over the past 4.5 million years. Science, 383. <a href="https://doi.org/10.1126/science.adi1908">https://doi.org/10.1126/science.adi1908</a></p>
-
-<p>Holliday, V. T., T. L. Daulton, P. J. Bartlein, M. B. Boslough, R. P. Breslawski, A. E. Fisher, I. A. Jorgeson, A. C. Scott, C. Koeberl, J. R. Marlon, J. Severinghaus, M. I. Petaev, and P. Claeys, 2023, Comprehensive refutation of the Younger Dryas Impact Hypothesis (YDIH). Earth-Science Reviews, 247. <a href="https://doi.org/10.1016/j.earscirev.2023.104502">https://doi.org/10.1016/j.earscirev.2023.104502</a></p>
-
-<p>Otto-Bliesner, B.L. Brady, E.C., Tomas, RA, Albani, S., Bartlein, P.J., Mahowald, N.M.Shafer, S.L., Kluzek, E., Lawrence, P.J., Leguy, G., Rothstein, M., Sommers, A.N. 2020, A Comparison of the CMIP6 midHolocene and lig127k Simulations in CESM, Paleoceanography and Paleoclimatology 11 e2020PA003957, <a href="http://doi.org/10.1029/2020PA003957">http://doi.org/10.1029/2020PA003957</a></p>
-
-<p>Brierley, C. M., Zhao, A., Harrison, S. P., Braconnot, P., Williams, C. J. R., Thornalley, D. J. R., Shi, X., Peterschmitt, J.-Y., Ohgaito, R., Kaufman, D. S., Kageyama, M., Hargreaves, J. C., Erb, M. P., Emile-Geay, J., D'Agostino, R., Chandan, D., Carré, M., Bartlein, P., Zheng, W., Zhang, Z., Zhang, Q., Yang, H., Volodin, E. M., Tomas, R. A., Routson, C., Peltier, W. R., Otto-Bliesner, B., Morozova, P. A., McKay, N. P., Lohmann, G., Legrande, A. N., Guo, C., Cao, J., Brady, E., Annan, J. D., and Abe-Ouchi, A.: in review, 2020, Large-scale features and evaluation of the PMIP4-CMIP6 midHolocene simulations, Clim. Past. 16:1847&#8211;1872, <a href="https://doi.org/10.5194/cp-2019-168">https://doi.org/10.5194/cp-2019-168</a></p>
-
-<p>Holiday, V.T., P.J. Bartlein, A.C. Scott, J.R. Marlon, 2020, Extraordinary biomass-burning episode and impact winter triggered by the Younger Dryas cosmic impact ~ 12.800 years ago, Parts 1 and 2: a discussion. J. Geology 128:69&#8211;94. <a href="https://doi.org/10.1086/706264">https://doi.org/10.1086/706264</a></p>
-
-<p>Bartlein, P.J., and S.L. Shafer, 2019, Paleo calendar-effect adjustments in time-slice and transient climate-model simulations (PaleoCalAdjust v1.0): impact and strategies for data analysis. <em>Geosci. Model Dev.</em> 12:3889&#8211;3913.</p>
-
-<p>Harrison, S. P., Bartlein, P. J., Brovkin, V., Houweling, S., Kloster, S., &amp; Prentice, I. C. (2018). The biomass burning contribution to climate&#8211;carbon-cycle feedback. <em>Earth Syst. Dynam.</em>, 9(2), 663&#8211;677.</p>
-
-<p>Hostetler, S.W., P.J. Bartlein and J.R. Alder, 2018, Atmospheric and surface climate associated with 1986&#8211;2013 wildfires in North America. <em>Journal of Geophysical Research: Biogeosciences</em>, 123(5), 1588&#8211;1609.</p>
-
-<p>Marsicek, J., B.N. Shuman, P.J. Bartlein, S.L. Shafer &amp; S. Brewer, 2018, Reconciling divergent trends and millennial variations in Holocene temperatures. <em>Nature</em> 554:92</p>
-
-<p>Bartlein, P.J., S.P. Harrison and K. Izumi, 2017, Underlying causes of Eurasian mid-continental aridity in simulations of mid-Holocene climate, <em>Geophysical Research Letters</em>. DOI:10.1002/2017GL074476</p>
-
-<p>Marlon, J.R., R. Kelly, A.L. Daniau, B. Vannière, M.J. Power, P. Bartlein, P. Higuera, O. Blarquez, S. Brewer, T. Brücher, A. Feurdean, G.G. Romera, V. Iglesias, S.Y. Maezumi, B. Magi, C.J. Courtney Mustaphi &amp; T. Zhihai, 2016, Reconstructions of biomass burning from sediment-charcoal records to improve data&#8211;model comparisons. <em>Biogeosciences</em> 13:3225&#8211;3244.</p>
-
-<p>Harrison, S.P., P.J. Bartlein, K. Izumi, G. Li, J. Annan, J. Hargreaves, P. Braconnot and M. Kageyama, 2015, Implications of evaluation of CMIP5 palaeosimulations for climate projections. Nature Climate Change 8:735&#8211;743.</p>
-
-<p>Izumi, K., Bartlein, P.J., Harrison, S.P., 2015. Energy-balance mechanisms underlying consistent large-scale temperature responses in warm and cold climates. <em>Climate Dynamics</em>. 44:3111&#8211;3127. DOI 10.1007/s00382&#8211;014&#8211;2189&#8211;2</p>
-
-<p>Harrison, S.P., Bartlein, P.J., Brewer, S., Prentice, I.C., Boyd, M., Hessler, I., Holmgren, K., Izumi, K., Willis, K., 2014. Climate model benchmarking with glacial and mid-Holocene climates. <em>Climate Dynamics</em> 43, 671&#8211;688.</p>
-
-<p>Izumi, K., P.J. Bartlein and S.P. Harrison, 2013, Consistent large-scale temperature responses in warm and cold climates, <em>Geophysical Research Letters</em>, DOI: 10.1002/grl.50350</p>
-
-<p>Marlon, J.R. P.J. Bartlein, A.-L. Daniau, S.P. Harrison, S.Y. Maesumi, M.J. Power, W. Tinner, B. Vanniére, 2013, Global biomass burning: a synthesis and review of Holocene paleofire records and their controls. <em>Quaternary Science Reviews</em> 65:5&#8211;25</p>
-
-<p>Braconnot, P., S.P. Harrison, M. Kageyama, P.J. Bartlein, V. Masson-Delmotte, A. Abe-Ouchi, B. Otto-Bliesner &amp; Y. Zhao, 2012, Evaluation of climate models using palaeoclimatic data. <em>Nature Climate Change</em> 2:417&#8211;424, doi:10.1038/nclimate1456.</p>
-
-<p>Marlon, J.R., P.J. Bartlein, D.G. Gavin, C.J. Long, R.S. Anderson, C.E. Briles, K.J. Brown, D. Colombaroli, D.J. Hallett, M.J. Power, E.A. Scharf &amp; M.K. Walsh, 2012, Long-term perspective on wildfires in the western USA. <em>Proceedings of the National Academy of Sciences</em> 109:E535-E543.</p>
-</body></html>
+<p>(WOS: 264 indexed, 26,893 citations, h-index: 85; Google Scholar:
+37,787 citations, h-index: 99)</p>
+<p>Clark, P.U., Shakun, J.D., Rosenthal, Y., Pollard, D., Hostetler,
+S.W., Kohler, P., Bartlein, P.J., Gregory, J.M., Zhu, C., Schrag, D.P.,
+Liu, Z. and Pisias, N.G., 2025. Global mean sea level over the past 4.5
+million years. <em>Science</em>, 390(6770): eadv8389.
+https://doi.org/10.1126/science.adv8389.</p>
+<p>Harrison, S.P., Bartlein, P.J., Cruz-Silva, E., Haas, O., Jackson,
+S.T., Kaushal, N., Liu, M.M., Magri, D., Robson, D.T., Vettoretti, G.
+and Prentice, I.C., 2025. Paleoclimate Perspectives on Contemporary
+Climate Change. <em>Annual Review of Environment and Resources</em>,
+50(1): 67-95. https://doi.org/10.1146/annurev-environ-112922-110121
+.</p>
+<p>Harrison, S.P., Haas, O., Bartlein, P.J., Sweeney, L. and Zhang,
+G.X., 2025. Climate, vegetation, people: disentangling the controls of
+fire at different timescales. Philosophical Transactions of the Royal
+Society B-Biological Sciences, 380(1924).
+https://doi.org/10.1098/rstb.2023.0464 .</p>
+<p>Holliday, V.T., Daulton, T.L., Bartlein, P.J., Boslough, M.B.,
+Breslawski, R.P., Fisher, A.E., Jorgeson, I.A., Scott, A.C., Koeberl,
+C., Marlon, J.R., Severinghaus, J., Petaev, M.I. and Claeys, P., 2024.
+Rebuttal of Sweatman, Powell, and West's "Rejection of Holliday et al.'s
+alleged refutation of the Younger Dryas Impact Hypothesis".
+<em>Earth-Science Reviews</em>, 258.
+https://doi.org/10.1016/j.earscirev.2024.104961 .</p>
+<p>Clark, P. U., J. D. Shakun, Y. Rosenthal, P. Koehler, and P. J.
+Bartlein, 2024, Global and regional temperature change over the past 4.5
+million years. Science, 383. <a
+href="https://doi.org/10.1126/science.adi1908"
+class="uri">https://doi.org/10.1126/science.adi1908</a></p>
+<p>Holliday, V. T., T. L. Daulton, P. J. Bartlein, M. B. Boslough, R. P.
+Breslawski, A. E. Fisher, I. A. Jorgeson, A. C. Scott, C. Koeberl, J. R.
+Marlon, J. Severinghaus, M. I. Petaev, and P. Claeys, 2023,
+Comprehensive refutation of the Younger Dryas Impact Hypothesis (YDIH).
+Earth-Science Reviews, 247. <a
+href="https://doi.org/10.1016/j.earscirev.2023.104502"
+class="uri">https://doi.org/10.1016/j.earscirev.2023.104502</a></p>
+<p>Brierley, C. M., Zhao, A., Harrison, S. P., Braconnot, P., Williams,
+C. J. R., Thornalley, D. J. R., Shi, X., Peterschmitt, J.-Y., Ohgaito,
+R., Kaufman, D. S., Kageyama, M., Hargreaves, J. C., Erb, M. P.,
+Emile-Geay, J., D'Agostino, R., Chandan, D., Carré, M., Bartlein, P.,
+Zheng, W., Zhang, Z., Zhang, Q., Yang, H., Volodin, E. M., Tomas, R. A.,
+Routson, C., Peltier, W. R., Otto-Bliesner, B., Morozova, P. A., McKay,
+N. P., Lohmann, G., Legrande, A. N., Guo, C., Cao, J., Brady, E., Annan,
+J. D., and Abe-Ouchi, A.: in review, 2020, Large-scale features and
+evaluation of the PMIP4-CMIP6 midHolocene simulations, Clim. Past.
+16:1847-1872, <a href="https://doi.org/10.5194/cp-2019-168"
+class="uri">https://doi.org/10.5194/cp-2019-168</a></p>
+<p>Holiday, V.T., P.J. Bartlein, A.C. Scott, J.R. Marlon, 2020,
+Extraordinary biomass-burning episode and impact winter triggered by the
+Younger Dryas cosmic impact ~ 12.800 years ago, Parts 1 and 2: a
+discussion. J. Geology 128:69-94. <a
+href="https://doi.org/10.1086/706264"
+class="uri">https://doi.org/10.1086/706264</a></p>
+<p>Bartlein, P.J., and S.L. Shafer, 2019, Paleo calendar-effect
+adjustments in time-slice and transient climate-model simulations
+(PaleoCalAdjust v1.0): impact and strategies for data analysis.
+<em>Geosci. Model Dev.</em> 12:3889-3913.</p>
+<p>Harrison, S. P., Bartlein, P. J., Brovkin, V., Houweling, S.,
+Kloster, S., &amp; Prentice, I. C. (2018). The biomass burning
+contribution to climate–carbon-cycle feedback. <em>Earth Syst.
+Dynam.</em>, 9(2), 663-677.</p>
+<p>Hostetler, S.W., P.J. Bartlein and J.R. Alder, 2018, Atmospheric and
+surface climate associated with 1986–2013 wildfires in North America.
+<em>Journal of Geophysical Research: Biogeosciences</em>, 123(5),
+1588-1609.</p>
+<p>Marsicek, J., B.N. Shuman, P.J. Bartlein, S.L. Shafer &amp; S.
+Brewer, 2018, Reconciling divergent trends and millennial variations in
+Holocene temperatures. <em>Nature</em> 554:92</p>
+<p>Bartlein, P.J., S.P. Harrison and K. Izumi, 2017, Underlying causes
+of Eurasian mid-continental aridity in simulations of mid-Holocene
+climate, <em>Geophysical Research Letters</em>.
+DOI:10.1002/2017GL074476</p>
+<p>Harrison, S.P., P.J. Bartlein, K. Izumi, G. Li, J. Annan, J.
+Hargreaves, P. Braconnot and M. Kageyama, 2015, Implications of
+evaluation of CMIP5 palaeosimulations for climate projections. Nature
+Climate Change 8:735-743.</p>
+<p>Izumi, K., Bartlein, P.J., Harrison, S.P., 2015. Energy-balance
+mechanisms underlying consistent large-scale temperature responses in
+warm and cold climates. <em>Climate Dynamics</em>. 44:3111-3127. DOI
+10.1007/s00382-014-2189-2</p>
+<p>Harrison, S.P., Bartlein, P.J., Brewer, S., Prentice, I.C., Boyd, M.,
+Hessler, I., Holmgren, K., Izumi, K., Willis, K., 2014. Climate model
+benchmarking with glacial and mid-Holocene climates. <em>Climate
+Dynamics</em> 43, 671-688.</p>
+<p>Izumi, K., P.J. Bartlein and S.P. Harrison, 2013, Consistent
+large-scale temperature responses in warm and cold climates,
+<em>Geophysical Research Letters</em>, DOI: 10.1002/grl.50350</p>
+<p>Marlon, J.R. P.J. Bartlein, A.-L. Daniau, S.P. Harrison, S.Y.
+Maesumi, M.J. Power, W. Tinner, B. Vanniére, 2013, Global biomass
+burning: a synthesis and review of Holocene paleofire records and their
+controls. <em>Quaternary Science Reviews</em> 65:5-25</p>
+<p>Braconnot, P., S.P. Harrison, M. Kageyama, P.J. Bartlein, V.
+Masson-Delmotte, A. Abe-Ouchi, B. Otto-Bliesner &amp; Y. Zhao, 2012,
+Evaluation of climate models using palaeoclimatic data. <em>Nature
+Climate Change</em> 2:417-424, doi:10.1038/nclimate1456.</p>
+</body>
+</html>

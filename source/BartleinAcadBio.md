@@ -50,13 +50,19 @@ Fellow, American Association for the Advancement of Science (AAAS), 2008; Americ
 
 RECENT PUBLICATIONS
 
-(WOS: 253 indexed, 24,831 citations, h-index: 84; Google Scholar: 34,731 citations, h-index: 96)
+(WOS: 264 indexed, 26,893 citations, h-index: 85; Google Scholar: 37,787 citations, h-index: 99)
+
+Clark, P.U., Shakun, J.D., Rosenthal, Y., Pollard, D., Hostetler, S.W., Kohler, P., Bartlein, P.J., Gregory, J.M., Zhu, C., Schrag, D.P., Liu, Z. and Pisias, N.G., 2025. Global mean sea level over the past 4.5 million years. *Science*, 390(6770): eadv8389. https://doi.org/10.1126/science.adv8389.
+
+Harrison, S.P., Bartlein, P.J., Cruz-Silva, E., Haas, O., Jackson, S.T., Kaushal, N., Liu, M.M., Magri, D., Robson, D.T., Vettoretti, G. and Prentice, I.C., 2025. Paleoclimate Perspectives on Contemporary Climate Change. *Annual Review of Environment and Resources*, 50(1): 67-95. https://doi.org/10.1146/annurev-environ-112922-110121 .
+
+Harrison, S.P., Haas, O., Bartlein, P.J., Sweeney, L. and Zhang, G.X., 2025. Climate, vegetation, people: disentangling the controls of fire at different timescales. Philosophical Transactions of the Royal Society B-Biological Sciences, 380(1924). https://doi.org/10.1098/rstb.2023.0464 .
+
+Holliday, V.T., Daulton, T.L., Bartlein, P.J., Boslough, M.B., Breslawski, R.P., Fisher, A.E., Jorgeson, I.A., Scott, A.C., Koeberl, C., Marlon, J.R., Severinghaus, J., Petaev, M.I. and Claeys, P., 2024. Rebuttal of Sweatman, Powell, and West\'s \"Rejection of Holliday et al.\'s alleged refutation of the Younger Dryas Impact Hypothesis\". *Earth-Science Reviews*, 258. https://doi.org/10.1016/j.earscirev.2024.104961 .
 
 Clark, P. U., J. D. Shakun, Y. Rosenthal, P. Koehler, and P. J. Bartlein, 2024, Global and regional temperature change over the past 4.5 million years. Science, 383. <https://doi.org/10.1126/science.adi1908>
 
 Holliday, V. T., T. L. Daulton, P. J. Bartlein, M. B. Boslough, R. P. Breslawski, A. E. Fisher, I. A. Jorgeson, A. C. Scott, C. Koeberl, J. R. Marlon, J. Severinghaus, M. I. Petaev, and P. Claeys, 2023, Comprehensive refutation of the Younger Dryas Impact Hypothesis (YDIH). Earth-Science Reviews, 247. <https://doi.org/10.1016/j.earscirev.2023.104502>
-
-Otto-Bliesner, B.L. Brady, E.C., Tomas, RA, Albani, S., Bartlein, P.J., Mahowald, N.M.Shafer, S.L., Kluzek, E., Lawrence, P.J., Leguy, G., Rothstein, M., Sommers, A.N. 2020, A Comparison of the CMIP6 midHolocene and lig127k Simulations in CESM, Paleoceanography and Paleoclimatology 11 e2020PA003957, <http://doi.org/10.1029/2020PA003957>
 
 Brierley, C. M., Zhao, A., Harrison, S. P., Braconnot, P., Williams, C. J. R., Thornalley, D. J. R., Shi, X., Peterschmitt, J.-Y., Ohgaito, R., Kaufman, D. S., Kageyama, M., Hargreaves, J. C., Erb, M. P., Emile-Geay, J., D\'Agostino, R., Chandan, D., Carré, M., Bartlein, P., Zheng, W., Zhang, Z., Zhang, Q., Yang, H., Volodin, E. M., Tomas, R. A., Routson, C., Peltier, W. R., Otto-Bliesner, B., Morozova, P. A., McKay, N. P., Lohmann, G., Legrande, A. N., Guo, C., Cao, J., Brady, E., Annan, J. D., and Abe-Ouchi, A.: in review, 2020, Large-scale features and evaluation of the PMIP4-CMIP6 midHolocene simulations, Clim. Past. 16:1847-1872, <https://doi.org/10.5194/cp-2019-168>
 
@@ -72,8 +78,6 @@ Marsicek, J., B.N. Shuman, P.J. Bartlein, S.L. Shafer & S. Brewer, 2018, Reconci
 
 Bartlein, P.J., S.P. Harrison and K. Izumi, 2017, Underlying causes of Eurasian mid-continental aridity in simulations of mid-Holocene climate, *Geophysical Research Letters*. DOI:10.1002/2017GL074476
 
-Marlon, J.R., R. Kelly, A.L. Daniau, B. Vannière, M.J. Power, P. Bartlein, P. Higuera, O. Blarquez, S. Brewer, T. Brücher, A. Feurdean, G.G. Romera, V. Iglesias, S.Y. Maezumi, B. Magi, C.J. Courtney Mustaphi & T. Zhihai, 2016, Reconstructions of biomass burning from sediment-charcoal records to improve data--model comparisons. *Biogeosciences* 13:3225-3244.
-
 Harrison, S.P., P.J. Bartlein, K. Izumi, G. Li, J. Annan, J. Hargreaves, P. Braconnot and M. Kageyama, 2015, Implications of evaluation of CMIP5 palaeosimulations for climate projections. Nature Climate Change 8:735-743.
 
 Izumi, K., Bartlein, P.J., Harrison, S.P., 2015. Energy-balance mechanisms underlying consistent large-scale temperature responses in warm and cold climates. *Climate Dynamics*. 44:3111-3127. DOI 10.1007/s00382-014-2189-2
@@ -85,5 +89,3 @@ Izumi, K., P.J. Bartlein and S.P. Harrison, 2013, Consistent large-scale tempera
 Marlon, J.R. P.J. Bartlein, A.-L. Daniau, S.P. Harrison, S.Y. Maesumi, M.J. Power, W. Tinner, B. Vanniére, 2013, Global biomass burning: a synthesis and review of Holocene paleofire records and their controls. *Quaternary Science Reviews* 65:5-25
 
 Braconnot, P., S.P. Harrison, M. Kageyama, P.J. Bartlein, V. Masson-Delmotte, A. Abe-Ouchi, B. Otto-Bliesner & Y. Zhao, 2012, Evaluation of climate models using palaeoclimatic data. *Nature Climate Change* 2:417-424, doi:10.1038/nclimate1456.
-
-Marlon, J.R., P.J. Bartlein, D.G. Gavin, C.J. Long, R.S. Anderson, C.E. Briles, K.J. Brown, D. Colombaroli, D.J. Hallett, M.J. Power, E.A. Scharf & M.K. Walsh, 2012, Long-term perspective on wildfires in the western USA. *Proceedings of the National Academy of Sciences* 109:E535-E543.
