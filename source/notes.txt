@@ -8,23 +8,23 @@ To build pjbartlein.github.io webpage
 
 2. export as .pdfs
 
-3. run Pandoc
+3. run Pandoc to make .md files from .docx files
 
-pandoc -s BartleinCV.docx -t markdown -o BartleinCV.md --wrap=none
-pandoc -s BartleinAcadBio.docx -t markdown -o BartleinAcadBio.md --wrap=none
-pandoc -s BartleinPublications.docx -t markdown -o BartleinPublications.md --wrap=none
+pandoc -s BartleinCV-Oct2025.docx -t markdown -o BartleinCV.md 
+pandoc -s BartleinAcadBio.docx -t markdown -o BartleinAcadBio.md 
+pandoc -s BartleinPublications.docx -t markdown -o BartleinPublications.md 
 
-4. use MMDComposer5 to create .html files (pdf-wide.css)
+4. use pandoc to create .html files (pdf-wide.css)
 
-/Users/bartlein/Dropbox/WebPages/source_pjbartlein.github.io/source/BartleinAcadBio.html
-/Users/bartlein/Dropbox/WebPages/source_pjbartlein.github.io/source/BartleinCV.html
-/Users/bartlein/Dropbox/WebPages/source_pjbartlein.github.io/source/BartleinPublications.html
+pandoc -s BartleinCV.md -o BartleinCV.html --css pdf-wide.css
+pandoc -s BartleinAcadBio.md -o BartleinAcadBio.html --css pdf-wide.css
+pandoc -s BartleinPublications.md -o BartleinPublications.html --css pdf-wide.css
 
-45 Build R Markdown .html web site in the folder /pjbartlein.github.io
+5. Build R Markdown .html web site in the folder /pjbartlein.github.io
 
 (/Users/bartlein/Dropbox/WebPages/Bartlein/pjbartlein.github.io/Bartlein.Rproj)
 
-5. Copy .html and .pdf files to /pjbartlein.github.io
+6. Copy .html and .pdf files to /pjbartlein.github.io
 
 /Users/bartlein/Dropbox/WebPages/Bartlein/pjbartlein.github.io/source/BartleinAcadBio.html
 /Users/bartlein/Dropbox/WebPages/Bartlein/pjbartlein.github.io/source/BartleinCV.html
@@ -44,4 +44,4 @@ and
 
 (note /source/ vs. /doc/ folder distinction)
 
-6. Use Git Desktop (not RStudio) to upload files to GitHub
+7. Use Git Desktop (not RStudio) to upload files to GitHub
